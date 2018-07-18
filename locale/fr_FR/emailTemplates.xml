@@ -11,53 +11,59 @@
   * Localization strings for the fr_FR (Français (France)) locale.
   -->
 
-<email_texts locale = "fr_FR">
-	<email_text key="PASSWORD_RESET_CONFIRM">
-		<subject>Confirmation de la réinitialisation du mot de passe</subject>
-		<body><![CDATA[Nous avons reçu une demande concernant la réinitialisation de votre mot de passe pour le site Web {$siteTitle}.<br />
+<email_texts locale="fr_FR">
+    <email_text key="PASSWORD_RESET_CONFIRM">
+        <subject>Confirmation de la réinitialisation de votre mot de passe</subject>
+        <body><![CDATA[Nous avons reçu une demande concernant la réinitialisation de votre mot de passe pour le site Web {$siteTitle}.<br />
 <br />
-Si vous n’avez pas fait cette demande, veuillez ne pas tenir compte du présent message, votre mot de passe restera le même. Si vous voulez réinitialiser votre mot de passe, cliquer sur l’URL et un nouveau mot de passe vous sera envoyé par courriel sous peu.<br />
+Si vous n’avez pas fait cette demande, veuillez ne pas tenir compte du présent message et votre mot de passe restera le même. Si vous voulez réinitialiser votre mot de passe, cliquer sur le lien ci-dessous et un nouveau mot de passe vous sera envoyé par courriel sous peu.<br />
 <br />
-Réinitialisation du mot de passe : {$url}<br />
+Réinitialisation de votre mot de passe : {$url}<br />
 <br />
 {$principalContactSignature}]]></body>
-		<description>Ce courriel est envoyé aux utilisateurs qui nous signalent avoir oublié leur mot de passe ou qui sont incapables d’ouvrir une session. Il fournit le lien URL pour réinitialiser leur mot de passe.</description>
-	</email_text>
-	<email_text key="PASSWORD_RESET">
-		<subject>Réinitialisation du mot de passe</subject>
-		<body><![CDATA[Votre mot de passe pour le site Web {$siteTitle} a été réinitialisé avec succès. Veuillez conserver précieusement votre nom d’utilisateur ainsi que votre mot de passe. Vous en aurez besoin pour chacune de vos interactions avec la revue.<br />
+        <description>Ce courriel est envoyé aux utilisateurs qui nous signalent avoir oublié leur
+            mot de passe ou qui sont incapables d’ouvrir une session. Il fournit le lien URL pour
+            réinitialiser leur mot de passe.</description>
+    </email_text>
+    <email_text key="PASSWORD_RESET">
+        <subject>Réinitialisation de votre mot de passe</subject>
+        <body><![CDATA[Votre mot de passe pour le site Web {$siteTitle} a été réinitialisé avec succès. Veuillez conserver précieusement votre nom d’utilisateur ainsi que votre mot de passe. Vous en aurez besoin pour chacune de vos interactions avec la revue.<br />
 <br />
 Votre nom d’utilisateur : {$username}<br />
 <br />
-{$principalContactSignature}]]></body>
-		<description><![CDATA[Ce courriel est envoyé aux utilisateurs inscrits lorsqu’ils ont réussi à réinitialiser leur mot de passe en ayant suivi la procédure décrite dans le courriel « Confirmation de la réinitialisation du mot de passe ».]]></description>
-	</email_text>
-	<email_text key="USER_REGISTER">
-		<subject>Inscription d’un nouvel utilisateur</subject>
-		<body><![CDATA[{$userFullName}<br />
+{$principalContactSignature}<br />]]></body>
+        <description><![CDATA[Ce courriel est envoyé aux utilisateurs inscrits lorsqu’ils ont réussi à réinitialiser leur mot de passe en ayant suivi la procédure décrite dans le courriel « Confirmation de la réinitialisation du mot de passe ».]]></description>
+    </email_text>
+    <email_text key="USER_REGISTER">
+        <subject>Inscription dans la liste des utilisateurs</subject>
+        <body><![CDATA[Chère/cher {$userFullName},<br />
 <br />
-Vous êtes désormais inscrit en tant qu’utilisateur pour {$contextName}. Veuillez conserver précieusement votre nom d’utilisateur et votre mot de passe.  Vous en aurez besoin pour toutes vos interactions avec la revue. À n’importe quel moment, vous pouvez demander à être retiré de la liste des utilisateurs de la revue en me contactant.<br />
+Vous faites désormais partie des utilisateurs du site de {$contextName}. Veuillez conserver précieusement votre nom d’utilisateur et votre mot de passe. Vous en aurez besoin pour toutes vos interactions avec la revue. À n’importe quel moment, vous pouvez demander à être retiré(e) de la liste des utilisateurs de la revue en nous contactant.<br />
 <br />
 Nom d’utilisateur : {$username}<br />
 Mot de passe : {$password}<br />
 <br />
-Merci,<br />
+Avec tous nos remerciements,<br />
+<br />
 {$principalContactSignature}]]></body>
-		<description>Ce courriel est envoyé aux utilisateurs nouvellement inscrits pour leur souhaiter la bienvenue à la revue et leur faire connaître leur nom d’utilisateur et leur mot de passe.</description>
-	</email_text>
-	<email_text key="PUBLISH_NOTIFY">
-		<subject>Parution du dernier numéro</subject>
-		<body><![CDATA[Lecteurs :<br />
+        <description>Ce courriel est envoyé aux utilisateurs nouvellement inscrits pour leur
+            souhaiter la bienvenue à la revue et leur faire connaître leur nom d’utilisateur et leur
+            mot de passe.</description>
+    </email_text>
+    <email_text key="PUBLISH_NOTIFY">
+        <subject>Parution du dernier numéro</subject>
+        <body><![CDATA[Chers lecteurs,<br />
 <br />
-Le plus récent numéro de {$contextName} vient d’être publié à l’adresse suivante : {$contextUrl}. Nous vous invitons à consulter la table des matières, puis à visiter notre site Web pour y lire les articles qui vous intéressent.<br />
+Le dernier numéro de {$contextName} vient d’être publié à l’adresse suivante : {$contextUrl}. Nous vous invitons à consulter la table des matières, puis à visiter notre site Web pour y lire les articles qui vous intéressent.<br />
 <br />
-Nous vous remercions de l’intérêt que vous portez à notre revue,<br />
+Nous vous remercions de l’intérêt que vous portez à la revue.<br />
+<br />
 {$editorialContactSignature}]]></body>
-		<description><![CDATA[Ce courriel est envoyé à tous les lecteurs inscrits, via le lien « Aviser les utilisateurs » sur la page d’accueil du rédacteur. Il avise les lecteurs qu’un nouveau numéro est publié et les invite à visiter la revue en cliquant sur le URL fourni.]]></description>
-	</email_text>
-	<email_text key="LOCKSS_EXISTING_ARCHIVE">
-		<subject>Demande d’archivage pour {$contextName}</subject>
-		<body><![CDATA[Cher [Bibliothécaire universitaire]<br />
+        <description><![CDATA[Ce courriel est envoyé à tous les lecteurs inscrits, via le lien « Aviser les utilisateurs » sur la page d’accueil du rédacteur. Il avise les lecteurs qu’un nouveau numéro est publié et les invite à visiter la revue en cliquant sur le URL fourni.]]></description>
+    </email_text>
+    <email_text key="LOCKSS_EXISTING_ARCHIVE">
+        <subject>Demande d’archivage pour {$contextName}</subject>
+        <body><![CDATA[Cher [Bibliothécaire universitaire]<br />
 <br />
 {$contextName} &lt;{$contextUrl}&gt; est une revue pour laquelle un membre de votre faculté, [nom du membre], agit à titre de [titre de la position occupée]. La revue désire mettre en place un système d’archivage conforme LOCKSS (Lots of Copies Keep Stuff Safe - Plusieurs exemplaires qui assurent la sécurité) avec votre bibliothèque universitaire ainsi que celles d’autres universités.<br />
 <br />
@@ -67,13 +73,15 @@ L’adresse URL pour le LOCKSS Publisher Manifest pour notre revue est : {$cont
 <br />
 Nous savons que vous participez déjà à LOCKSS. Si nous pouvons vous fournir des métadonnées supplémentaires afin d’inscrire notre revue avec votre version de LOCKSS, il nous fera plaisir de vous les fournir.<br />
 <br />
-Merci,<br />
+Avec tous nos remerciements,<br />
 {$principalContactSignature}]]></body>
-		<description>Ce courriel demande à un conservateur d’archives LOCKSS d’envisager d’inclure cette revue dans leurs archives. Il fournit l’adresse URL du LOCKSS Publisher Manifest de la revue.</description>
-	</email_text>
-	<email_text key="LOCKSS_NEW_ARCHIVE">
-		<subject>Demande d’archivage pour {$contextName}</subject>
-		<body><![CDATA[Cher [Bibliothécaire universitaire]<br />
+        <description>Ce courriel demande à un conservateur d’archives LOCKSS d’envisager d’inclure
+            cette revue dans leurs archives. Il fournit l’adresse URL du LOCKSS Publisher Manifest
+            de la revue.</description>
+    </email_text>
+    <email_text key="LOCKSS_NEW_ARCHIVE">
+        <subject>Demande d’archivage pour {$contextName}</subject>
+        <body><![CDATA[Cher [Bibliothécaire universitaire]<br />
 <br />
 {$contextName}, &lt;{$contextUrl}&gt;, est une revue pour laquelle un membre de votre faculté, [nom du membre], agit à titre de [titre de la fonction occupée]. La revue désire mettre en place un système d’archivage conforme LOCKSS (Lots of Copies Keep Stuff Safe) avec votre bibliothèque universitaire et celles d’autres universités.<br />
 <br />
@@ -85,414 +93,486 @@ Pour nous aider dans le processus d’archivage de notre revue, nous vous invito
 <br />
 Nous attendons de vos nouvelles pour savoir s’il est possible pour vous de fournir un support d’archivage pour cette revue.<br />
 <br />
-Merci,<br />
+Avec tous nos remerciements,<br />
 {$principalContactSignature}]]></body>
-		<description>Ce courriel encourage le destinaire à participer à l’initiative LOCKSS et à inclure cette revue dans leur archives. Il fournit de l’information au sujet de LOCKSS et des façons de s’impliquer dans le projet.</description>
-	</email_text>
-	<email_text key="SUBMISSION_ACK">
-		<subject>Accusé de réception de la soumission</subject>
-		<body><![CDATA[{$authorName} :<br />
+        <description>Ce courriel encourage le destinaire à participer à l’initiative LOCKSS et à
+            inclure cette revue dans leur archives. Il fournit de l’information au sujet de LOCKSS
+            et des façons de s’impliquer dans le projet.</description>
+    </email_text>
+    <email_text key="SUBMISSION_ACK">
+        <subject>Accusé de réception de votre proposition</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous vous remercions d’avoir soumis le manuscrit intitulé « {$submissionTitle} » à la revue {$contextName}. Grâce à notre système de gestion en ligne, vous pourrez suivre votre soumission tout au long du processus d’édition simplement en accédant au site Web de la revue.<br />
+Nous vous remercions d’avoir soumis le texte intitulé « {$submissionTitle} » à la revue {$contextName}. Grâce à notre système de gestion en ligne, vous pourrez suivre votre proposition tout au long du processus d’édition en accédant au site Web de la revue.<br />
 <br />
-URL du manuscrit : {$submissionUrl}<br />
+Lien du texte : {$submissionUrl}<br />
 Nom d’utilisateur : {$authorUsername}<br />
 <br />
-Si vous avez des questions, n’hésitez pas à communiquer avec nous. Nous vous remercions d’avoir pensé à notre revue pour la publication de vos travaux.<br />
+Si vous avez des questions, n’hésitez pas à nous contacter. Nous vous remercions d’avoir pensé à notre revue pour la publication de vos travaux.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel, lorsqu’activé, est envoyé automatiquement à un auteur quand il ou elle a complété le processus de soumission d’un manuscrit à la revue. Il fournit les informations sur comment suivre la soumission à travers le processus éditorial, et remercie l’auteur de sa soumission.</description>
-	</email_text>
-	<email_text key="SUBMISSION_COMMENT">
-		<subject>Commentaires sur une soumission</subject>
-		<body><![CDATA[{$name}:<br />
+        <description>Ce courriel, lorsqu’activé, est envoyé automatiquement à un auteur quand il ou
+            elle a complété le processus de proposition d’un texte à la revue. Il fournit les
+            informations sur comment suivre la proposition à travers le processus éditorial, et
+            remercie l’auteur de sa proposition.</description>
+    </email_text>
+    <email_text key="SUBMISSION_COMMENT">
+        <subject>Commentaires sur une proposition</subject>
+        <body><![CDATA[{$name}:<br />
 <br />
-{$commentName} a ajouté un commentaire à la soumission intitulée « {$submissionTitle} » dans la revue {$contextName} :<br />
+{$commentName} a ajouté un commentaire à la proposition intitulée « {$submissionTitle} » dans la revue {$contextName} :<br />
 <br />
 {$comments}]]></body>
-		<description>Ce courriel avise plusieurs personnes impliquées dans le processus éditorial qu’un nouveau commentaire a été ajouté.</description>
-	</email_text>
-	<email_text key="SUBMISSION_DECISION_REVIEWERS">
-		<subject>Décision concernant le manuscrit intitulé « {$submissionTitle} »</subject>
-		<body><![CDATA[Puisque vous avez été l’un des rapporteurs de la soumission intitulé « {$submissionTitle} » pour la revue {$contextName}, nous vous faisons parvenir les évaluations et la décision du rédacteur.  À nouveau, nous vous remercions pour votre contribution importante à notre processus éditorial.<br />
+        <description>Ce courriel avise plusieurs personnes impliquées dans le processus éditorial
+            qu’un nouveau commentaire a été ajouté.</description>
+    </email_text>
+    <email_text key="SUBMISSION_DECISION_REVIEWERS">
+        <subject>Décision concernant le texte intitulé « {$submissionTitle} »</subject>
+        <body><![CDATA[Vous avez été l’un des évaluateurs de la proposition intitulée « {$submissionTitle} » pour la revue {$contextName}. Nous vous faisons parvenir les évaluations et la décision du rédacteur. De nouveau, nous vous remercions pour votre précieuse contribution à notre processus éditorial.<br />
 <br />
 {$editorialContactSignature}<br />
 <br />
 {$comments}]]></body>
-		<description>Ce courriel avise les rapporteurs d’une soumission que le processus d’évaluation est complété. Il inclut de l’information au sujet de l’article et de la décision prise, et remercie les rapporteurs de leur contribution.</description>
-	</email_text>
-	<email_text key="EDITOR_ASSIGN">
-		<subject>Assignation d’une soumission</subject>
-		<body><![CDATA[{$editorialContactName} :<br />
+        <description>Ce courriel avise les rapporteurs d’une proposition que le processus
+            d’évaluation est complété. Il inclut de l’information au sujet de l’article et de la
+            décision prise, et remercie les rapporteurs de leur contribution.</description>
+    </email_text>
+    <email_text key="EDITOR_ASSIGN">
+        <subject>Attribution d’une proposition</subject>
+        <body><![CDATA[Chère/cher {$editorialContactName},<br />
 <br />
-La soumission intitulée « {$submissionTitle} » pour la revue {$contextName} vous a été attribuée. Vous êtes conséquemment responsable, en tant que Rédacteur de rubrique, de faire cheminer cet article à travers le processus d’évaluation.<br />
+La proposition intitulée « {$submissionTitle} » pour la revue {$contextName} vous a été attribuée. Il vous appartient donc, en tant que rédacteur de rubrique, de faire suivre à cet article le processus d’évaluation.<br />
 <br />
-URL de la soumission : {$submissionUrl}<br />
+Lien de la proposition : {$submissionUrl}<br />
 Nom d’utilisateur : {$editorUsername}<br />
 <br />
-Merci,<br />
+Avec tous nos remerciements,<br />
+<br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel avise un Rédacteur de rubrique que le Rédacteur lui a assigné la tâche de suivre une soumission durant le processus éditorial. Il fournit de l’information sur la soumission, et comment accéder au site Web de la revue.</description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
+        <description>Ce courriel avise un Rédacteur de rubrique que le Rédacteur lui a assigné la
+            tâche de suivre une proposition durant le processus éditorial. Il fournit de
+            l’information sur la proposition, et comment accéder au site Web de la
+            revue.</description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous croyons que vous seriez un excellent rapporteur pour le manuscrit intitulé « {$submissionTitle} » qui a été soumis à la revue {$contextName}. Vous trouverez un résumé de la soumission ci-dessous.  Nous espérons que vous accepterez ce travail essentiel à la publication de la revue.<br />
+Humanités numériques est une revue francophone consacrée aux usages savants du numérique en sciences humaines et sociales (http://www.humanisti.ca/revue). Cette revue, qui sera publiée en libre accès, veut offrir un lieu de réflexion, de débat scientifique et d’expression aux chercheurs et enseignants dont les travaux s’inscrivent dans le champ des humanités numériques.<br />
 <br />
-Veuillez accéder au site Web de la revue avant le {$responseDueDate} pour nous laisser savoir si vous acceptez de faire l’évaluation ou non. Vous pouvez également y consulter la soumission et y enregistrer votre évaluation et votre recommandation. Le site Web se trouve à l’adresse suivante : {$contextUrl}<br />
+Il y a quelques mois, nous avons lancé un appel à contribution pour les deux premiers numéros de la revue (http://www.humanisti.ca/revue-humanites-numeriques). Nous avons reçu plus de cinquante propositions et organisons actuellement leur évaluation par les pairs.<br />
 <br />
-La date d’échéance de l’évaluation a été fixée au {$reviewDueDate}.<br />
+Nous souhaiterions vous solliciter pour évaluer l’article ci-joint intitulé « {$submissionTitle} » . Si vous acceptez de réaliser cette évaluation, nous vous demanderons de répondre à quelques questions dans un formulaire en ligne.<br />
 <br />
-Si vous n’avez pas de nom d’utilisateur et de mot de passe pour le site Web de la revue, cliquer sur le lien ci-dessous pour réinitialiser votre mot de passe (qui vous sera envoyé par courriel avec votre nom d’utilisateur). {$passwordResetUrl}<br />
+L’évaluation sera brève et nous vous inviterons à formuler des critiques nettes, en insistant sur les modifications qui vous semblent utiles pour accroître la pertinence et la qualité de cette contribution. Après quelques questions préalables sur l’originalité de l’article, le mode d’exploitation des données et la forme du texte, il s’agira d’indiquer quels sont, selon vous, ses points forts et ses points faibles. Les noms des évaluateurs ne seront pas communiqués aux auteurs, mais tous les évaluateurs seront mentionnés avec gratitude dans le numéro concerné.<br />
 <br />
-URL de la soumission : {$submissionReviewUrl}<br />
+La date de remise proposée est le {$reviewDueDate}. Nous serions extrêmement heureux de pouvoir compter sur votre collaboration, dans cette phase de construction de la revue et de ce domaine de recherche et d’enseignement.<br />
 <br />
-En espérant que vous accepterez notre demande, veuillez agréer l’expression de notre considération distinguée.<br />
+Veuillez accéder au site Web de la revue avant le {$responseDueDate} pour nous faire savoir si vous acceptez de réaliser cette évaluation. Vous pouvez également y consulter la proposition, puis y enregistrer votre évaluation et votre recommandation. Le site se trouve à l’adresse suivante : {$contextUrl}.<br />
 <br />
-{$editorialContactSignature}<br />
+Si vous n’avez pas de nom d’utilisateur et de mot de passe pour le site de la revue, cliquez sur le lien ci-dessous pour réinitialiser votre mot de passe (qui vous sera alors envoyé par courriel avec votre nom d’utilisateur). {$passwordResetUrl}<br />
 <br />
-« {$submissionTitle} »<br />
-<br />
-{$submissionAbstract}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique à un Rapporteur demande que le rapporteur accepte ou refuse la tâche d’évaluation d’une soumission. Il fournit de l’information sur la soumission, tel son titre et un résumé, la date d’échéance pour l’évaluation, et comment accéder à la soumission elle-même. Ce message est utilisé quand « Processus d’évaluation standard » est sélectionné à l’Étape 2, dans la Configuration de la revue. (Autrement voir « Demande d’évaluation », en pièce jointe).</description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST_ONECLICK">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
-<br />
-Nous croyons que vous seriez un excellent rapporteur pour le manuscrit intitulé « {$submissionTitle} » qui a été soumis à la revue {$contextName}. Vous trouverez un résumé de la soumission ci-dessous.  Nous espérons que vous accepterez ce travail essentiel à la publication de la revue.<br />
-<br />
-Veuillez accéder au site Web de la revue avant le {$responseDueDate} pour nous informer si vous acceptez de faire l’évaluation ou non. Vous pouvez également y consulter la soumission et y enregistrer votre évaluation et votre recommandation. Le site Web se trouve à l’adresse suivante : {$contextUrl}<br />
-<br />
-Date limite pour l’évaluation {$reviewDueDate}.<br />
-<br />
-URL de la soumission : {$submissionReviewUrl}.<br />
-<br />
-En espérant que vous accepterez notre demande, veuillez agréer l’expression de notre considération distinguée.<br />
+En vous remerciant d’avance de votre réponse, nous vous adressons nos meilleures salutations estivales,<br />
 <br />
 {$editorialContactSignature}<br />
 <br />
-« {$submissionTitle} »<br />
+---<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+« {$submissionTitle} »<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique à un Rapporteur demande que le rapporteur accepte ou décline la tâche d’évaluation d’une soumission. Il contient des informations sur la soumission tel que son titre et un résumé, la date d’échéance pour faire l’évaluation, et comment accéder à la soumission. Ce message est utilisé quand « Processus d’évaluation standard » a été sélectionné à l’Étape 2  de la Configuration de la revue, et que l’accès en « un clic » du rapporteur a été activé.</description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST_ATTACHED">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
+        <description>Ce courriel du Rédacteur de rubrique à un Rapporteur demande que le rapporteur
+            accepte ou refuse la tâche d’évaluation d’une proposition. Il fournit de l’information
+            sur la proposition, tel son titre et un résumé, la date d’échéance pour l’évaluation, et
+            comment accéder à la proposition elle-même. Ce message est utilisé quand « Processus
+            d’évaluation standard » est sélectionné à l’Étape 2, dans la Configuration de la revue.
+            (Autrement voir « Demande d’évaluation », en pièce jointe).</description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST_ONECLICK">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous croyons que vous feriez un excellent rapporteur pour le manuscrit intitulé « {$submissionTitle} ».  Nous espérons que vous accepterez ce travail important pour notre revue. Les Directives pour l’évaluation se trouvent ci-dessous et la soumission est jointe au présent courriel.<br />
+Nous croyons que vous seriez un excellent rapporteur pour le texte « {$submissionTitle} » qui a été soumis à la revue {$contextName}. Vous trouverez un résumé de la proposition ci-dessous. Nous espérons que vous pourrez apporter ainsi votre contribution à la préparation de ce numéro.<br />
+<br />
+Veuillez accéder au site Web de la revue avant le {$responseDueDate} pour nous indiquer si vous acceptez de réaliser cette évaluation. Vous pouvez également y consulter la proposition, puis y enregistrer votre évaluation et votre recommandation. Le site Web se trouve à l’adresse suivante : {$contextUrl}.<br />
+<br />
+L’évaluation est attendue pour le {$reviewDueDate}.<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+En espérant que vous pourrez donner une réponse positive à notre demande, nous vous adressons nos salutations cordiales.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+« {$submissionTitle} »<br />
+<br />
+{$submissionAbstract}]]></body>
+        <description>Ce courriel du Rédacteur de rubrique à un Rapporteur demande que le rapporteur
+            accepte ou décline la tâche d’évaluation d’une proposition. Il contient des informations
+            sur la proposition tel que son titre et un résumé, la date d’échéance pour faire
+            l’évaluation, et comment accéder à la proposition. Ce message est utilisé quand «
+            Processus d’évaluation standard » a été sélectionné à l’Étape 2 de la Configuration de
+            la revue, et que l’accès en « un clic » du rapporteur a été activé.</description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST_ATTACHED">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
+<br />
+Nous croyons que vous feriez un excellent rapporteur pour le texte intitulé « {$submissionTitle} ». Nous espérons que vous accepterez ce travail important pour notre revue. Les Directives pour l’évaluation se trouvent ci-dessous et la proposition est jointe au présent courriel.<br />
 <br />
 Veuillez nous faire savoir par courriel d’ici le {$responseDueDate} si vous acceptez ou non d’effectuer cette évaluation.<br />
 <br />
 En espérant que vous accepterez notre demande, veuillez agréer l’expression de notre considération distinguée.<br />
 <br />
 {$editorialContactSignature}<br />
-<br />
-<br />
 Directives pour l’évaluation<br />
 <br />
 {$reviewGuidelines}]]></body>
-		<description><![CDATA[Ce courriel est envoyé par le Rédacteur de rubrique à un Rapporteur pour lui demander s’il accepte ou refuse la tâche d’évaluation d’une soumission. Il inclut la soumission en pièce jointe. Ce message est utilisé quand le processus de « Demande d’évaluation par courriel » est sélectionné à l’Étape 2 de la Configuration de la revue. (Autrement, voir « Demande d’évaluation ».)]]></description>
-	</email_text>
-	<email_text key="REVIEW_CANCEL">
-		<subject>Annulation de la demande d’évaluation</subject>
-		<body><![CDATA[{$reviewerName}:<br />
+        <description><![CDATA[Ce courriel est envoyé par le Rédacteur de rubrique à un Rapporteur pour lui demander s’il accepte ou refuse la tâche d’évaluation d’une proposition. Il inclut la proposition en pièce jointe. Ce message est utilisé quand le processus de « Demande d’évaluation par courriel » est sélectionné à l’Étape 2 de la Configuration de la revue. (Autrement, voir « Demande d’évaluation ».)]]></description>
+    </email_text>
+    <email_text key="REVIEW_CANCEL">
+        <subject>Annulation de la demande d’évaluation</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous avons décidé d’annuler notre demande concernant l’évaluation du manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Nous sommes désolés des inconvénients que cela pourrait vous causer et nous espérons que nous pourrons compter sur votre collaboration pour un autre projet.<br />
+Nous avons décidé d’annuler notre demande concernant l’évaluation du texte intitulé « {$submissionTitle} » pour {$contextName}. Nous sommes désolés des inconvénients que cela pourrait vous causer et nous espérons que nous pourrons compter sur votre collaboration à une autre occasion.<br />
 <br />
-Si vous avez des questions, n’hésitez pas à communiquer avec nous.<br />
+Si vous avez des questions, n’hésitez pas à nous contacter.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel est envoyé par le Rédacteur de rubrique à un Rapporteur qui a une évaluation en cours, pour l’aviser que celle-ci a été annulée.</description>
-	</email_text>
-	<email_text key="REVIEW_CONFIRM">
-		<subject>Acceptation d’évaluation</subject>
-		<body><![CDATA[Rédacteur,
+        <description>Ce courriel est envoyé par le Rédacteur de rubrique à un Rapporteur qui a une
+            évaluation en cours, pour l’aviser que celle-ci a été annulée.</description>
+    </email_text>
+    <email_text key="REVIEW_CONFIRM">
+        <subject>Acceptation d’évaluation</subject>
+        <body><![CDATA[Bonjour,<br />
 <br />
-Je suis en mesure d’évaluer la soumission intitulée « {$submissionTitle} » pour la revue {$contextName}. Je vous remercie d’avoir pensé à moi. Je devrais être en mesure de compléter l’évaluation pour la date du {$reviewDueDate}.<br />
+Je suis en mesure d’évaluer la proposition intitulée « {$submissionTitle} » pour la revue {$contextName}. Je vous remercie d’avoir pensé à moi. Je devrais être en mesure de compléter l’évaluation pour la date du {$reviewDueDate}.<br />
 <br />
 {$reviewerName}]]></body>
-		<description>Ce courriel est envoyé par le rapporteur au rédacteur de rubrique en réponse à une demande d’évaluation, pour aviser ce dernier que la demande a été acceptée et que l’évaluation sera complétée au plus tard à la date spécifiée.</description>
-	</email_text>
-	<email_text key="REVIEW_DECLINE">
-		<subject>Refus d’évaluation</subject>
-		<body><![CDATA[Rédacteurs :<br />
+        <description>Ce courriel est envoyé par le rapporteur au rédacteur de rubrique en réponse à
+            une demande d’évaluation, pour aviser ce dernier que la demande a été acceptée et que
+            l’évaluation sera complétée au plus tard à la date spécifiée.</description>
+    </email_text>
+    <email_text key="REVIEW_DECLINE">
+        <subject>Refus d’évaluation</subject>
+        <body><![CDATA[Bonjour,<br />
 <br />
-Pour le moment, il m’est impossible d’évaluer la soumission intitulée « {$submissionTitle} » pour {$contextName}. Je vous remercie d’avoir pensé à moi. N’hésitez pas à communiquer avec moi pour un autre projet.<br />
+Pour le moment, il m’est impossible d’évaluer la proposition intitulée « {$submissionTitle} » pour {$contextName}. Je vous remercie d’avoir pensé à moi. N’hésitez pas à me solliciter à une autre occasion.<br />
 <br />
 {$reviewerName}]]></body>
-		<description>Ce courriel est envoyé par le rapporteur au rédacteur de rubrique en réponse à la demande d’évaluation, pour aviser ce dernier qu’il ne peut effectuer l’évaluation.</description>
-	</email_text>
-	<email_text key="REVIEW_ACK">
-		<subject>Accusé de réception de l’évaluation d’une soumission</subject>
-		<body><![CDATA[{$reviewerName} :<br />
+        <description>Ce courriel est envoyé par le rapporteur au rédacteur de rubrique en réponse à
+            la demande d’évaluation, pour aviser ce dernier qu’il ne peut effectuer
+            l’évaluation.</description>
+    </email_text>
+    <email_text key="REVIEW_ACK">
+        <subject>Accusé de réception de l’évaluation d’une proposition</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous vous remercions d’avoir évalué la soumission intitulée « {$submissionTitle} » pour {$contextName}. Nous vous sommes reconnaissants de votre contribution à la qualité des travaux que nous publions.<br />
-<br />
-{$editorialContactSignature}]]></body>
-		<description>Ce courriel est envoyé par le Rédacteur de rubrique, pour accuser réception d’une évaluation terminée et remercier le rapporteur de sa contribution.</description>
-	</email_text>
-	<email_text key="REVIEW_REMIND">
-		<subject>Rappel d’évaluation d’une soumission</subject>
-		<body><![CDATA[{$reviewerName} :<br />
-<br />
-Juste un petit mot pour vous rappeler notre demande d’évaluation de la soumission intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate}, et nous serions heureux de la recevoir dès que possible.<br />
-<br />
-Si vous n’avez pas de nom d’utilisateur ni de mot de passe pour le site Web de la revue, cliquer sur le lien ci-dessous pour réinitialiser votre mot de passe (qui vous sera alors envoyé par courriel avec votre nom d’utilisateur). {$passwordResetUrl}<br />
-<br />
-URL de la soumission : {$submissionReviewUrl}<br />
-<br />
-Veuillez confirmer que vous êtes en mesure d’effectuer ce travail essentiel pour la publication de notre revue. Nous espérons avoir de vos nouvelles très bientôt.<br />
+Nous vous remercions d’avoir évalué la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous vous sommes reconnaissants de votre contribution à la qualité des travaux publiés par la revue.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel est envoyé par le Rédacteur de rubrique pour rappeler à un rapporteur que son évaluation est due.</description>
-	</email_text>
-	<email_text key="REVIEW_REMIND_ONECLICK">
-		<subject>Rappel d’évaluation d’une soumission</subject>
-		<body><![CDATA[{$reviewerName} :<br />
+        <description>Ce courriel est envoyé par le Rédacteur de rubrique, pour accuser réception
+            d’une évaluation terminée et remercier le rapporteur de sa contribution.</description>
+    </email_text>
+    <email_text key="REVIEW_REMIND">
+        <subject>Rappel d’évaluation d’une proposition</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Juste un petit mot pour vous rappeler notre demande d’évaluation de la soumission intitulée « {$submissionTitle} », pour {$contextName}. Nous espérions recevoir votre évaluation le {$reviewDueDate} et nous serions heureux de la recevoir aussitôt qu’il vous sera possible de le faire.<br />
+Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate}, et nous serions heureux de la recevoir dès que possible.<br />
 <br />
-Adresse URL de la soumission : {$submissionReviewUrl}<br />
+Si vous n’avez pas de nom d’utilisateur ni de mot de passe pour le site de la revue, cliquez sur le lien ci-dessous pour réinitialiser votre mot de passe (qui vous sera alors envoyé par courriel avec votre nom d’utilisateur). {$passwordResetUrl}<br />
 <br />
-Veuillez confirmer si vous êtes en mesure de compléter ce travail essentiel pour la publication de la revue. Espérant avoir de vos nouvelles sous peu.<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
 <br />
-{$editorialContactSignature}]]></body>
-		<description>Ce courriel est envoyé par le Rédacteur de rubrique à un rapporteur pour lui rappeler que son évaluation est due.</description>
-	</email_text>
-	<email_text key="REVIEW_REMIND_AUTO">
-		<subject>Rappel automatique d’évaluation d’une soumission</subject>
-		<body><![CDATA[{$reviewerName},<br />
-<br />
-Juste un petit mot pour vous rappeler notre demande à propos de l’évaluation de la soumission intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate}. Ce courriel a été envoyé automatiquement parce que la date d’échéance est passée. Nous serions quand même heureux de recevoir votre évaluation dès que possible.<br />
-<br />
-Si vous n’avez pas de nom d’utilisateur ni de mot de passe pour le site Web de la revue, cliquez sur le lien ci-dessous pour réinitialiser votre mot de passe (qui vous sera envoyé par courriel avec votre nom d’utilisateur). {$passwordResetUrl}<br />
-<br />
-URL de la soumission : {$submissionReviewUrl}<br />
-<br />
-Veuillez confirmer que vous êtes en mesure d’effectuer ce travail important pour notre revue. J’espère avoir de vos nouvelles très bientôt.<br />
+Veuillez nous confirmer que vous êtes en mesure d’effectuer ce travail essentiel pour la publication de la revue. Nous espérons avoir de vos nouvelles très bientôt et nous tenons à votre disposition pour toute précision.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description><![CDATA[Ce courriel est envoyé automatiquement quand la date due d’un rapporteur est dépassée. (Voir Options d’évaluation à l’Étape 2 de la Configuration de la revue) et que l’accès en « un clic » est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de Configuration du site).]]></description>
-	</email_text>
-	<email_text key="REVIEW_REMIND_AUTO_ONECLICK">
-		<subject>Rappel automatique d’évaluation d’une soumission</subject>
-		<body><![CDATA[{$reviewerName} :<br />
+        <description>Ce courriel est envoyé par le Rédacteur de rubrique pour rappeler à un
+            rapporteur que son évaluation est due.</description>
+    </email_text>
+    <email_text key="REVIEW_REMIND_ONECLICK">
+        <subject>Rappel d’évaluation d’une proposition</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Juste un petit mot au sujet de notre demande d’évaluation de la soumission « {$submissionTitle} », pour {$contextName}. Nous espérions avoir cette évaluation avant le {$reviewDueDate}, et ce courriel vous a été envoyé automatiquement parce que la date d’échéance est passée. Nous serions heureux de la recevoir dès qu’il vous sera possible de nous l’envoyer.<br />
+Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate}, et ce courriel vous est envoyé automatiquement parce que cette date est passée. Nous serions heureux de la recevoir dès que possible.<br />
 <br />
-L’adresse URL de la soumission : {$submissionReviewUrl}<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
 <br />
-S.V.P. veuillez nous confirmer votre disponibilité à compléter cette contribution importante à notre revue. Espérant recevoir de vos nouvelles bientôt.<br />
+Veuillez nous confirmer que vous êtes en mesure d’apporter cette précieuse contribution à la préparation du numéro. Nous espérons avoir de vos nouvelles très bientôt et nous tenons à votre disposition pour toute précision.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description><![CDATA[Ce courriel est envoyé automatiquement quand la date d’échéance de l’évaluation est dépassée (voir Options d’évaluation à l’Étape 2 de Configuration de la revue) et que l’accès en « un clic » à un rapporteur est activé. Les Tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site).]]></description>
-	</email_text>
-	<email_text key="COPYEDIT_REQUEST">
-		<subject>Demande de révision d’une soumission</subject>
-		<body><![CDATA[{$participantName} :<br />
+        <description>Ce courriel est envoyé par le Rédacteur de rubrique à un rapporteur pour lui
+            rappeler que son évaluation est due.</description>
+    </email_text>
+    <email_text key="REVIEW_REMIND_AUTO">
+        <subject>Rappel automatique d’évaluation d’une proposition</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-J’aimerais que vous effectuiez la révision du manuscrit intitulé « {$submissionTitle} » pour {$contextName} à l’aide des étapes suivantes.<br />
-1. Cliquer sur l’URL de la soumission ci-dessous.<br />
-2. Se connecter sur le site de la revue et cliquer sur le fichier qui apparaît à l’Étape 1.<br />
+Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate}, et nous serions heureux de la recevoir dès que possible.<br />
+<br />
+Si vous n’avez pas de nom d’utilisateur ni de mot de passe pour le site de la revue, cliquez sur le lien ci-dessous pour réinitialiser votre mot de passe (qui vous sera alors envoyé par courriel avec votre nom d’utilisateur). {$passwordResetUrl}<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+Veuillez nous confirmer que vous êtes en mesure d’effectuer ce travail essentiel pour la publication de la revue. Nous espérons avoir de vos nouvelles très bientôt et nous tenons à votre disposition pour toute précision.<br />
+<br />
+{$editorialContactSignature}]]></body>
+        <description><![CDATA[Ce courriel est envoyé automatiquement quand la date due d’un rapporteur est dépassée. (Voir Options d’évaluation à l’Étape 2 de la Configuration de la revue) et que l’accès en « un clic » est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de Configuration du site).]]></description>
+    </email_text>
+    <email_text key="REVIEW_REMIND_AUTO_ONECLICK">
+        <subject>Rappel automatique d’évaluation d’une proposition</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
+<br />
+Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate}, et ce courriel vous est envoyé automatiquement parce que cette date est passée. Nous serions heureux de la recevoir dès que possible.<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+Veuillez nous confirmer que vous êtes en mesure d’apporter cette précieuse contribution à la préparation du numéro. Nous espérons avoir de vos nouvelles très bientôt et nous tenons à votre disposition pour toute précision.<br />
+<br />
+{$editorialContactSignature}]]></body>
+        <description><![CDATA[Ce courriel est envoyé automatiquement quand la date d’échéance de l’évaluation est dépassée (voir Options d’évaluation à l’Étape 2 de Configuration de la revue) et que l’accès en « un clic » à un rapporteur est activé. Les Tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site).]]></description>
+    </email_text>
+    <email_text key="COPYEDIT_REQUEST">
+        <subject>Demande de révision d’une proposition</subject>
+        <body><![CDATA[Chère/cher {$participantName},<br />
+<br />
+Je souhaite vous demander de réviser le texte intitulé « {$submissionTitle} » pour {$contextName}, en suivant les étapes suivantes.<br />
+<br />
+1. Cliquer sur l’URL de la proposition ci-dessous.<br />
+2. Vous connecter sur le site de la revue et cliquer sur le fichier qui apparaît à l’étape 1.<br />
 3. Consulter les instructions de révision affichées sur la page Web.<br />
-4. Ouvrir le fichier téléchargé et effectuer la révision, tout en ajoutant des Requêtes à l’auteur, le cas échéant.<br />
-5. Enregistrer le fichier révisé, et le transférer à l’Étape 1 de la révision.<br />
+4. Ouvrir le fichier téléchargé et effectuer la révision, tout en ajoutant des requêtes à l’auteur, le cas échéant.<br />
+5. Enregistrer le fichier révisé, et le transférer à l’étape 1 de la révision.<br />
 6. Envoyer le courriel TERMINÉ au rédacteur.<br />
 <br />
-URL de {$contextName} : {$contextUrl}<br />
-URL de la soumission : {$submissionUrl}<br />
+Lien de {$contextName} : {$contextUrl}<br />
+Lien de la proposition : {$submissionUrl}<br />
 Nom d’utilisateur : {$participantUsername}<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel est envoyé par le Rédacteur de rubrique à un Réviseur, pour lui demander de commencer le processus de révision. Il fournit l’information sur la soumission et comment accéder à celle-ci.</description>
-	</email_text>
-	<email_text key="LAYOUT_REQUEST">
-		<subject>Demande de mise en page des épreuves</subject>
-		<body><![CDATA[{$participantName} :<br />
+        <description>Ce courriel est envoyé par le Rédacteur de rubrique à un Réviseur, pour lui
+            demander de commencer le processus de révision. Il fournit l’information sur la
+            proposition et comment accéder à celle-ci.</description>
+    </email_text>
+    <email_text key="LAYOUT_REQUEST">
+        <subject>Demande de mise en page des épreuves</subject>
+        <body><![CDATA[Chère/cher {$participantName},<br />
 <br />
-J’aimerais que vous prépariez les épreuves du manuscrit intitulé « {$submissionTitle} » pour {$contextName} à l’aide des étapes suivantes.<br />
-1. Cliquer sur l’URL de la soumission ci-dessous.<br />
-2. Se connecter au site Web de la revue et utiliser la version de mise en page du fichier pour créer les épreuves en fonction des normes de la revue.<br />
+J’aimerais que vous prépariez les épreuves du texte intitulé « {$submissionTitle} » pour {$contextName}, en suivant les étapes suivantes.<br />
+<br />
+1. Cliquer sur le lien de la proposition ci-dessous.<br />
+2. Vous connecter au site Web de la revue et utiliser la version de mise en page du fichier pour créer les épreuves en fonction des normes de la revue.<br />
 3. Envoyer le courriel TERMINÉ au rédacteur.<br />
 <br />
-URL de {$contextName} : {$contextUrl}<br />
-URL du manuscrit : {$submissionLayoutUrl}<br />
+Lien de {$contextName} : {$contextUrl}<br />
+Lien du texte : {$submissionLayoutUrl}<br />
 Nom d’utilisateur : {$participantUsername}<br />
 <br />
-Si vous ne pouvez pas effectuer ce travail pour le moment ou si vous avez des questions, veuillez communiquer avec moi. Je vous remercie de votre collaboration.<br />
+Si vous ne pouvez pas effectuer ce travail pour le moment ou si vous avez des questions, veuillez me contacter. Je vous remercie de votre collaboration.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel envoyé par le Rédacteur de rubrique au Responsable de la mise en page, avise ce dernier qu’il a été assigné à la tâche de faire la mise en page de la soumission. Il fournit de l’information sur la soumission et comment y accéder.</description>
-	</email_text>
-	<email_text key="LAYOUT_COMPLETE">
-		<subject>Mise en page des épreuves terminée</subject>
-		<body><![CDATA[{$editorialContactName} :<br />
+        <description>Ce courriel envoyé par le Rédacteur de rubrique au Responsable de la mise en
+            page, avise ce dernier qu’il a été assigné à la tâche de faire la mise en page de la
+            proposition. Il fournit de l’information sur la proposition et comment y
+            accéder.</description>
+    </email_text>
+    <email_text key="LAYOUT_COMPLETE">
+        <subject>Mise en page des épreuves terminée</subject>
+        <body><![CDATA[Chère/cher {$editorialContactName},<br />
 <br />
-Les épreuves du manuscrit intitulé « {$submissionTitle} » pour {$contextName} sont maintenant prêtes pour la révision.<br />
+Les épreuves du texte intitulé « {$submissionTitle} » pour {$contextName} sont prêtes pour la révision.<br />
 <br />
-Si vous avez des questions, n’hésitez pas à communiquer avec moi.<br />
+Si vous avez des questions, n’hésitez pas à me contacter.<br />
 <br />
 {$participantName}]]></body>
-		<description>Ce courriel du Responsable de la mise en page au Rédacteur de rubrique l’avise que le processus de la mise en page est terminé.</description>
-	</email_text>
-	<email_text key="LAYOUT_ACK">
-		<subject>Accusé de réception de la mise en page</subject>
-		<body><![CDATA[{$participantName} :<br />
+        <description>Ce courriel du Responsable de la mise en page au Rédacteur de rubrique l’avise
+            que le processus de la mise en page est terminé.</description>
+    </email_text>
+    <email_text key="LAYOUT_ACK">
+        <subject>Accusé de réception de la mise en page</subject>
+        <body><![CDATA[Chère/cher {$participantName},<br />
 <br />
-Nous vous remercions d’avoir accepté de préparer les épreuves pour le manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Il s’agit d’une contribution importante au processus de publication.<br />
+Nous vous remercions d’avoir accepté de préparer les épreuves pour le texte intitulé « {$submissionTitle} » pour {$contextName}. Il s’agit d’une contribution importante au processus de publication.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique au Responsable de la mise en page reconnaît que le processus de la mise en page a été complété et remercie le responsable de la mise en page de sa contribution.</description>
-	</email_text>
-	<email_text key="PROOFREAD_AUTHOR_REQUEST">
-		<subject>Demande de correction d’épreuves (Auteur)</subject>
-		<body><![CDATA[{$authorName} :<br />
+        <description>Ce courriel du Rédacteur de rubrique au Responsable de la mise en page
+            reconnaît que le processus de la mise en page a été complété et remercie le responsable
+            de la mise en page de sa contribution.</description>
+    </email_text>
+    <email_text key="PROOFREAD_AUTHOR_REQUEST">
+        <subject>Demande de correction des épreuves (auteur)</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous aimerions que vous procédiez à la correction d’épreuves du manuscrit intitulé « {$submissionTitle} » dans {$contextName}.<br />
-1. Cliquer sur l’URL de la soumission ci-dessous.<br />
-2. Se connecter au site Web de la revue et afficher les INSTRUCTIONS POUR LA CORRECTION D’ÉPREUVES<br />
-3. Cliquer sur AFFICHER LES ÉPREUVES dans la Mise en page et corriger les épreuves dans le (ou les) format(s) utilisé(s).<br />
-4. Saisir les corrections (typographiques et de mise en page) dans les Corrections d’épreuves.<br />
-5. Enregistrer et envoyer par courriel les corrections au Responsable de la mise en page et au Correcteur d’épreuves.<br />
+Nous souhaitons vous demander de corriger les épreuves du texte intitulé « {$submissionTitle} » dans {$contextName}. Voici les étapes du processus.<br />
+1. Cliquer sur l’URL de la proposition ci-dessous.<br />
+2. Vous connecter au site Web de la revue et afficher les « Consignes pour la corrections d’épreuves ».<br />
+3. Cliquer sur « Afficher les épreuves » et corriger les épreuves dans le (ou les) format(s) utilisé(s).<br />
+4. Saisir les corrections (typographiques et de mise en page) dans les « Corrections d’épreuves ».<br />
+5. Enregistrer et envoyer par courriel les corrections au responsable de la mise en page et au correcteur des épreuves.<br />
 6. Envoyer le courriel TERMINÉ au rédacteur.<br />
 <br />
-URL du manuscrit : {$submissionUrl}<br />
+URL du texte : {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique à l’Auteur avise ce dernier que les épreuves de la soumission sont prêtes pour la correction d’épreuves. Il fournit de l’information sur la soumission et comment y accéder.</description>
-	</email_text>
-	<email_text key="PROOFREAD_AUTHOR_COMPLETE">
-		<subject>Correction d’épreuves terminée (Auteur)</subject>
-		<body><![CDATA[{$editorialContactName},<br />
+        <description>Ce courriel du Rédacteur de rubrique à l’Auteur avise ce dernier que les
+            épreuves de la proposition sont prêtes pour la correction des épreuves. Il fournit de
+            l’information sur la proposition et comment y accéder.</description>
+    </email_text>
+    <email_text key="PROOFREAD_AUTHOR_COMPLETE">
+        <subject>Correction des épreuves terminée (auteur)</subject>
+        <body><![CDATA[{$editorialContactName},<br />
 <br />
-J’ai terminé la correction d’épreuves du manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Les épreuves peuvent maintenant être relues par le correcteur d’épreuves et le responsable de la mise en page.<br />
+J’ai terminé la correction des épreuves du texte intitulé « {$submissionTitle} » pour {$contextName}. Les épreuves peuvent maintenant être relues par le correcteur et le responsable de la mise en page.<br />
 <br />
 {$authorName}]]></body>
-		<description>Ce courriel de l’Auteur au Correcteur d’épreuves et au Rédacteur les avise que le cycle de correction d’épreuves est terminé et que les détails peuvent être consultés dans les commentaires de l’article.</description>
-	</email_text>
-	<email_text key="PROOFREAD_AUTHOR_ACK">
-		<subject>Accusé de réception de la correction d’épreuves (Auteur)</subject>
-		<body><![CDATA[{$authorName} :<br />
+        <description>Ce courriel de l’Auteur au Correcteur d’épreuves et au Rédacteur les avise que
+            le cycle de correction des épreuves est terminé et que les détails peuvent être
+            consultés dans les commentaires de l’article.</description>
+    </email_text>
+    <email_text key="PROOFREAD_AUTHOR_ACK">
+        <subject>Accusé de réception de la correction des épreuves (auteur)</subject>
+        <body><![CDATA[{$authorName},<br />
 <br />
-Nous vous remercions d’avoir accepté de corriger les épreuves de votre manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Nous sommes heureux de publier vos travaux dans notre revue.<br />
+Nous vous remercions d’avoir accepté de corriger les épreuves de votre texte intitulé « {$submissionTitle} » pour {$contextName}. Nous sommes heureux de publier vos travaux dans notre revue.<br />
 <br />
-Si vous êtes inscrit à notre service d’avis, vous recevrez par courriel la table des matières dès que votre article sera publié. Si vous avez des questions, n’hésitez pas à communiquer avec nous.<br />
+Si vous êtes inscrit à notre service d’avertissements, vous recevrez par courriel la table des matières dès que votre article sera publié. Si vous avez des questions, n’hésitez pas à nous contacter.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique à l’Auteur reconnaît que le processus de correction d’épreuves initiale est terminé et le remercie de sa contribution.</description>
-	</email_text>
-	<email_text key="PROOFREAD_REQUEST">
-		<subject>Demande de correction d’épreuves</subject>
-		<body><![CDATA[{$authorName} :<br />
+        <description>Ce courriel du Rédacteur de rubrique à l’Auteur reconnaît que le processus de
+            correction des épreuves initiale est terminé et le remercie de sa
+            contribution.</description>
+    </email_text>
+    <email_text key="PROOFREAD_REQUEST">
+        <subject>Demande de correction des épreuves</subject>
+        <body><![CDATA[Chère/cher {$proofreaderName},<br />
 <br />
-Nous aimerions que vous procédiez à la correction d’épreuves du manuscrit intitulé « {$submissionTitle} » dans {$contextName}.<br />
-1. Cliquer sur l’URL de la soumission ci-dessous.<br />
-2. Se connecter au site Web de la revue et afficher les INSTRUCTIONS POUR LA CORRECTION D’ÉPREUVES<br />
-3. Cliquer sur AFFICHER LES ÉPREUVES dans la Mise en page et corriger les épreuves dans le (ou les) format(s) utilisé(s).<br />
-4. Saisir les corrections (typographiques et de mise en page) dans les Corrections d’épreuves.<br />
-5. Enregistrer et envoyer par courriel les corrections au Responsable de la mise en page et au Correcteur d’épreuves.<br />
+Nous souhaitons vous demander de corriger les épreuves du texte intitulé « {$submissionTitle} » dans {$contextName}. Voici les étapes du processus.<br />
+1. Cliquer sur l’URL de la proposition ci-dessous.<br />
+2. Vous connecter au site Web de la revue et afficher les « Consignes pour la corrections d’épreuves ».<br />
+3. Cliquer sur « Afficher les épreuves » et corriger les épreuves dans le (ou les) format(s) utilisé(s).<br />
+4. Saisir les corrections (typographiques et de mise en page) dans les « Corrections d’épreuves ».<br />
+5. Enregistrer et envoyer par courriel les corrections au responsable de la mise en page et au correcteur des épreuves.<br />
 6. Envoyer le courriel TERMINÉ au rédacteur.<br />
 <br />
-URL du manuscrit : {$submissionUrl}<br />
+URL du texte : {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique au Correcteur d’épreuves demande que ce dernier fasse la correction des épreuves de l’article. Il fournit de l’information sur l’article, et comment y accéder.</description>
-	</email_text>
-	<email_text key="PROOFREAD_COMPLETE">
-		<subject>Correction d’épreuves terminée</subject>
-		<body><![CDATA[{$editorialContactName} :<br />
+        <description>Ce courriel du Rédacteur de rubrique au Correcteur d’épreuves demande que ce
+            dernier fasse la correction des épreuves de l’article. Il fournit de l’information sur
+            l’article, et comment y accéder.</description>
+    </email_text>
+    <email_text key="PROOFREAD_COMPLETE">
+        <subject>Correction des épreuves terminée</subject>
+        <body><![CDATA[{$editorialContactName},<br />
 <br />
-J’ai terminé la correction d’épreuves du manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Les corrections peuvent maintenant être insérées dans le texte par le Responsable de la mise en page.<br />
+J’ai terminé la correction des épreuves du texte intitulé « {$submissionTitle} » pour {$contextName}. Les épreuves peuvent maintenant être relues par le correcteur et le responsable de la mise en page.<br />
 <br />
 {$proofreaderName}]]></body>
-		<description>Ce courriel du Correcteur d’épreuves au Rédacteur de rubrique avise ce dernier que le Correcteur d’épreuves a fini le processus de correction d’épreuves.</description>
-	</email_text>
-	<email_text key="PROOFREAD_ACK">
-		<subject>Accusé de réception de la correction d’épreuves</subject>
-		<body><![CDATA[{$proofreaderName},<br />
+        <description>Ce courriel du Correcteur d’épreuves au Rédacteur de rubrique avise ce dernier
+            que le Correcteur d’épreuves a fini le processus de correction des
+            épreuves.</description>
+    </email_text>
+    <email_text key="PROOFREAD_ACK">
+        <subject>Accusé de réception de la correction des épreuves</subject>
+        <body><![CDATA[{$proofreaderName},<br />
 <br />
-Nous vous remercions d’avoir accepté de corriger les épreuves du manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Votre collaboration contribue grandement à la qualité de la revue.<br />
+Nous vous remercions d’avoir accepté de corriger les épreuves de votre texte intitulé « {$submissionTitle} » pour {$contextName}. Votre collaboration contribue grandement à la qualité de la revue.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique au Correcteur d’épreuves confirme à ce dernier que le processus de la lecture d’épreuves a été complété et le remercie de sa contribution.</description>
-	</email_text>
-	<email_text key="PROOFREAD_LAYOUT_REQUEST">
-		<subject>Demande de correction d’épreuves (Responsable de la mise en page)</subject>
-		<body><![CDATA[{$participantName},<br />
+        <description>Ce courriel du Rédacteur de rubrique au Correcteur d’épreuves confirme à ce
+            dernier que le processus de la lecture d’épreuves a été complété et le remercie de sa
+            contribution.</description>
+    </email_text>
+    <email_text key="PROOFREAD_LAYOUT_REQUEST">
+        <subject>Demande de correction des épreuves (responsable de la mise en page)</subject>
+        <body><![CDATA[Chère/cher {$participantName},<br />
 <br />
-Nous aimerions que vous insériez les modifications nécessaires à la suite de la correction d’épreuves du manuscrit intitulé « {$submissionTitle} » pour {$contextName} à l’aide des étapes suivantes.<br />
-1. Cliquer sur l’URL de la soumission ci-dessous.<br />
-2. Se connecter au site Web de la revue et consulter les corrections à apporter pour créer les épreuves corrigées.<br />
-3.Télécharger les épreuves corrigées.<br />
-4. Envoyer le courriel TERMINÉ de l’Étape 3 de Correction d’épreuves au rédacteur.<br />
+Nous souhaitons vous demander d’insérer les modifications nécessaires pour poursuivre la correction des épreuves du texte intitulé « {$submissionTitle} » pour {$contextName}, en suivant ces étapes :<br />
+1. Cliquer sur l’URL de la proposition ci-dessous.<br />
+2. Vous connecter au site Web de la revue et consulter les corrections à apporter pour créer les épreuves corrigées.<br />
+3. Déposer les épreuves corrigées.<br />
+4. Envoyer au rédacteur le courriel TERMINÉ de l’étape 3 de la correction des épreuves.<br />
 <br />
 URL de {$contextName} : {$contextUrl}<br />
-URL du manuscrit : {$submissionUrl}<br />
+URL du texte : {$submissionUrl}<br />
 Nom d’utilisateur : {$participantUsername}<br />
 <br />
-Si vous ne pouvez pas effectuer ce travail pour le moment ou si vous avez des questions, veuillez communiquer avec moi. Je vous remercie de votre collaboration.<br />
+Si vous ne pouvez pas effectuer ce travail pour le moment ou si vous avez des questions, veuillez me contacter. Je vous remercie de votre collaboration.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel venant du Rédacteur de rubrique au Responsable de la mise en page avise ce dernier que les épreuves sont prêtes pour une évaluation finale. Il contient de l’information sur l’article et comment y accéder.</description>
-	</email_text>
-	<email_text key="PROOFREAD_LAYOUT_COMPLETE">
-		<subject>Correction d’épreuves terminée (Responsable de la mise en page)</subject>
-		<body><![CDATA[{$editorialContactName},<br />
+        <description>Ce courriel venant du Rédacteur de rubrique au Responsable de la mise en page
+            avise ce dernier que les épreuves sont prêtes pour une évaluation finale. Il contient de
+            l’information sur l’article et comment y accéder.</description>
+    </email_text>
+    <email_text key="PROOFREAD_LAYOUT_COMPLETE">
+        <subject>Correction des épreuves terminée (responsable de la mise en page)</subject>
+        <body><![CDATA[{$editorialContactName},<br />
 <br />
-Les corrections d’épreuves ont été effectuées dans le manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Ce document est prêt à être publié.<br />
+La correction des épreuves ont été effectuées pour le texte intitulé « {$submissionTitle} » pour {$contextName}. Ce document est prêt à être publié.<br />
 <br />
 {$participantName}]]></body>
-		<description>Ce courriel  du Responsable de la mise en page au Rédacteur de rubrique avise ce dernier que l’étape finale de correction d’épreuves est terminé et que l’article est maintenant prêt à être publié.</description>
-	</email_text>
-	<email_text key="PROOFREAD_LAYOUT_ACK">
-		<subject>Accusé de réception de la correction d’épreuves (Responsable de la mise en page)</subject>
-		<body><![CDATA[{$participantName}:<br />
+        <description>Ce courriel du Responsable de la mise en page au Rédacteur de rubrique avise ce
+            dernier que l’étape finale de correction des épreuves est terminé et que l’article est
+            maintenant prêt à être publié.</description>
+    </email_text>
+    <email_text key="PROOFREAD_LAYOUT_ACK">
+        <subject>Accusé de réception de la correction des épreuves (responsable de la mise en
+            page)</subject>
+        <body><![CDATA[{$participantName}:<br />
 <br />
-Nous vous remercions d’avoir corrigé les épreuves du manuscrit intitulé « {$submissionTitle} » pour {$contextName}. Votre contribution est importante pour la revue.<br />
+Nous vous remercions d’avoir corrigé les épreuves du texte intitulé « {$submissionTitle} » pour {$contextName}. Votre contribution est importante pour la revue.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel du Rédacteur de rubrique au Responsable de la mise en page reconnaît l’achèvement par ce dernier de l’étape finale de la correction d’épreuves et le remercie de sa contribution.</description>
-	</email_text>
-	<email_text key="EMAIL_LINK">
-		<subject>Article potentiellement intéressant</subject>
-		<body><![CDATA[Je pense que l’article suivant pourrait vous intéresser : « {$submissionTitle} » par {$authorName}, publié dans le volume {$volume}, numéro {$number} de ({$year}) de la revue {$contextName}. Vous le trouverez à l’adresse suivante : {$articleUrl}.]]></body>
-		<description>Ce courriel type donne à un lecteur inscrit l’occasion d’envoyer de l’information à quelqu’un qui peut être intéressé par un article en particulier. Il est disponible via Outils de lecture et doit être activé par le Directeur de la revue à la page Gestion des outils de lecture.</description>
-	</email_text>
-	<email_text key="SUBSCRIPTION_NOTIFY">
-		<subject>Avis d’abonnement</subject>
-		<body><![CDATA[{$subscriberName},<br />
+        <description>Ce courriel du Rédacteur de rubrique au Responsable de la mise en page
+            reconnaît l’achèvement par ce dernier de l’étape finale de la correction des épreuves et
+            le remercie de sa contribution.</description>
+    </email_text>
+    <email_text key="EMAIL_LINK">
+        <subject>Article potentiellement intéressant</subject>
+        <body><![CDATA[Je pense que l’article suivant pourrait vous intéresser : « {$submissionTitle} » par {$authorName}, publié dans le volume {$volume}, numéro {$number} de ({$year}) de la revue {$contextName}. Vous le trouverez à l’adresse suivante : {$articleUrl}.]]></body>
+        <description>Ce courriel type donne à un lecteur inscrit l’occasion d’envoyer de
+            l’information à quelqu’un qui peut être intéressé par un article en particulier. Il est
+            disponible via Outils de lecture et doit être activé par le Directeur de la revue à la
+            page Gestion des outils de lecture.</description>
+    </email_text>
+    <email_text key="SUBSCRIPTION_NOTIFY">
+        <subject>Avis d’abonnement</subject>
+        <body><![CDATA[{$subscriberName},<br />
 <br />
-Vous êtes maintenant abonné à notre système de gestion en ligne pour {$contextName}, avec le type d’abonnement suivant :<br />
+Vous êtes maintenant abonné(e) à notre système de gestion en ligne pour {$contextName}, avec le type d’abonnement suivant :<br />
 <br />
 {$subscriptionType}<br />
 <br />
 Pour accéder au contenu destiné seulement aux abonnés, entrez dans le système à l’aide de votre nom d’utilisateur : {$username}.<br />
 <br />
-Une fois dans le système, vous pouvez modifier les détails de votre profil et votre mot de passe en tout temps.<br />
+Une fois dans le système, vous pouvez modifier les détails de votre profil et votre mot de passe à tout moment.<br />
 <br />
-Veuillez prendre note que si vous disposez d’un abonnement institutionnel, les utilisateurs n’ont pas à entrer de nom d’utilisateur puisque le système authentifiera automatiquement les demandes.<br />
+Veuillez noter que, dans le cas d’un abonnement institutionnel, les utilisateurs n’ont pas à entrer de nom d’utilisateur puisque le système authentifiera automatiquement les demandes.<br />
 <br />
-Si vous avez des questions, n’hésitez pas à communiquer avec moi.<br />
+Si vous avez des questions, n’hésitez pas à me contacter.<br />
 <br />
 {$subscriptionContactSignature}]]></body>
-		<description>Ce courriel avise un lecteur inscrit que le directeur de la revue a créé un abonnement pour lui. Il fournit l’adresse URL de la revue ainsi que les instructions pour y accéder.</description>
-	</email_text>
-	<email_text key="OPEN_ACCESS_NOTIFY">
-		<subject>Le numéro est maintenant à accès libre</subject>
-		<body><![CDATA[Chers lecteurs et lectrices :<br />
+        <description>Ce courriel avise un lecteur inscrit que le directeur de la revue a créé un
+            abonnement pour lui. Il fournit l’adresse URL de la revue ainsi que les instructions
+            pour y accéder.</description>
+    </email_text>
+    <email_text key="OPEN_ACCESS_NOTIFY">
+        <subject>Numéro en libre accès</subject>
+        <body><![CDATA[Chères lectrices, chers lecteurs,<br />
 <br />
-{$contextName} vient de rendre disponible en format libre accès le numéro suivant. Nous vous invitons à lire la table des matières ici puis visiter notre site Web ({$contextUrl}) pour lire les articles et autres textes qui pourraient vous intéresser.<br />
+{$contextName} vient de rendre disponible en libre accès son dernier numéro. Nous vous invitons à lire la table des matières ici, puis à visiter notre site Web ({$contextUrl}) pour lire les articles et autres textes qui pourraient vous intéresser.<br />
 <br />
-Merci de votre intérêt continu pour notre travail,<br />
+Merci de votre intérêt pour notre travail,<br />
+<br />
 {$editorialContactSignature}]]></body>
-		<description>Nous envoyons ce courriel aux lecteurs inscrits qui ont demandé à recevoir un avis par courriel quand un numéro devient disponible à accès libre.</description>
-	</email_text>
-	<email_text key="SUBSCRIPTION_BEFORE_EXPIRY">
-		<subject>Rappel de l’expiration de l’abonnement</subject>
-		<body><![CDATA[{$subscriberName} :<br />
+        <description>Nous envoyons ce courriel aux lecteurs inscrits qui ont demandé à recevoir un
+            avis par courriel quand un numéro devient disponible à accès libre.</description>
+    </email_text>
+    <email_text key="SUBSCRIPTION_BEFORE_EXPIRY">
+        <subject>Rappel de l’expiration de l’abonnement</subject>
+        <body><![CDATA[{$subscriberName},<br />
 <br />
 Votre abonnement à {$contextName} expirera bientôt.<br />
 <br />
@@ -501,14 +581,15 @@ Date d’expiration : {$expiryDate}<br />
 <br />
 Afin d’assurer la continuité de votre accès à cette revue, nous vous prions d’aller sur le site Web de la revue et de renouveler votre abonnement. Vous pouvez vous y ouvrir une session avec votre nom d’utilisateur, « {$username} ».<br />
 <br />
-Si vous avez des questions, ne pas hésiter à communiquer avec moi.<br />
+Si vous avez des questions, ne pas hésiter à me contacter.<br />
 <br />
 {$subscriptionContactSignature}]]></body>
-		<description>Ce courriel avise un abonné que son abonnement expiera sous peu. Il fournit l’adresse URL de la revue, ainsi que les instructions pour y accéder.</description>
-	</email_text>
-	<email_text key="SUBSCRIPTION_AFTER_EXPIRY">
-		<subject>Abonnement expiré</subject>
-		<body><![CDATA[{$subscriberName} :<br />
+        <description>Ce courriel avise un abonné que son abonnement expiera sous peu. Il fournit
+            l’adresse URL de la revue, ainsi que les instructions pour y accéder.</description>
+    </email_text>
+    <email_text key="SUBSCRIPTION_AFTER_EXPIRY">
+        <subject>Abonnement expiré</subject>
+        <body><![CDATA[{$subscriberName},<br />
 <br />
 Votre abonnement à la revue {$contextName} est expiré.<br />
 <br />
@@ -517,14 +598,15 @@ Date d’expiration : {$expiryDate}<br />
 <br />
 Pour renouveler votre abonnement, veuillez aller sur le site Web de la revue. Vous pouvez y ouvrir une session en utilisant votre nom d’utilisateur, « {$username} ».<br />
 <br />
-Si vous avez des questions, n’hésitez pas à communiquer avec moi.<br />
+Si vous avez des questions, n’hésitez pas à me contacter.<br />
 <br />
 {$subscriptionContactSignature}]]></body>
-		<description>Ce courriel avise un abonné que son abonnement est expiré. Il fournit l’adresse URL de la revue, ainsi que les instructions pour y accéder.</description>
-	</email_text>
-	<email_text key="SUBSCRIPTION_AFTER_EXPIRY_LAST">
-		<subject>Abonnement expiré - Dernier rappel</subject>
-		<body><![CDATA[{$subscriberName} :<br />
+        <description>Ce courriel avise un abonné que son abonnement est expiré. Il fournit l’adresse
+            URL de la revue, ainsi que les instructions pour y accéder.</description>
+    </email_text>
+    <email_text key="SUBSCRIPTION_AFTER_EXPIRY_LAST">
+        <subject>Abonnement expiré : dernier rappel</subject>
+        <body><![CDATA[{$subscriberName},<br />
 <br />
 Votre abonnement à la revue {$contextName} est expiré. Veuillez prendre note que ceci est le dernier rappel qui vous sera envoyé.<br />
 <br />
@@ -533,94 +615,108 @@ Date d’expiration : {$expiryDate}<br />
 <br />
 Pour renouveller votre abonnement, aller sur le site Web de la revue. Vous pouvez y ouvrir une session avec votre nom d’utilisateur, « {$username} ».<br />
 <br />
-Si vous avez des questions, ne hésitez pas à communiquer avec moi.<br />
+Si vous avez des questions, ne hésitez pas à me contacter.<br />
 <br />
 {$subscriptionContactSignature}]]></body>
-		<description>Ce courriel avise un abonné que son abonnement est expiré. Il donne l’adresse URL de la revue ainsi que les instructions pour y accéder.</description>
-	</email_text>
-	<email_text key="USER_VALIDATE">
-		<subject>Valider votre compte</subject>
-		<body><![CDATA[{$userFullName}<br />
+        <description>Ce courriel avise un abonné que son abonnement est expiré. Il donne l’adresse
+            URL de la revue ainsi que les instructions pour y accéder.</description>
+    </email_text>
+    <email_text key="USER_VALIDATE">
+        <subject>Lien pour valider votre compte</subject>
+        <body><![CDATA[Chère/cher {$userFullName},<br />
 <br />
-Vous avez créé un compte avec {$contextName}, mais avant de pouvoir commencer à l’utiliser, vous devez valider votre compte de courriel. Pour ce faire, suivre simplement le lien ci-dessous :<br />
+Vous avez créé un compte pour {$contextName}, mais avant de pouvoir commencer à l’utiliser, vous devez valider votre courriel. Pour ce faire, merci de suivre le lien ci-dessous :<br />
 <br />
 {$activateUrl}<br />
 <br />
-Merci,<br />
-{$principalContactSignature}]]></body>
-		<description>Ce courriel est envoyé à un utilisateur nouvellement inscrit, afin de l’accueillir dans le système et lui offrir un enregistrement de son nom d’utilisateur et de son mot de passe.</description>
-	</email_text>
-	<email_text key="REVIEWER_REGISTER">
-		<subject>Inscription en tant que rapporteur de {$contextName}</subject>
-		<body><![CDATA[Compte tenu de votre expertise, nous avons pris l’initiative d’inscrire votre nom dans la base de données des rapporteurs de {$contextName}. Cela ne vous engage d’aucune façon, mais nous permet simplement de solliciter vos services pour l’évaluation d’une soumission. Si vous êtes invité à effectuer une évaluation, vous recevrez le titre et le résumé de l’article en question, et serez toujours libre d’accepter ou de refuser une telle invitation. À tout moment, il vous est également possible de demander à ce que votre nom soit retiré de la liste des rapporteurs.<br />
+Avec tous nos remerciements,<br />
 <br />
-Nous vous acheminons un nom d’utilisateur et un mot de passe, car tous deux sont requis pour tout échange avec la revue, par l’intermédiaire de ce site Web. Vous pouvez, par exemple, si vous le souhaitez, effectuer la mise à jour de votre profil, y compris vos intérêts en matière d’évaluation.<br />
+{$principalContactSignature}]]></body>
+        <description>Ce courriel est envoyé à un utilisateur nouvellement inscrit, afin de
+            l’accueillir dans le système et lui offrir un enregistrement de son nom d’utilisateur et
+            de son mot de passe.</description>
+    </email_text>
+    <email_text key="REVIEWER_REGISTER">
+        <subject>Inscription parmi les évaluateurs potentiels pour {$contextName}</subject>
+        <body><![CDATA[Chère/cher collègue,<br />
+<br />
+Votre expertise nous a conduits à inscrire votre nom dans la base de données des évaluateurs de {$contextName}. Cela ne vous engage d’aucune façon, mais nous permettra de vous solliciter pour l’évaluation d’une proposition. Si vous êtes invité(e) à effectuer une évaluation, vous recevrez le titre et le résumé de l’article en question, et serez toujours libre d’accepter ou de refuser cette invitation. À tout moment, il vous est également possible de demander à ce que votre nom soit retiré de la liste des évaluateurs.<br />
+<br />
+Nous vous transmettons un nom d’utilisateur et un mot de passe, requis pour tout échange avec la revue, par l’intermédiaire de son site Web. Si vous le souhaitez, vous pouvez mettre à jour votre profil, notamment vos intérêts et compétences scientifiques.<br />
 <br />
 Nom d’utilisateur : {$username}<br />
 Mot de passe : {$password}<br />
 <br />
-Merci,<br />
+Avec nos salutations cordiales,<br />
+<br />
 {$principalContactSignature}]]></body>
-		<description>Ce courriel est envoyé à un rapporteur nouvellement inscrit, afin de l’accueillir dans le système et lui offrir un enregistrement de son nom d’utilisateur et mot de passe.</description>
-	</email_text>
-	<email_text key="NOTIFICATION">
-		<subject>Nouvel avis de {$siteTitle}</subject>
-		<body><![CDATA[Vous avez un nouvel avis de {$siteTitle} :<br />
+        <description>Ce courriel est envoyé à un rapporteur nouvellement inscrit, afin de
+            l’accueillir dans le système et lui offrir un enregistrement de son nom d’utilisateur et
+            mot de passe.</description>
+    </email_text>
+    <email_text key="NOTIFICATION">
+        <subject>Nouvel avis de {$siteTitle}</subject>
+        <body><![CDATA[Vous avez un nouvel avis de {$siteTitle} :<br />
 <br />
 {$notificationContents}<br />
 <br />
 Lien : {$url}<br />
 <br />
 {$principalContactSignature}]]></body>
-		<description>Ce courriel est envoyé aux utilisateurs inscrits qui ont choisi de recevoir par courriel ce type d’avis.</description>
-	</email_text>
-	<email_text key="EDITOR_DECISION_ACCEPT">
-		<subject>Décision du rédacteur</subject>
-		<body><![CDATA[{$authorName} :<br />
+        <description>Ce courriel est envoyé aux utilisateurs inscrits qui ont choisi de recevoir par
+            courriel ce type d’avis.</description>
+    </email_text>
+    <email_text key="EDITOR_DECISION_ACCEPT">
+        <subject>Décision du rédacteur</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous avons pris une décision concernant votre soumission à {$contextName}, « {$submissionTitle} ».<br />
+Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
 <br />
-Notre décision est de :<br />
-<br />
-{$editorialContactSignature}]]></body>
-		<description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une décision finale de «soumission acceptée» concernant leur soumission.</description>
-	</email_text>
-	<email_text key="EDITOR_DECISION_REVISIONS">
-		<subject>Décision du rédacteur</subject>
-		<body><![CDATA[{$authorName} :<br />
-<br />
-Nous avons pris une décision concernant votre soumission à {$contextName}, « {$submissionTitle} ».<br />
-<br />
-Notre décision est de :<br />
+Notre décision est d’accepter votre proposition.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une décision finale de «révision requise» concernant leur soumission.</description>
-	</email_text>
-	<email_text key="EDITOR_DECISION_RESUBMIT">
-		<subject>Décision du rédacteur</subject>
-		<body><![CDATA[{$authorName} :<br />
+        <description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une
+            décision finale de «proposition acceptée» concernant leur proposition.</description>
+    </email_text>
+    <email_text key="EDITOR_DECISION_REVISIONS">
+        <subject>Décision du rédacteur</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous avons pris une décision concernant votre soumission à {$contextName}, « {$submissionTitle} ».<br />
+Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
 <br />
-Notre décision est de :<br />
-<br />
-{$editorialContactSignature}]]></body>
-		<description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une décision finale de «soumission à redéposer» concernant leur soumission.</description>
-	</email_text>
-	<email_text key="EDITOR_DECISION_DECLINE">
-		<subject>Décision du rédacteur</subject>
-		<body><![CDATA[{$authorName} :<br />
-<br />
-Nous avons pris une décision concernant votre soumission à {$contextName}, « {$submissionTitle} ».<br />
-<br />
-Notre décision est de :<br />
+Notre décision est d’accepter votre proposition, dans une version révisée tenant compte des remarques formulées.<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une décision finale de «soumission refusée» concernant leur soumission.</description>
-	</email_text>
-	<email_text key="SUBSCRIPTION_PURCHASE_INDL">
-		<subject>Souscription à un abonnement : Individuel</subject>
-		<body><![CDATA[Souscription en ligne à un abonnement individuel pour {$contextName} avec les détails suivants :<br />
+        <description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une
+            décision finale de «révision requise» concernant leur proposition.</description>
+    </email_text>
+    <email_text key="EDITOR_DECISION_RESUBMIT">
+        <subject>Décision du rédacteur</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
+<br />
+Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
+<br />
+Nous vous invitons à proposer une version révisée de votre texte, en tenant compte des remarques formulées.<br />
+<br />
+{$editorialContactSignature}]]></body>
+        <description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une
+            décision finale de «proposition à redéposer» concernant leur proposition.</description>
+    </email_text>
+    <email_text key="EDITOR_DECISION_DECLINE">
+        <subject>Décision du rédacteur</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
+<br />
+Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
+<br />
+Notre décision est de refuser votre proposition.<br />
+<br />
+{$editorialContactSignature}]]></body>
+        <description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie d’une
+            décision finale de «proposition refusée» concernant leur proposition.</description>
+    </email_text>
+    <email_text key="SUBSCRIPTION_PURCHASE_INDL">
+        <subject>Souscription d’un abonnement individuel</subject>
+        <body><![CDATA[Souscription en ligne à un abonnement individuel pour {$contextName} avec les détails suivants :<br />
 <br />
 Type d’abonnement :<br />
 {$subscriptionType}<br />
@@ -634,10 +730,10 @@ Information d’adhésion (si fournie) :<br />
 Pour afficher ou modifier cet abonnement, veuillez utiliser l’URL suivante.<br />
 <br />
 URL d’abonnement : {$subscriptionUrl}]]></body>
-	</email_text>
-	<email_text key="SUBSCRIPTION_PURCHASE_INSTL">
-		<subject>Souscription à un abonnement : Institutionnel</subject>
-		<body><![CDATA[Souscription en ligne à un abonnement institutionnel pour {$contextName} avec les informations suivantes. Pour activer cet abonnement, veuillez utiliser l’URL d’abonnement fourni et fixer le statut de l’abonnement à 'Actif'.<br />
+    </email_text>
+    <email_text key="SUBSCRIPTION_PURCHASE_INSTL">
+        <subject>Souscription d’un abonnement institutionnel</subject>
+        <body><![CDATA[Souscription en ligne à un abonnement institutionnel pour {$contextName} avec les informations suivantes. Pour activer cet abonnement, veuillez utiliser l’URL d’abonnement fourni et fixer le statut de l’abonnement à ’Actif’.<br />
 <br />
 Type d’abonnement :<br />
 {$subscriptionType}<br />
@@ -661,10 +757,10 @@ Information d’adhésion (si fourni) :<br />
 Pour afficher ou modifier cet abonnement, veuillez utiliser l’URL suivant :<br />
 <br />
 URL de l’abonnement : {$subscriptionUrl}]]></body>
-	</email_text>
-	<email_text key="SUBSCRIPTION_RENEW_INDL">
-		<subject>Renouvellement d’abonnement : Individuel</subject>
-		<body><![CDATA[Un abonnement individuel a été renouvelé en ligne pour {$contextName} avec les détails suivants.<br />
+    </email_text>
+    <email_text key="SUBSCRIPTION_RENEW_INDL">
+        <subject>Renouvellement d’un abonnement individuel</subject>
+        <body><![CDATA[Un abonnement individuel a été renouvelé en ligne pour {$contextName} avec les détails suivants.<br />
 <br />
 Type d’abonnement :<br />
 {$subscriptionType}<br />
@@ -678,10 +774,10 @@ Information d’adhésion (si fourni) :<br />
 Pour afficher ou modifier cet abonnement, veuillez utiliser l’URL suivant.<br />
 <br />
 URL de l’abonnement : {$subscriptionUrl}]]></body>
-	</email_text>
-	<email_text key="SUBSCRIPTION_RENEW_INSTL">
-		<subject>Renouvellement d’abonnement : Institutionnel</subject>
-		<body><![CDATA[Un abonnement institutionnel a été renouvelé en ligne pour {$contextName} avec les informations suivantes.<br />
+    </email_text>
+    <email_text key="SUBSCRIPTION_RENEW_INSTL">
+        <subject>Renouvellement d’un abonnement institutionnel</subject>
+        <body><![CDATA[Un abonnement institutionnel a été renouvelé en ligne pour {$contextName} avec les informations suivantes.<br />
 <br />
 Type d’abonnement :<br />
 {$subscriptionType}<br />
@@ -705,191 +801,203 @@ Information d’adhésion (si fourni) :<br />
 Pour afficher ou modifier cet abonnement, veuillez utiliser l’URL suivant.<br />
 <br />
 URL de l’abonnement : {$subscriptionUrl}]]></body>
-	</email_text>
-	<email_text key="CITATION_EDITOR_AUTHOR_QUERY">
-		<subject>Modification des références</subject>
-		<body><![CDATA[{$authorFirstName},<br />
+    </email_text>
+    <email_text key="CITATION_EDITOR_AUTHOR_QUERY">
+        <subject>Modification de références</subject>
+        <body><![CDATA[Chère/cher {$authorFirstName},<br />
 <br />
-Pourriez-vous vérifier ou nous fournir la référence complète pour la référence suivante, provenant de votre article, {$submissionTitle} :<br />
+Pourriez-vous vérifier ou compléter la référence suivante, qui provient de votre article « {$submissionTitle} » ?<br />
 <br />
 {$rawCitation}<br />
 <br />
-Merci!<br />
+Merci de votre aide.<br />
 <br />
 {$userFirstName}<br />
-Réviseur, {$contextName}]]></body>
-	</email_text>
-	<email_text key="EDITOR_DECISION_SEND_TO_EXTERNAL">
-		<subject>Décision du rédacteur</subject>
-		<body><![CDATA[{$authorName} :<br />
+Le réviseur, {$contextName}]]></body>
+    </email_text>
+    <email_text key="EDITOR_DECISION_SEND_TO_EXTERNAL">
+        <subject>Décision du rédacteur</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous avons pris une décision concernant votre soumission à {$contextName}, « {$submissionTitle} ».<br />
+Nous vous informons que votre proposition à {$contextName} intitulée « {$submissionTitle} » a été transmise aux évaluateurs.<br />
 <br />
-Notre décision est de : Envoyé pour l’évaluation<br />
-<br />
-Submission URL : {$submissionUrl}<br />
-<br />
-{$editorialContactSignature}<br />]]></body>
-		<description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie que leur soumission a été envoyé à une source externe pour son évaluation.</description>
-	</email_text>
-	<email_text key="EDITOR_DECISION_SEND_TO_PRODUCTION">
-		<subject>Décision du rédacteur</subject>
-		<body></body>
-		<description></description>
-	</email_text>
-	<email_text key="NOTIFICATION_CENTER_DEFAULT">
-		<subject>Un message à propos de {$contextName}</subject>
-		<body></body>
-		<description>Message blanc par défaut utilisé pour concevoir d’autres messages.</description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST_ONECLICK_SUBSEQUENT">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
-<br />
-Ceci concerne le manuscrit « {$submissionTitle} », qui est présentement  évalué par{$contextName}.<br />
-<br />
-Suivant l’évaluation de la dernière version du manuscrit, l’auteur a soumis une version révisé de son document. Nous apprécierions que vous évaluiez cette nouvelle version.<br />
-<br />
-Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour y indiquer si vous participerez à cette évaluation ou non, ou simplement indiquer les recommandations suivant votre évaluation.<br />
-<br />
-L’évaluation est dû pour le  {$reviewDueDate}.<br />
-<br />
-Hyperlien de la soumission : {$submissionReviewUrl}<br />
-<br />
-Merci de considérer cette requête.<br />
-<br />
-{$editorialContactSignature}<br />
-<br />
-« {$submissionTitle} »<br />
-<br />
-{$submissionAbstract}]]></body>
-		<description><![CDATA[Ce courriel du rédacteur de section à un réviseur demande que l’examinateur accepte ou refuse la tâche d’examiner une soumission pour une deuxième ou une plus grande série d’examen. Il fournit des informations sur la soumission, comme le titre et l’abrégé, la date d’échéance de l’examen et la façon d’accéder à la soumission elle-même. Ce message est utilisé lorsque le processus de révision standard est sélectionné dans Administration> Paramètres> Flux des travaux> Révision et que l’accès d’un relecteur est activé.]]></description>
-	</email_text>
-	<email_text key="REVISED_VERSION_NOTIFY">
-		<subject>Version révisée téléversée</subject>
-		<body><![CDATA[Rédacteur,<br />
-<br />
-Une version révisée de « {$submissionTitle} » a été téléversée par {$authorName}.<br />
-<br />
-URL de la soumission : {$submissionUrl}<br />
+Lien de la proposition : {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel est envoyé automatiquement au rédacteur attribué quand un auteur téléverse une version révisée d’un article.</description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST_REMIND_AUTO">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
-Ceci est un rappel concernant notre demande d’évaluation de « {$submissionTitle} », pour {$contextName}. Nous espérions recevoir une réponse avant le {$responseDueDate}. Ce courriel est envoyé automatiquement après dépassement du délais.
+        <description>Cet courriel du rédacteur ou du chef de rubrique à un auteur les notifie que
+            leur proposition a été envoyé à une source externe pour son évaluation.</description>
+    </email_text>
+    <email_text key="EDITOR_DECISION_SEND_TO_PRODUCTION">
+        <subject>Décision du rédacteur</subject>
+        <body/>
+        <description/>
+    </email_text>
+    <email_text key="NOTIFICATION_CENTER_DEFAULT">
+        <subject>À propos de {$contextName}</subject>
+        <body><![CDATA[Bonjour,<br />
+            <br />
+            Ce message concerne {$contextName}.<br />
+            <br />
+            …<br />
+            <br />
+            {$editorialContactSignature}]]>
+        </body>
+        <description>Message blanc par défaut utilisé pour concevoir d’autres
+            messages.</description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST_ONECLICK_SUBSEQUENT">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous pensons que vous seriez un excellent rapporteur pour le manuscrit. Vous trouverez un résumé de la soumission en suivant l’hyperlien plus bas.<br />
+Ce message concerne le texte « {$submissionTitle} », qui est en cours d’évaluation pour {$contextName}.<br />
 <br />
-Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour y indiquer si vous participerez à cette évaluation ou non, ou simplement indiquer les recommandations suivant votre évaluation. Le site web est  {$contextUrl}<br />
+Suite à l’évaluation de ce texte, l’auteur a soumis une version révisée de sa proposition. Nous serions heureux d’avoir votre avis sur cette nouvelle version.<br />
 <br />
-L’évaluation est dû pour le  {$reviewDueDate}.<br />
+Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour nous indiquer si vous participerez à cette évaluation ou, mieux encore, pour nous faire part de vos recommandations concernant la publication de ce texte.<br />
 <br />
-Si vous n’avez pas votre identifiant pour le site de la revue, vous pouvez utiliser l’hyperlien suivant pour entrer un nouveau mot de passe.
-{$passwordResetUrl}<br />
+L’évaluation est attendue pour le {$reviewDueDate}.<br />
 <br />
-Hyperlien de la soumission : {$submissionReviewUrl}<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
 <br />
-Merci de considérer cette requête.<br />
-<br />
-{$editorialContactSignature}<br />
-<br />
-« {$submissionTitle} »<br />
-<br />
-{$submissionAbstract}]]></body>
-		<description><![CDATA[Ce courriel est automatiquement envoyé lorsque la date d’échéance de confirmation d’un rapporteur est écoulée (voir Options de révision sous Paramètres> Flux des travaux> Révision) et l’accès du rapporteur en un clic est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site).]]></description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST_REMIND_AUTO_ONECLICK">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
-Ceci est un rappel concernant notre demande d’évaluation de « {$submissionTitle} », pour {$contextName}. Nous espérions recevoir une réponse avant le {$responseDueDate}. Ce courriel est envoyé automatiquement après dépassement du délais.
-<br />
-Nous pensons que vous seriez un excellent rapporteur pour le manuscrit. Vous trouverez un résumé de la soumission en suivant l’hyperlien plus bas.<br />
-<br />
-Vous seriez aimable de vous authentifier sur la page de la revue en nous indiquant si vous participerez à cette évaluation ou non, ou mieux, indiquer les recommandations suivant l’évaluation de ce manuscrit.<br />
-<br />
-L’évaluation est dû pour le  {$reviewDueDate}.<br />
-<br />
-Si vous n’avez pas votre identifiant pour le site de la revue, vous pouvez utiliser l’hyperlien suivant pour entrer un nouveau mot de passe.
-{$passwordResetUrl}<br />
-<br />
-Hyperlien de la soumission : {$submissionReviewUrl}<br />
-<br />
-Merci de considérer cette requête.<br />
+Nous vous serons reconnaissants de tenir compte de notre demande.<br />
 <br />
 {$editorialContactSignature}<br />
 <br />
 « {$submissionTitle} »<br />
 <br />
 {$submissionAbstract}]]></body>
-		<description><![CDATA[Ce courriel est automatiquement envoyé lorsque la date d’échéance de confirmation d’un rapporteur est écoulée (voir Options de révision sous Paramètres> Flux des travaux> Révision) et l’accès du rapporteur en un clic est activé. Les tâches planifiées doivent être configurées et activées (voir le fichier de configuration du site).]]></description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST_SUBSEQUENT">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
+        <description><![CDATA[Ce courriel du rédacteur de section à un réviseur demande que l’examinateur accepte ou refuse la tâche d’examiner une proposition pour une deuxième ou une plus grande série d’examen. Il fournit des informations sur la proposition, comme le titre et l’abrégé, la date d’échéance de l’examen et la façon d’accéder à la proposition elle-même. Ce message est utilisé lorsque le processus de révision standard est sélectionné dans Administration> Paramètres> Flux des travaux> Révision et que l’accès d’un relecteur est activé.]]></description>
+    </email_text>
+    <email_text key="REVISED_VERSION_NOTIFY">
+        <subject>Dépôt d’une version révisée</subject>
+        <body><![CDATA[Bonjour,<br />
 <br />
-Ceci concerne le manuscrit « {$submissionTitle} », qui est présentement  évalué par{$contextName}.<br />
+Une version révisée de « {$submissionTitle} » a été déposée par {$authorName}.<br />
 <br />
-Suivant l’évaluation de la dernière version du manuscrit, l’auteur a soumis une version révisé de son document. Nous apprécierions que vous évaluiez cette nouvelle version.<br />
-<br />
-Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour y indiquer si vous participerez à cette évaluation ou non, ou simplement indiquer les recommandations suivant votre évaluation.<br />
-<br />
-L’évaluation est dû pour le  {$reviewDueDate}.<br />
-<br />
-Hyperlien de la soumission : {$submissionReviewUrl}<br />
-<br />
-Merci de considérer cette requête.<br />
-<br />
-{$editorialContactSignature}<br />
-<br />
-« {$submissionTitle} »<br />
-<br />
-{$submissionAbstract}]]></body>
-		<description><![CDATA[Ce courriel du rédacteur de section à un rapporteur demande que le rapporteur accepte ou refuse la tâche d’examiner une soumission pour une deuxième fois ou plus. Il fournit des informations sur la soumission, comme le titre et le résumé, la date d’échéance de l’examen et la façon d’accéder à la soumission elle-même. Ce message est utilisé lorsque le processus de révision standard est sélectionné dans Administration> Paramètres> Flux des travaux> Révision et que l’accès d’un relecteur est activé. (Autrement voir REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)]]></description>
-	</email_text>
-	<email_text key="REVIEW_REQUEST_ATTACHED_SUBSEQUENT">
-		<subject>Demande d’évaluation d’un article</subject>
-		<body><![CDATA[{$reviewerName} :<br />
-<br />
-Ceci concerne le manuscrit « {$submissionTitle} », qui est présentement  évalué par{$contextName}.<br />
-<br />
-Suivant l’évaluation de la dernière version du manuscrit, l’auteur a soumis une version révisé de son document. Nous apprécierions que vous évaluiez cette nouvelle version.<br />
-<br />
-Les critères d’évaluation sont inclus plus bas (en suivant le l’hyperlien) et la soumission en pièce attachée. Votre évaluation du manuscrit ainsi que vos recommandations doivent être envoyés par courriel avant le {$reviewDueDate}.<br />
-<br />
-Indiquez dans un courriel avant le {$responseDueDate} si vous voulez participer à l’évaluation.<br />
-<br />
-Merci de considérer cette requête.<br />
-<br />
-{$editorialContactSignature}<br />
-<br />
-Critères pour l’évaluation<br />
-<br />
-{$reviewGuidelines}<br />]]></body>
-		<description><![CDATA[Ce courriel du responsable de rubrique à un rapporteur demande que le rapporteur accepte ou refuse la tâche d’examiner une soumission pour une deuxième fois ou plus. Il fournit des informations sur la soumission, comme le titre et le résumé, la date d’échéance de l’évaluation et la façon d’accéder à la soumission elle-même. Ce message est utilisé lorsque le processus de révision avec pièce jointe est sélectionné dans Administration> Paramètres> Flux des travaux> Révision.(Autrement voir REVIEW_REQUEST_SUBSEQUENT.)]]></description>
-	</email_text>
-	<email_text key="SUBMISSION_ACK_NOT_USER">
-		<subject>Accusé de réception de la soumission</subject>
-		<body><![CDATA[Bonjour,<br />
-<br />
-Le manuscrit intitulé , « {$submissionTitle} », a été soumis par {$submitterName} à {$contextName}.<br />
-<br />
-Si vous avez des questions, n’hésitez pas à communiquer avec nous. Nous vous remercions d’avoir pensé à {$contextName} pour la publication de vos travaux.<br />
+Lien de la proposition : {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-		<description>Ce courriel, lorsque activé, est envoyé automatiquement aux autres auteurs, i.e. ceux qui ne sont pas l’utilisateur enregistré faisant la soumission.</description>
-	</email_text>
-	<email_text key="EDITOR_DECISION_INITIAL_DECLINE">
-		<subject>Editor Decision</subject>
-		<body><![CDATA[{$authorName} :<br />
+        <description>Ce courriel est envoyé automatiquement au rédacteur attribué quand un auteur
+            téléverse une version révisée d’un article.</description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST_REMIND_AUTO">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous avons pris une décision concernant votre soumission à {$contextName}, « {$submissionTitle} ».<br />
+Ceci est un rappel concernant notre demande d’évaluation de « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir une réponse avant le {$responseDueDate}. Ce courriel est envoyé automatiquement après dépassement du délai.<br />
 <br />
-Notre décision est de refuser votre soumission<br />
+Nous pensons que vous seriez un excellent rapporteur pour ce texte. Vous trouverez un résumé de la proposition en suivant le lien ci-dessous.<br />
 <br />
-{$editorialContactSignature}<br />]]></body>
-		<description>Ce mail est envoyé à l’auteur si le rédacteur refuse la soumission avant même de la faire évaluer</description>
-	</email_text>
+Veuillez vous authentifier sur la page de la revue en nous indiquant si vous participerez à cette évaluation ou, mieux encore, pour nous faire part de vos recommandations concernant la publication de ce texte.<br />
+<br />
+L’évaluation est attendue pour le {$reviewDueDate}.<br />
+<br />
+Si vous n’avez pas votre identifiant pour le site de la revue, vous pouvez utiliser le lien suivant pour enregistrer un nouveau mot de passe. {$passwordResetUrl}<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+Nous vous serons reconnaissants de tenir compte de notre demande.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+« {$submissionTitle} »<br />
+<br />
+{$submissionAbstract}]]></body>
+        <description><![CDATA[Ce courriel est automatiquement envoyé lorsque la date d’échéance de confirmation d’un rapporteur est écoulée (voir Options de révision sous Paramètres> Flux des travaux> Révision) et l’accès du rapporteur en un clic est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site).]]></description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST_REMIND_AUTO_ONECLICK">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
+<br />
+Ceci est un rappel concernant notre demande d’évaluation de « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir une réponse avant le {$responseDueDate}. Ce courriel est envoyé automatiquement après dépassement du délai.<br />
+<br />
+Nous pensons que vous seriez un excellent rapporteur pour ce texte. Vous trouverez un résumé de la proposition en suivant le lien ci-dessous.<br />
+<br />
+Veuillez vous authentifier sur la page de la revue en nous indiquant si vous participerez à cette évaluation ou, mieux encore, pour nous faire part de vos recommandations concernant la publication de ce texte.<br />
+<br />
+L’évaluation est attendue pour le {$reviewDueDate}.<br />
+<br />
+Si vous n’avez pas votre identifiant pour le site de la revue, vous pouvez utiliser le lien suivant pour enregistrer un nouveau mot de passe. {$passwordResetUrl}<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+Nous vous serons reconnaissants de tenir compte de notre demande.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+« {$submissionTitle} »<br />
+<br />
+{$submissionAbstract}]]></body>
+        <description><![CDATA[Ce courriel est automatiquement envoyé lorsque la date d’échéance de confirmation d’un rapporteur est écoulée (voir Options de révision sous Paramètres> Flux des travaux> Révision) et l’accès du rapporteur en un clic est activé. Les tâches planifiées doivent être configurées et activées (voir le fichier de configuration du site).]]></description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST_SUBSEQUENT">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
+<br />
+Ce message concerne le texte « {$submissionTitle} », qui est en cours d’évaluation pour {$contextName}.<br />
+<br />
+Suite à l’évaluation de ce texte, l’auteur a soumis une version révisée de sa proposition. Nous serions heureux d’avoir votre avis sur cette nouvelle version.<br />
+<br />
+Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour nous indiquer si vous participerez à cette évaluation ou, mieux encore, pour nous faire part de vos recommandations concernant la publication de ce texte.<br />
+<br />
+L’évaluation est attendue pour le {$reviewDueDate}.<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+Nous vous serons reconnaissants de tenir compte de notre demande.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+« {$submissionTitle} »<br />
+<br />
+{$submissionAbstract}]]></body>
+        <description><![CDATA[Ce courriel du rédacteur de section à un rapporteur demande que le rapporteur accepte ou refuse la tâche d’examiner une proposition pour une deuxième fois ou plus. Il fournit des informations sur la proposition, comme le titre et le résumé, la date d’échéance de l’examen et la façon d’accéder à la proposition elle-même. Ce message est utilisé lorsque le processus de révision standard est sélectionné dans Administration> Paramètres> Flux des travaux> Révision et que l’accès d’un relecteur est activé. (Autrement voir REVIEW_REQUEST_ATTACHED_SUBSEQUENT.)]]></description>
+    </email_text>
+    <email_text key="REVIEW_REQUEST_ATTACHED_SUBSEQUENT">
+        <subject>Demande d’évaluation d’un article</subject>
+        <body><![CDATA[Chère/cher {$reviewerName},<br />
+<br />
+Ce message concerne le texte « {$submissionTitle} », qui est en cours d’évaluation pour {$contextName}.<br />
+<br />
+Suite à l’évaluation de ce texte, l’auteur a soumis une version révisée de sa proposition. Nous serions heureux d’avoir votre avis sur cette nouvelle version.<br />
+<br />
+Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour nous indiquer si vous participerez à cette évaluation ou, mieux encore, pour nous faire part de vos recommandations concernant la publication de ce texte.<br />
+<br />
+L’évaluation est attendue pour le {$reviewDueDate}.<br />
+<br />
+Lien de la proposition : {$submissionReviewUrl}<br />
+<br />
+Nous vous serons reconnaissants de tenir compte de notre demande.<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+« {$submissionTitle} »<br />
+<br />
+{$submissionAbstract}]]></body>
+        <description><![CDATA[Ce courriel du responsable de rubrique à un rapporteur demande que le rapporteur accepte ou refuse la tâche d’examiner une proposition pour une deuxième fois ou plus. Il fournit des informations sur la proposition, comme le titre et le résumé, la date d’échéance de l’évaluation et la façon d’accéder à la proposition elle-même. Ce message est utilisé lorsque le processus de révision avec pièce jointe est sélectionné dans Administration> Paramètres> Flux des travaux> Révision.(Autrement voir REVIEW_REQUEST_SUBSEQUENT.)]]></description>
+    </email_text>
+    <email_text key="SUBMISSION_ACK_NOT_USER">
+        <subject>Accusé de réception d’une proposition</subject>
+        <body><![CDATA[Bonjour,<br />
+<br />
+Le texte intitulé « {$submissionTitle} » a été soumis par {$submitterName} à {$contextName}.<br />
+<br />
+Si vous avez des questions, n’hésitez pas à nous contacter. Nous vous remercions d’avoir pensé à notre revue pour la publication de vos travaux.<br />
+<br />
+{$editorialContactSignature}]]></body>
+        <description>Ce courriel, lorsque activé, est envoyé automatiquement aux autres auteurs,
+            i.e. ceux qui ne sont pas l’utilisateur enregistré faisant la proposition.</description>
+    </email_text>
+    <email_text key="EDITOR_DECISION_INITIAL_DECLINE">
+        <subject>Décision du rédacteur</subject>
+        <body><![CDATA[Chère/cher {$authorName},<br />
+<br />
+Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
+<br />
+Notre décision est de refuser votre proposition.<br />
+<br />
+{$editorialContactSignature}]]></body>
+        <description>Ce mail est envoyé à l’auteur si le rédacteur refuse la proposition avant même
+            de la faire évaluer.</description>
+    </email_text>
 </email_texts>
