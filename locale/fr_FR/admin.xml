@@ -19,12 +19,12 @@
 	<message key="admin.settings.noJournalRedirect">Ne pas réacheminer</message>
 	<message key="admin.settings.defaultMetricDescription">Votre installation OJS est paramétrée pour enregistrer plus d’une mesure d’utilisation. Les statistiques d’utilisation seront affichées dans plusieurs contextes. Il y a des cas où seulement une statistique d’utilisation doit être utilisée, par exemple pour afficher une liste ordonnée des articles les plus utilisés ou classer les résultats de recherche. Veuillez sélectionnez l’une des mesures comme mesure par défaut.</message>
 	<message key="admin.languages.confirmDisable">Êtes-vous certain(e) de vouloir désactiver cette instance locale ? Cela pourrait avoir un impact sur toute revue utilisant actuellement cette instance.</message>
-	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Le téléchargement de fichiers de langue depuis le serveur Web du Public Knowledge Project n’est pas disponible actuellement car : </p>
+	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Le téléchargement de fichiers de langues depuis le serveur Web du Public Knowledge Project n’est pas disponible actuellement car :</p>
 <ul>
 <li>Votre serveur n’a pas ou ne permet pas l’exécution de l’utilitaire GNU "tar".</li>
-<li>OJS est incapable de modifier le fichier de registre régional, généralement "registry/locales.xml".</li>
+<li>OJS est incapable de modifier le fichier de registre régional, qui est généralement "registry/locales.xml".</li>
 </ul>
-<p>Les fichiers de langue peuvent être téléchargés manuellement depuis le <a href="http://pkp.sfu.ca"> site Web de PKP </a>. </p>]]></message>
+<p>Les fichiers de langue peuvent être téléchargés manuellement depuis le <a href="http://pkp.sfu.ca">site Web de PKP</a>.</p>]]></message>
 	<message key="admin.languages.primaryLocaleInstructions">Cette langue sera la langue par défaut du site et de toute revue hébergée.</message>
 	<message key="admin.languages.supportedLocalesInstructions">Sélectionnez toutes les langues qui doivent être prises en charge sur le site. Les langues sélectionnées seront disponibles pour toutes les revues hébergées sur le site, et vont également apparaître dans un menu de sélection de langue présent sur chaque page (mais qui peut être désactivé pour les pages spécifiques à une revue). S’il n’y a qu’une seule langue qui est sélectionnée, le menu de sélection de langue n’apparaîtra pas et les paramètres d’extension de langues ne seront pas disponibles pour les revues.</message>
 	<message key="admin.locale.maybeIncomplete">Les paramètres locaux ("locales") indiqués peuvent être incomplets.</message>
@@ -79,7 +79,7 @@
 	<message key="admin.categories.confirmDelete">Voulez-vous vraiment supprimer cette catégorie ?</message>
 	<message key="admin.categories.name">Nom</message>
 	<message key="admin.categories.nameRequired">Un nom de catégorie est requis.</message>
-	<message key="admin.presses.createInstructions">Le rôle de directeur ou directrice de la revue vous sera automatique attribué. Après avoir crée une nouvelle revue, vous serez dirigé(e) vers l’assistant de configuration afin d'achever la configuration initiale de la revue.</message>
+	<message key="admin.presses.createInstructions">Le rôle de directeur ou directrice de la revue vous sera automatique attribué. Après avoir crée une nouvelle revue, vous serez dirigé(e) vers l’assistant de configuration afin d’achever la configuration initiale de la revue.</message>
 	<message key="admin.scheduledTask.subscriptionExpiryReminder">Rappel d’expiration d’abonnement</message>
 	<message key="admin.scheduledTask.openAccessNotification">Avis de libre accès</message>
 	<message key="admin.scheduledTask.reviewReminder">Rappel d’évaluation</message>
