@@ -16,9 +16,9 @@
 	<message key="section.default.title">Articles</message>
 	<message key="section.default.abbrev">ART</message>
 	<message key="section.default.policy"></message>
-
+	
 	<message key="default.genres.article">Texte de l’article</message>
-
+	
 	<!--
 	 *
 	 * DEFAULT - Default settings for setup items.
@@ -27,14 +27,14 @@
 	<message key="default.journalSettings.checklist.notPreviouslyPublished">La soumission n’a pas déjà été publiée et n’est pas actuellement évaluée par une autre revue. Sinon, fournir une explication dans le champ « Commentaires à l’éditeur ».</message>
 	<message key="default.journalSettings.checklist.fileFormat">Le fichier de la soumission est dans un des formats de fichier suivants : OpenOffice, Microsoft Word, RTF ou WordPerfect.</message>
 	<message key="default.journalSettings.checklist.addressesLinked">Lorsque c’est possible, les URLs des références ont été fournies.</message>
-	<message key="default.journalSettings.checklist.submissionAppearance">Le texte est à simple interligne, utilise une police de 12 points, emploie l’italique plutôt que le souligné (sauf pour les adresses URL) et place toutes les illustrations, figures et tableaux aux endroits appropriés dans le texte plutôt qu’à la fin.</message>
-	<message key="default.journalSettings.checklist.bibliographicRequirements"><![CDATA[Le texte se conforme aux exigences stylistiques et bibliographiques décrites dans les  <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Directives aux auteurs</a>, qui se trouvent dans la section « À propos de la revue ».]]></message>
+	<message key="default.journalSettings.checklist.submissionAppearance">Le texte est présenté avec une interligne simple, utilise une taille de police de 12 points, emploie l’italique (et non le soulignement) et place les illustrations, figures et tableaux aux endroits appropriés du texte (et non à la fin).</message>
+	<message key="default.journalSettings.checklist.bibliographicRequirements"><![CDATA[Le texte se conforme aux exigences stylistiques et bibliographiques décrites dans les  <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Consignes aux auteurs</a>, qui se trouvent dans la section « À propos de la revue ».]]></message>
 	<message key="default.journalSettings.privacyStatement">Les informations personnelles saisies par l’intermédiaire de ce site seront exclusivement utilisées aux fins indiquées par la revue et ne seront communiquées à aucune autre partie.</message>
 	<message key="default.journalSettings.openAccessPolicy">Cette revue propose un accès libre immédiat aux contenus publiés se basant sur le principe que rendre la recherche disponible au public gratuitement facilite un plus grand échange du savoir, à l’échelle de la planète.</message>
 	<message key="default.journalSettings.authorSelfArchivePolicy">Les auteurs ont la permission et sont encouragés à diffuser les travaux soumis à la revue sur un site Web personnel ou un dépôt institutionnel autant avant qu’après leur publication dans cette revue (tout en donnant les détails bibliographiques du numéro de la revue, le cas échéant).</message>
-	<message key="default.journalSettings.copyeditInstructions"><![CDATA[<p>L’étape de la révision de texte vise à améliorer le débit, la clarté, la grammaire, la formulation, et le formatage de l’article. Elle représente la dernière occasion pour l’auteur d’apporter des modifications substantielles au texte, la prochaine étape étant limitée aux corrections d’erreurs typographiques et de formatage.</p>
+	<message key="default.journalSettings.copyeditInstructions"><![CDATA[<p>L’étape de la révision de texte vise à améliorer le débit, la clarté, le respect des normes grammaticales, le choix des mots et la mise en forme de l’article. Elle représente la dernière occasion pour l’auteur d’apporter des modifications substantielles au texte, l’étape suivante étant limitée aux corrections d’erreurs typographiques et de mise en forme.</p>
 
-<p>Le fichier à réviser est en format Word ou .rtf et peut donc être facilement révisé comme un document de traitement de texte. Les instructions affichées ici proposent deux approches pour la révision de texte. L’une est basée sur la fonctionnalité Suivi des modifications de Microsoft Word et exige que le réviseur, le rédacteur et l’auteur aient accès à ce programme. L’autre système, un logiciel indépendant, a été emprunté, avec leur autorisation, au Harvard Educational Review. Le rédacteur de la revue peut modifier ces instructions, afin que des suggestions puissent être faites pour améliorer le processus pour cette revue. </p>
+<p>Le fichier à réviser est en format Word ou .rtf et peut donc être facilement révisé dans un logiciel de traitement de texte. Les consigens fournies ici proposent deux approches pour la révision de texte. L’une est basée sur la fonctionnalité Suivi des modifications de Microsoft Word et exige que le réviseur, le rédacteur et l’auteur aient accès à ce programme. L’autre système repose sur l’utlisation d’un logiciel indépendant emprunté, avec leur autorisation, au Harvard Educational Review. Le rédacteur de la revue peut modifier ces instructions, afin que des suggestions puissent être faites pour améliorer le processus. </p>
 
 <h4>Systèmes de révision de texte</h4>
 
@@ -96,26 +96,26 @@ Avant d’apporter des changements importants à la structure ou à l’organisa
 <li>Le commentaire contient une réponse aux QetR aux rédacteurs</li></ol>]]></message>
 	
 	<message key="default.journalSettings.refLinkInstructions"><![CDATA[<h4>Pour ajouter des liens de références au processus de mise en page</h4>
-	<p>Quand vous convertissez une soumission en format HTML ou PDF, assurez-vous que tous les hyperliens dans les soumissions sont actifs.</p>
-	<h4>A. Quand l’auteur fournit un lien avec la référence</h4>
-	<ol>
-	<li>Quand la soumission est encore dans son format de traitement de texte (par ex., Word), ajouter le groupe de mots AFFICHER L’ÉLÉMENT à la fin de la référence possédant un URL.</li>
-	<li>Convertir cette phrase en hyperlien en la surlignant et en utilisant l’outil d’insertion d’hyperliens de Word et l’URL préparé au #2.</li>
-	</ol>
-	<h4>B. Permettre aux lecteurs d’utiliser Google Scholar pour les références</h4>
-	<ol>
-	<li>Quand la soumission est encore dans son format de traitement de texte (par ex., Word), copier le titre de l’ouvrage concerné dans la liste de références (si le titre semble être trop commun – par ex., « Paix » - copier alors l’auteur et le titre).</li>
+    <p>Quand vous convertissez une proposition en format HTML ou PDF, assurez-vous que tous les hyperliens dans les propositions sont actifs.</p>
+    <h4>A. Quand l’auteur fournit un lien avec la référence</h4>
+    <ol>
+    <li>Quand la proposition est encore dans son format de traitement de texte (par ex., Word), ajouter le groupe de mots AFFICHER L’ÉLÉMENT à la fin de la référence possédant un URL.</li>
+    <li>Convertir cette phrase en hyperlien en la surlignant et en utilisant l’outil d’insertion d’hyperliens de Word et l’URL préparé au #2.</li>
+    </ol>
+    <h4>B. Permettre aux lecteurs d’utiliser Google Scholar pour les références</h4>
+    <ol>
+    <li>Quand la proposition est encore dans son format de traitement de texte (par ex., Word), copier le titre de l’ouvrage concerné dans la liste de références (si le titre semble être trop commun – par ex., « Paix » - copier alors l’auteur et le titre).</li>
     <li>Coller le titre de la référence entre les %22, en plaçant un + entre chaque mot&nbsp;: http://scholar.google.com/scholar?q=%22COLLER+LE+TITRE+ICI%22&hl=en&lr=&btnG=Search</li>
-	<li>Ajouter le groupe de mots RECHERCHE GS à la fin de chaque citation dans la liste des références de la soumission.</li>
-	<li>Convertir ce groupe de mots en un hyperlien en le surlignant et en utilisant l’outil d’insertion d’hyperliens de Word et l’URL préparé au #2.</li>
-	</ol>
-	<h4>C. Permettre aux lecteurs de chercher des références avec un DOI</h4>
-	<ol>
-	<li>Quand la soumission est encore en format Word, copier un ensemble de références dans la requête textuelle de référence croisée http://www.crossref.org/freeTextQuery/</li>
-	<li>Copier chaque DOI que la requête fournie dans l’URL suivant (entre = et &)&nbsp;: http://www.cmaj.ca/cgi/external_ref?access_num=COLLER LE DOI#ICI&link_type=DOI</li>
-	<li>Ajouter le groupe de mots Référence croisée à la fin de chaque citation dans la liste de références de la soumission.</li>
-	<li>Convertir ce groupe de mots en un hyperlien en le surlignant et en utilisant l’outil d’insertion d’hyperliens de Word et l’URL préparé au #2.</li>
-	</ol>]]></message>
+    <li>Ajouter le groupe de mots RECHERCHE GS à la fin de chaque citation dans la liste des références de la proposition.</li>
+    <li>Convertir ce groupe de mots en un hyperlien en le surlignant et en utilisant l’outil d’insertion d’hyperliens de Word et l’URL préparé au #2.</li>
+    </ol>
+    <h4>C. Permettre aux lecteurs de chercher des références avec un DOI</h4>
+    <ol>
+    <li>Quand la proposition est encore en format Word, copier un ensemble de références dans la requête textuelle de référence croisée http://www.crossref.org/freeTextQuery/</li>
+    <li>Copier chaque DOI que la requête fournie dans l’URL suivant (entre = et &)&nbsp;: http://www.cmaj.ca/cgi/external_ref?access_num=COLLER LE DOI#ICI&link_type=DOI</li>
+    <li>Ajouter le groupe de mots Référence croisée à la fin de chaque citation dans la liste de références de la proposition.</li>
+    <li>Convertir ce groupe de mots en un hyperlien en le surlignant et en utilisant l’outil d’insertion d’hyperliens de Word et l’URL préparé au #2.</li>
+    </ol>]]></message>
 	
 	<message key="default.journalSettings.proofingInstructions"><![CDATA[<p>L’étape de correction d’épreuves vise à corriger toute erreur dans le formatage, la grammaire et l’orthographe de l’épreuve. Des modifications plus substantielles ne peuvent être effectuées à cette étape, à moins que cela ne soit discuté avec le Responsable de rubrique. Dans Mise en page, cliquez sur AFFICHER L’ÉPREUVE pour voir le HTML, le PDF et les autres formats de fichiers disponibles utilisés dans la publication de cet article.</p>
 <h4>Pour les erreurs de grammaire et d’orthographe</h4>
@@ -150,11 +150,11 @@ Le paragraphe qui commence par « Ce dernier sujet... » n’est pas en retrait.
 	<message key="default.journalSettings.clockssLicense"><![CDATA[Cette revue utilise le système CLOCKSS pour créer un système d’archivage distribué parmi les bibliothèques participantes et permet à ces bibliothèques de créer des archives permanentes de la revue à des fins de conservation et de reconstitution. <a href="http://clockss.org/"> Plus ... </a>]]></message>
 	
 	<!-- Default settings for payment items. -->
-	<message key="default.journalSettings.publicationFee">Publication d’article</message>
+	<message key="default.journalSettings.publicationFee">Article</message>
 	<message key="default.journalSettings.purchaseArticleFee">Acheter un article</message>
 	<message key="default.journalSettings.purchaseIssueFee">Acheter un numéro</message>
 	<message key="default.journalSettings.membershipFeeDescription">Le paiement des frais vous inscrira en tant que membre de cette association pendant un an et vous accordera un accès gratuit à cette revue.</message>
-		
+	
 	<!-- Group defaults -->
 	<message key="default.groups.name.manager">Directeur de la revue</message>
 	<message key="default.groups.plural.manager">Directeurs de la revue</message>
@@ -170,19 +170,19 @@ Le paragraphe qui commence par « Ce dernier sujet... » n’est pas en retrait.
 	<message key="default.groups.abbrev.sectionEditor">RÉDRUB</message>
 	<message key="default.groups.name.subscriptionManager">Responsable des abonnements</message>
 	<message key="default.groups.plural.subscriptionManager">Responsables des abonnements</message>
-	<message key="default.groups.abbrev.subscriptionManager">RespAB</message>
+	<message key="default.groups.abbrev.subscriptionManager">RESPABO</message>
 	
 	<!-- Genre Defaults -->
 	<message key="default.genres.researchInstrument">Instruments de recherche</message>
-	<message key="default.genres.researchMaterials">Matériels de recherche</message>
+	<message key="default.genres.researchMaterials">Matériaux de recherche</message>
 	<message key="default.genres.researchResults">Résultats de recherche</message>
 	<message key="default.genres.transcripts">Transcriptions</message>
 	<message key="default.genres.dataAnalysis">Analyse de données</message>
-	<message key="default.genres.dataSet">Ensemble de données</message>
+	<message key="default.genres.dataSet">Jeux de données</message>
 	<message key="default.genres.sourceTexts">Sources textuelles</message>
 	
-	<message key="default.groups.name.externalReviewer">Rapporteur</message>
-	<message key="default.groups.plural.externalReviewer">Rapporteurs</message>
+	<message key="default.groups.name.externalReviewer">Évaluateur</message>
+	<message key="default.groups.plural.externalReviewer">Évaluateurs</message>
 	<message key="default.groups.abbrev.externalReviewer">ÉVAL</message>
 	<message key="default.journalSettings.emailSignature"><![CDATA[<br/>
 ________________________________________________________________________<br/>
