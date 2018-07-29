@@ -38,20 +38,24 @@
 	<message key="author.submit.addReasonsForWaiver">Veuillez utiliser la zone de commentaires ci-dessous pour expliquer pourquoi vous devriez être exempté(e) des frais.</message>
 	<message key="author.submit.mustEnterWaiverReason">Si vous effectuez une demande d’exemption, vous devez saisir une justification dans l’espace prévu à cet effet.</message>
 	<message key="author.submissions.queuedReviewSubsequent">Cycle d’évaluation {$round}</message>
+
 	<message key="author.submissions.queuedReviewRevisions">En évaluation : modifications requises</message>
 	<message key="author.submissions.queuedEditingCopyedit">En révision : correction du texte requise</message>
 	<message key="author.submissions.queuedEditingProofread">En révision : correction des épreuves requise</message>
+
 	<message key="author.submissions.uploadCopyeditedVersion">Transférer le fichier révisé</message>
 	<message key="author.submissions.proofreadingCorrections">Corrections des épreuves</message>
 	<message key="author.submissions.confirmDelete">Êtes-vous certain(e) de vouloir supprimer cette proposition incomplète ?</message>
 	<message key="author.submissions.viewStatus">Voir le statut</message>
 	<message key="author.submissions.noSubmissions">Aucune proposition.</message>
 	<message key="author.submit.journalSection">Rubrique de la revue</message>
+
 	<message key="author.submit.journalSectionDescription">Les articles doivent être soumis à la rubrique de la revue la plus appropriée.</message>
 	<message key="author.submit.verifyChecklist">Vous devez vous assurer que tous les éléments de la liste de contrôle sont satisfaits avant de continuer.</message>
-	<message key="author.submit.copyrightNoticeAgree">Les auteurs acceptent les conditions de l’avis de droits d’auteur, qui s’appliqueront à cette proposition si elle est publiée par la revue (des commentaires à l’intention du rédacteur peuvent être ajoutés ci-dessous).</message>
+	<message key="author.submit.copyrightNoticeAgree">Les auteurs acceptent les conditions de l’avis de droits d’auteur qui s’appliqueront à cette proposition si elle est publiée par la revue (des commentaires à l’intention du rédacteur peuvent être ajoutés ci-dessous).</message>
 	<message key="author.submit.copyrightNoticeAgreeRequired">Vous devez accepter les conditions de l’avis de droits d’auteur avant de continuer.</message>
-	<message key="submission.submit.coverNote">Commentaires à l’intention du rédacteur</message>
+	<message key="submission.submit.coverNote">Commentaires à l’intention de l’Éditeur</message>
+
 	<message key="author.submit.comments">Saisir du texte (optionnel)</message>
 	<message key="author.submit.form.sectionRequired">Veuillez sélectionner une rubrique de la revue appropriée à cette proposition.</message>
 	<message key="author.submit.form.localeRequired">Veuillez sélectionner une langue pour votre proposition.</message>
@@ -106,7 +110,8 @@
 	<message key="author.submit.suppFile.form.descriptionRequired">Veuillez saisir une description.</message>
 	<message key="author.suppFile.suppFilePublicIdentificationExists">L’identification publique du fichier supplémentaire existe déjà.</message>
 	<message key="author.suppFile.publicSuppFileIdentifier">Identifiant public du fichier supplémentaire.</message>
-	<message key="author.submit.confirmationDescription">Pour soumettre votre texte à {$journalTitle}, cliquer sur « Soumettre la proposition ». Le contact principal de la proposition recevra un accusé de réception par courriel et sera en mesure de consulter l’avancement du processus éditorial en se connectant au le site Web de la revue. Merci de l’intérêt que vous portez à la revue {$journalTitle}.</message>
+
+	<message key="author.submit.confirmationDescription">Pour soumettre votre texte à {$journalTitle}, cliquer sur « Soumettre la proposition ». Le contact principal de la proposition recevra un accusé de réception par courriel et pourra prendre connaissance de l’avancement du processus éditorial en se connectant au le site Web de la revue. Merci de l’intérêt que vous portez à la revue {$journalTitle}.</message>
 	<message key="author.submit.noFiles">Aucun fichier n’a été joint à cette proposition.</message>
 	<message key="author.submit.filesSummary">Sommaire du fichier</message>
 	<message key="author.submit.finishSubmission">Soumettre la proposition</message>
@@ -114,5 +119,6 @@
 	<message key="author.article.uploadAuthorVersion">Transférer la version de l’auteur</message>
 	<message key="author.article.copyeditedFile">Fichier corrigé</message>
 	<message key="author.article.authorRevisedFile">Fichier révisé par l’auteur</message>
-	<message key="author.submit.authorSubmitLoginMessage">Un compte d’utilisateur est requis pour soumettre une proposition à cette revue. Cela permet aux rédacteurs de suivre votre proposition et d’entrer en contact avec vous à chaque nouvelle étape du processus ou bien s’ils ont besoin d’informations complémentaires.</message>
+	<message key="author.submit.authorSubmitLoginMessage">Un compte d’utilisateur est requis pour soumettre une proposition à cette revue. Ce compte permet aux rédacteurs de suivre votre proposition et d’entrer en contact avec vous à chaque nouvelle étape du processus ou bien s’ils ont besoin d’informations complémentaires.</message>
+
 </locale>
