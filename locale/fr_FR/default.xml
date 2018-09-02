@@ -31,7 +31,7 @@
 	<message key="default.journalSettings.checklist.bibliographicRequirements"><![CDATA[Le texte se conforme aux exigences stylistiques et bibliographiques décrites dans les  <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Consignes aux auteurs</a>, qui se trouvent dans la section « À propos de la revue ».]]></message>
 	<message key="default.journalSettings.privacyStatement">Les informations personnelles saisies par l’intermédiaire de ce site seront exclusivement utilisées aux fins indiquées par la revue et ne seront communiquées à aucune autre partie.</message>
 	<message key="default.journalSettings.openAccessPolicy">Cette revue propose un accès libre immédiat aux contenus publiés se basant sur le principe que rendre la recherche disponible au public gratuitement facilite un plus grand échange du savoir, à l’échelle de la planète.</message>
-	<message key="default.journalSettings.authorSelfArchivePolicy">Les auteurs ont la permission et sont encouragés à diffuser les travaux soumis à la revue sur un site Web personnel ou un dépôt institutionnel autant avant qu’après leur publication dans cette revue (tout en donnant les détails bibliographiques du numéro de la revue, le cas échéant).</message>
+	<message key="default.journalSettings.authorSelfArchivePolicy">Les auteurs ont l’autorisation de et sont encouragés à diffuser les travaux soumis à la revue sur un site Web personnel ou un dépôt institutionnel autant avant qu’après leur publication dans cette revue (tout en donnant les détails bibliographiques du numéro de la revue, le cas échéant).</message>
 	<message key="default.journalSettings.copyeditInstructions"><![CDATA[<p>L’étape de la révision de texte vise à améliorer le débit, la clarté, le respect des normes grammaticales, le choix des mots et la mise en forme de l’article. Elle représente la dernière occasion pour l’auteur d’apporter des modifications substantielles au texte, l’étape suivante étant limitée aux corrections d’erreurs typographiques et de mise en forme.</p>
 
 <p>Le fichier à réviser est en format Word ou .rtf et peut donc être facilement révisé dans un logiciel de traitement de texte. Les consigens fournies ici proposent deux approches pour la révision de texte. L’une est basée sur la fonctionnalité Suivi des modifications de Microsoft Word et exige que le réviseur, le rédacteur et l’auteur aient accès à ce programme. L’autre système repose sur l’utlisation d’un logiciel indépendant emprunté, avec leur autorisation, au Harvard Educational Review. Le rédacteur de la revue peut modifier ces instructions, afin que des suggestions puissent être faites pour améliorer le processus. </p>
@@ -156,17 +156,17 @@ Le paragraphe qui commence par « Ce dernier sujet... » n’est pas en retrait.
 	<message key="default.journalSettings.membershipFeeDescription">Le paiement des frais vous inscrira en tant que membre de cette association pendant un an et vous accordera un accès gratuit à cette revue.</message>
 	
 	<!-- Group defaults -->
-	<message key="default.groups.name.manager">Directeur de la revue</message>
-	<message key="default.groups.plural.manager">Directeurs de la revue</message>
+	<message key="default.groups.name.manager">Directrice ou directeur de la revue</message>
+	<message key="default.groups.plural.manager">Directrices ou directeurs de la revue</message>
 	<message key="default.groups.abbrev.manager">DIR</message>
-	<message key="default.groups.name.editor">Rédacteur</message>
-	<message key="default.groups.plural.editor">Rédacteurs</message>
+	<message key="default.groups.name.editor">Éditrice ou éditeur</message>
+	<message key="default.groups.plural.editor">Éditrices ou éditeurs</message>
 	<message key="default.groups.abbrev.editor">RÉD</message>
-	<message key="default.groups.name.guestEditor">Rédacteur invité</message>
-	<message key="default.groups.plural.guestEditor">Rédacteurs invités</message>
+	<message key="default.groups.name.guestEditor">Éditrice ou éditeur invité(e)</message>
+	<message key="default.groups.plural.guestEditor">Éditrices ou éditeurs invité(e)s</message>
 	<message key="default.groups.abbrev.guestEditor">RÉDINV</message>
-	<message key="default.groups.name.sectionEditor">Rédacteur de rubrique</message>
-	<message key="default.groups.plural.sectionEditor">Rédacteurs de rubrique</message>
+	<message key="default.groups.name.sectionEditor">Éditrice ou éditeur de rubrique</message>
+	<message key="default.groups.plural.sectionEditor">Éditrices ou éditeurs de rubrique</message>
 	<message key="default.groups.abbrev.sectionEditor">RÉDRUB</message>
 	<message key="default.groups.name.subscriptionManager">Responsable des abonnements</message>
 	<message key="default.groups.plural.subscriptionManager">Responsables des abonnements</message>

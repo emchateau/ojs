@@ -25,7 +25,7 @@
 	<message key="submission.abstract.wordCount.description">Le résumé doit comprendre moins de {$wordCount} mots.</message>
 	
 	<message key="submission.issueEntry">Métadonnées</message>
-	<message key="submission.submit.whatNext.description">La revue a été informée de la soumission de votre proposition et vous a envoyé une confirmation par courriel. Le rédacteur échangera avec vous une fois que votre proposition aura été examinée.</message>
+	<message key="submission.submit.whatNext.description">La revue a été informée de la soumission de votre proposition et vous a envoyé une confirmation par courriel. L’éditrice ou éditeur échangera avec vous une fois que votre proposition aura été examinée.</message>
 	<message key="grid.action.galleyInIssueEntry">Les épreuves se trouvent dans le dossier du numéro.</message>
 	<message key="grid.action.issueEntry">Voir les métadonnées de la proposition</message>
 

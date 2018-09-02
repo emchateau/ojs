@@ -31,7 +31,7 @@
 	<message key="author.submit.supplementaryFiles">Transférer les fichiers supplémentaires</message>
 	<message key="author.submit.confirmation">Confirmer la proposition</message>
 	<message key="author.submit.nextSteps">Étapes suivantes</message>
-	<message key="submission.submit.cancelSubmission">Vous pouvez compléter cette proposition plus tard en la sélectionnant dans le menu des propositions actives de l’auteur.</message>
+	<message key="submission.submit.cancelSubmission">Vous pouvez compléter cette proposition plus tard en la sélectionnant dans le menu des propositions actives de l’auteur(e).</message>
 	<message key="author.submit.notAccepting">Cette revue n’accepte pas de proposition pour le moment.</message>
 	<message key="author.submit.requestWaiver">Demande d’exemption</message>
 	<message key="author.submit.qualifyForWaiver">Veuillez envisager d’être exempté(e) des frais de proposition pour cet article</message>
@@ -52,7 +52,7 @@
 
 	<message key="author.submit.journalSectionDescription">Les articles doivent être soumis à la rubrique de la revue la plus appropriée.</message>
 	<message key="author.submit.verifyChecklist">Vous devez vous assurer que tous les éléments de la liste de contrôle sont satisfaits avant de continuer.</message>
-	<message key="author.submit.copyrightNoticeAgree">Les auteurs acceptent les conditions de l’avis de droits d’auteur qui s’appliqueront à cette proposition si elle est publiée par la revue (des commentaires à l’intention du rédacteur peuvent être ajoutés ci-dessous).</message>
+	<message key="author.submit.copyrightNoticeAgree">Les auteurs acceptent les conditions de l’avis de droits d’auteur qui s’appliqueront à cette proposition si elle est publiée par la revue (des commentaires à l’intention de l’éditeur peuvent être ajoutés ci-dessous).</message>
 	<message key="author.submit.copyrightNoticeAgreeRequired">Vous devez accepter les conditions de l’avis de droits d’auteur avant de continuer.</message>
 	<message key="submission.submit.coverNote">Commentaires à l’intention de l’Éditeur</message>
 
@@ -60,11 +60,11 @@
 	<message key="author.submit.form.sectionRequired">Veuillez sélectionner une rubrique de la revue appropriée à cette proposition.</message>
 	<message key="author.submit.form.localeRequired">Veuillez sélectionner une langue pour votre proposition.</message>
 	<message key="submission.submit.privacyStatement">Déclaration de confidentialité de la revue</message>
-	<message key="author.submit.reorderInstructions">Réordonner la liste des auteurs pour qu’elle corresponde à l’ordre dans lequel ils apparaîtront au moment de la publication.</message>
-	<message key="author.submit.reorder">Réordonner le nom de l’auteur.</message>
+	<message key="author.submit.reorderInstructions">Réordonner la liste des auteurs pour qu’elle corresponde à l’ordre dans lequel leurs noms apparaîtront au moment de la publication.</message>
+	<message key="author.submit.reorder">Réordonner le nom de l’auteur(e).</message>
 	<message key="author.submit.selectPrincipalContact">Contact principal pour les échanges liés à la préparation éditoriale.</message>
-	<message key="author.submit.addAuthor">Ajouter un auteur</message>
-	<message key="author.submit.deleteAuthor">Supprimer un auteur</message>
+	<message key="author.submit.addAuthor">Ajouter une auteure ou une auteure ou un auteur</message>
+	<message key="author.submit.deleteAuthor">Supprimer une auteure ou un auteur</message>
 	<message key="author.submit.submissionIndexingDescription">Fournir les termes pour l’indexation de la proposition. Séparer les termes par un point-virgule (terme1; terme2; terme3).</message>
 	<message key="author.submit.coverageInstructions">Renvoie à un lieu, une période historique ou chronologique ou à des caractéristiques d’un échantillon de recherche.</message>
 	<message key="author.submit.languageInstructions"><![CDATA[anglais=en; français=fr; espagnol=es. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">Codes supplémentaires</a>.]]></message>
@@ -116,9 +116,9 @@
 	<message key="author.submit.filesSummary">Sommaire du fichier</message>
 	<message key="author.submit.finishSubmission">Soumettre la proposition</message>
 	<message key="author.submit.submissionComplete">La proposition a été soumise. Merci de l’intérêt que vous portez à la revue {$journalTitle}.</message>
-	<message key="author.article.uploadAuthorVersion">Transférer la version de l’auteur</message>
+	<message key="author.article.uploadAuthorVersion">Transférer la version de l’auteur(e)</message>
 	<message key="author.article.copyeditedFile">Fichier corrigé</message>
-	<message key="author.article.authorRevisedFile">Fichier révisé par l’auteur</message>
-	<message key="author.submit.authorSubmitLoginMessage">Un compte d’utilisateur est requis pour soumettre une proposition à cette revue. Ce compte permet aux rédacteurs de suivre votre proposition et d’entrer en contact avec vous à chaque nouvelle étape du processus ou bien s’ils ont besoin d’informations complémentaires.</message>
+	<message key="author.article.authorRevisedFile">Fichier révisé par l’auteur(e)</message>
+	<message key="author.submit.authorSubmitLoginMessage">Un compte d’utilisateur est requis pour soumettre une proposition à cette revue. Ce compte permet aux éditeurs de suivre votre proposition et d’entrer en contact avec vous à chaque nouvelle étape du processus ou bien s’ils ont besoin d’informations complémentaires.</message>
 
 </locale>

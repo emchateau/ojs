@@ -12,7 +12,7 @@
   -->
 
 <locale name="fr_FR" full_name="Français (France)">
-	<message key="editor.home">Page d’accueil du rédacteur</message>
+	<message key="editor.home">Page d’accueil de l’éditrice ou éditeur</message>
 	<message key="editor.reassign">Réattribuer</message>
 	<message key="editor.submissionsAndPublishing">Propositions et publication</message>
 	<message key="editor.submissionQueue">Propositions en attente</message>
@@ -20,15 +20,15 @@
 	<message key="editor.publishing">Publication</message>
 	<message key="editor.publishedIssues">Numéros publiés</message>
 	<message key="editor.allSections">Toutes les rubriques</message>
-	<message key="editor.allEditors">Tous les rédacteurs</message>
+	<message key="editor.allEditors">Tous les éditeurs</message>
 	<message key="editor.me">Moi</message>
 	<message key="editor.publicIdentificationExists">L’identifiant public « {$publicIdentifier} » existe déjà pour un autre objet (numéro, article, épreuves ou fichier complémentaire). Veuillez choisir des identifiants uniques au sein de votre revue.</message>
 	<message key="editor.submissionArchive.noSubmissions">Aucune proposition dans les archives.</message>
 	<message key="editor.submissionArchive.saveChanges">Enregistrer les modifications apportées aux propositions archivées ? Les propositions à supprimer seront définitivement effacées du système.</message>
 	<message key="editor.submissionArchive.confirmDelete">Êtes-vous certain(e) de vouloir supprimer définitivement cette proposition ?</message>
 	<message key="editor.submissionReview.confirmDecision">Êtes-vous certain(e) de vouloir enregistrer cette décision ?</message>
-	<message key="editor.submissionReview.emailWillArchive">Cette proposition sera archivée après l’envoi du courriel « Avis à l’auteur » ou lorsque le bouton « Omettre le courriel » aura été cliqué.</message>
-	<message key="editor.submissionReview.cannotSendToCopyediting">Avant d’envoyer une proposition à l’étape de révision, utilisez le lien « Avertir l’auteur » pour l’informer de la décision et sélectionnez la version à envoyer.</message>
+	<message key="editor.submissionReview.emailWillArchive">Cette proposition sera archivée après l’envoi du courriel « Avis à l’auteur(e) » ou lorsque le bouton « Omettre le courriel » aura été cliqué.</message>
+	<message key="editor.submissionReview.cannotSendToCopyediting">Avant d’envoyer une proposition à l’étape de révision, utilisez le lien « Avertir l’auteur(e) » pour l’informer de la décision et sélectionnez la version à envoyer.</message>
 	<message key="editor.notifyUsers">Informer les utilisateurs</message>
 	<message key="editor.notifyUsers.allReaders">Tous les lecteurs ({$count} utilisateurs)</message>
 	<message key="editor.notifyUsers.allAuthors">Tous les auteurs publiés ({$count} utilisateurs)</message>
@@ -39,7 +39,7 @@
 	<message key="editor.notifyUsers.allUsers">Envoyer ce message à tous les utilisateurs associés à cette revue ({$count} utilisateurs)</message>
 	<message key="editor.notifyUsers.interestedUsers">Envoyer ce message aux utilisateurs associés à cette revue qui ont indiqué qu’ils désiraient recevoir les informations ({$count} utilisateurs)</message>
 	<message key="editor.notifyUsers.includeToc">Inclure le sommaire de ce numéro :</message>
-	<message key="editor.editorAdministration">Administration du rédacteur</message>
+	<message key="editor.editorAdministration">Administration de l’éditrice ou éditeur</message>
 	<message key="editor.issues.createIssue">Créer un numéro</message>
 	<message key="editor.issues.editIssue">Gestion de numéro : {$issueIdentification}</message>
 	<message key="editor.issues.currentIssue">Numéro courant</message>
@@ -135,7 +135,7 @@
 	<message key="editor.article.schedulePublication">Calendrier de publication</message>
 	<message key="editor.article.scheduleForPublication">Publication prévue pour</message>
 	<message key="editor.article.scheduleForPublication.toBeAssigned">À attribuer</message>
-	<message key="editor.article.payment.publicationFeeNotPaid">Frais de publication non payés. Pour prévoir la publication d’un article, avertissez l’auteur qu’il doit payer les frais ou demander une dérogation.</message>
+	<message key="editor.article.payment.publicationFeeNotPaid">Frais de publication non payés. Pour prévoir la publication d’un article, avertissez l’auteur(e) qu’il doit payer les frais ou demander une dérogation.</message>
 	<message key="editor.article.removeCoverImageFileNotFound">L’image de page de couverture à supprimer est introuvable. Elle est peut-être déjà supprimée. Essayez de recharger la page.</message>
 	<message key="grid.action.removeArticle">Retirer l’article de ce numéro</message>
 	<message key="editor.article.remove">Supprimer</message>
