@@ -105,7 +105,7 @@
 	<message key="article.articles">Articles</message>
 	<message key="article.submissionId">ID de la proposition</message>
 	<message key="article.title">Titre</message>
-	<message key="article.authors">Auteurs</message>
+	<message key="article.authors">auteurs</message>
 	<message key="article.indexingInformation">Informations d’indexation</message>
 	<message key="article.metadata">Métadonnées</message>
 	<message key="article.journalSection">Rubrique de revue</message>
@@ -119,7 +119,7 @@
 	<message key="article.type">Type, méthode ou approche</message>
 	<message key="article.language">Langue</message>
 	<message key="article.sectionEditor">RR</message>
-	<message key="article.commentsToEditor">Commentaires de l’auteur</message>
+	<message key="article.commentsToEditor">Commentaires de l’auteur(e)</message>
 	<message key="article.submission">Proposition</message>
 	<message key="article.submissions">Propositions</message>
 	<message key="article.abstract">Résumé</message>
@@ -140,17 +140,17 @@
 	<message key="submission.submissionEditing">Révision de la proposition</message>
 	<message key="submission.changeSection">Changer pour</message>
 	<message key="submission.sent">Envoyé</message>
-	<message key="submission.editorDecision">Décision du rédacteur</message>
+	<message key="submission.editorDecision">Décision de l’éditrice ou éditeur</message>
 	<message key="submission.round">Cycle {$round}</message>
-	<message key="submission.editorReview">Évaluation du rédacteur</message>
-	<message key="submission.notifyAuthor">Aviser l’auteur</message>
-	<message key="submission.notifyEditor">Aviser le rédacteur</message>
-	<message key="submission.editorAuthorRecord">Registre des courriels des rédacteurs et auteurs</message>
+	<message key="submission.editorReview">Évaluation de l’éditrice ou éditeur</message>
+	<message key="submission.notifyAuthor">Aviser l’auteur(e)</message>
+	<message key="submission.notifyEditor">Aviser l’éditrice ou éditeur</message>
+	<message key="submission.editorAuthorRecord">Registre des courriels des éditeurs et auteurs</message>
 	<message key="submission.reviewersVersion">Version du fichier annotée par l’évaluateur</message>
 	<message key="submission.postReviewVersion">Version du fichier après l’évaluation</message>
-	<message key="submission.editorVersion">Version du rédacteur</message>
-	<message key="submission.authorsRevisedVersion">Version du fichier révisée par l’auteur</message>
-	<message key="submission.authorVersion">Version de l’auteur</message>
+	<message key="submission.editorVersion">Version de l’éditrice ou éditeur</message>
+	<message key="submission.authorsRevisedVersion">Version du fichier révisée par l’auteur(e)</message>
+	<message key="submission.authorVersion">Version de l’auteur(e)</message>
 	<message key="submission.copyediting">Correction (copyediting)</message>
 	<message key="submission.copyedit">Corriger (copyedit)</message>
 	<message key="submission.proofreading">Correction des épreuves</message>
@@ -166,11 +166,11 @@
 	<message key="submissions.initial">Initiale</message>
 	<message key="submissions.proofread">Corriger les épreuves</message>
 	<message key="submissions.initialProof">Première correction des épreuves</message>
-	<message key="submissions.postAuthor">Après l’auteur</message>
+	<message key="submissions.postAuthor">Après l’auteur(e)</message>
 	<message key="submissions.reviewRound">Cycle d’évaluation</message>
 	<message key="submissions.proof">Épreuves</message>
-	<message key="submissions.editorDecision">Décision du rédacteur</message>
-	<message key="submissions.editorRuling">Décision finale du rédacteur</message>
+	<message key="submissions.editorDecision">Décision de l’éditrice ou éditeur</message>
+	<message key="submissions.editorRuling">Décision finale de l’éditrice ou éditeur</message>
 	<message key="submission.eventLog">Registre d’événements</message>
 
 	<!-- Submission list search engine -->
@@ -207,14 +207,14 @@
 	<message key="user.noRoles.submitArticleRegClosed">Soumettre un article : l’inscription d’auteur est désactivée.</message>
 
 	<!-- Rôle -->
-	<message key="user.role.manager">Directeur de la revue</message>
-	<message key="user.role.subEditor">Rédacteur de rubrique</message>
+	<message key="user.role.manager">Directrice ou directeur de la revue</message>
+	<message key="user.role.subEditor">Éditrice ou éditeur de rubrique</message>
 	<message key="user.role.subscriptionManager">Responsable des abonnements</message>
-	<message key="user.role.managers">Directeurs de revue</message>
-	<message key="user.role.subEditors">Rédacteurs de rubriques</message>
+	<message key="user.role.managers">Directrices ou directeurs de revue</message>
+	<message key="user.role.subEditors">Éditrices ou éditeurs de rubriques</message>
 	<message key="user.role.subscriptionManagers">Responsables des abonnements</message>
-	<message key="user.role.journalAssistant">Assistant</message>
-	<message key="user.role.journalAssistants">Assistants</message>
+	<message key="user.role.journalAssistant">Assistant(e)</message>
+	<message key="user.role.journalAssistants">Assistant(e)s</message>
 
 	<!-- Common Issue Terms -->
 	<message key="issue.issue">Numéro</message>
@@ -253,7 +253,7 @@
 	<message key="subscriptions.status.needsInformation">En attente d’informations</message>
 	<message key="subscriptions.status.needsApproval">En attente d’approbation</message>
 	<message key="subscriptions.status.awaitingManualPayment">En attente de paiement manuel</message>
-	<message key="subscriptions.status.awaitingOnlinePayment">En attente de paiment en ligne</message>
+	<message key="subscriptions.status.awaitingOnlinePayment">En attente de paiement en ligne</message>
 	<message key="subscriptions.status.noSubscription">Vous n’avez pas d’abonnement actif.</message>
 	<message key="subscriptions.status.other">Autre, voir Notes</message>
 	<message key="subscriptions.individualDescription">Les abonnements individuels demandent de se connecter pour avoir accès au contenu auquel on est abonné.</message>
@@ -271,14 +271,14 @@
 	<message key="submission.event.general.issueAssigned">Proposition assignée à un numéro</message>
 	<message key="submission.event.general.articlePublished">Article publié</message>
 
-	<message key="submission.event.author.authorRevision">Révision de l’auteur soumise</message>
+	<message key="submission.event.author.authorRevision">Révision de l’auteur(e) soumise</message>
 
-	<message key="submission.event.general.authorRevision">Fichier de révision de l’auteur mis à jour</message>
+	<message key="submission.event.general.authorRevision">Fichier de révision de l’auteur(e) mis à jour</message>
 
-	<message key="submission.event.editor.editorAssigned">Rédacteur assigné à la proposition</message>
-	<message key="submission.event.editor.editorUnassigned">Rédacteur non assigné à la proposition</message>
-	<message key="submission.event.editor.editorDecision">Décision du rédacteur soumise</message>
-	<message key="submission.event.editor.editorFile">Fichier du rédacteur mis à jour</message>
+	<message key="submission.event.editor.editorAssigned">Éditrice ou éditeur assigné(e) à la proposition</message>
+	<message key="submission.event.editor.editorUnassigned">Éditrice ou éditeur non assigné(e) à la proposition</message>
+	<message key="submission.event.editor.editorDecision">Décision de l’éditrice ou éditeur soumise</message>
+	<message key="submission.event.editor.editorFile">Fichier de l’éditrice ou éditeur mis à jour</message>
 	<message key="submission.event.editor.submissionArchived">Proposition envoyée aux archives</message>
 	<message key="submission.event.editor.submissionRestored">Proposition récupérée dans les archives</message>
 
@@ -323,7 +323,7 @@
 	<!-- Search -->
 	<message key="search.results.orderBy">Trier les résultats par</message>
 	<message key="search.results.orderBy.article">Titre de l’article</message>
-	<message key="search.results.orderBy.author">Auteur</message>
+	<message key="search.results.orderBy.author">Auteur(e)</message>
 	<message key="search.results.orderBy.date">Date de publication</message>
 	<message key="search.results.orderBy.issue">Numéro</message>
 	<message key="search.results.orderBy.journal">Titre de la revue</message>
@@ -368,7 +368,7 @@ Notez que l’interface OAI peut être désactivée pour ce site en modifiant la
 	<message key="plugins.categories.auth.description">Les plugiciels d’autorisation permettent à Open Journal Systems de déléguer la tâche d’authentification des utilisateurs à d’autres systèmes, comme les serveurs LDAP.</message>
 	<message key="plugins.categories.generic.description">Les plugiciels génériques sont utilisés pour étendre les possibilités d’Open Journal Systems de nombreuses façons qui ne sont pas prises en charge par les autres catégories de plugiciels.</message>
 	
-	<message key="manager.setup.lockssDescription"><![CDATA[Open Journal Systems prend en charge le système <a href="http://lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) afin d’assurer l’archivage sécuritaire et permanent pour la revue. LOCKSS est un logiciel libre développé à la bibliothèque de l’université Stanford qui permet aux bibliothécaires de conserver des revues numériques sélectionnées en interrogant régulièrement les sites Web des revues inscrites pour du contenu récemment publié et en l’archivant. Chaque archive est continuellement validée  par rapport aux caches des autres bibliothèques, et si son contenu est corrompu ou perdu, les autres caches de la revue sont utilisés pour le restaurer.
+	<message key="manager.setup.lockssDescription"><![CDATA[Open Journal Systems prend en charge le système <a href="http://lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) afin d’assurer l’archivage sécuritaire et permanent pour la revue. LOCKSS est un logiciel libre développé à la bibliothèque de l’université Stanford qui permet aux bibliothécaires de conserver des revues numériques sélectionnées en interrogeant régulièrement les sites Web des revues inscrites pour du contenu récemment publié et en l’archivant. Chaque archive est continuellement validée  par rapport aux caches des autres bibliothèques, et si son contenu est corrompu ou perdu, les autres caches de la revue sont utilisés pour le restaurer.
 	<br /><br />
 	La configuration de la prise en charge de LOCKSS pour Open Journal Systems n’a pas à être effectuée avant que le processus de publication soit bien enclenché, en quel cas, suivre ces deux étapes :]]></message>
 	
@@ -468,7 +468,7 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="sectionEditor.completedEditorialAssignments">Travail éditorial terminé</message>
 	<message key="sectionEditor.noneAssigned">Aucune proposition assignée.</message>
 	<message key="sectionEditor.copyedit.confirmRenotify">Aviser de nouveau ce réviseur redémarrera la tâche qui lui a été assignée. Êtes-vous certain(e) de vouloir le faire ?</message>
-	<message key="sectionEditor.author.confirmRenotify">Aviser de nouveau cet auteur redémarrera la tâche qui lui a été assignée. Êtes-vous certain(e) de vouloir le faire ?</message>
+	<message key="sectionEditor.author.confirmRenotify">Aviser de nouveau cet(te) auteur(e) redémarrera la tâche qui lui a été assignée. Êtes-vous certain(e) de vouloir le faire ?</message>
 	<message key="sectionEditor.layout.confirmRenotify">Aviser de nouveau ce responsable de la mise en page redémarrera la tâche qui lui a été assignée. Êtes-vous certain(e) de vouloir le faire ?</message>
 	<message key="sectionEditor.proofreader.confirmRenotify">Aviser de nouveau ce correcteur d’épreuves redémarrera la tâche qui lui a été assignée. Êtes-vous certain(e) de vouloir le faire ?</message>
 	
@@ -477,7 +477,7 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="sectionEditor.regrets">Message de refus</message>
 	<message key="sectionEditor.regrets.link">Voir refus, annulations, cycles précédents</message>
 	<message key="sectionEditor.regrets.reviewRound">Évaluation par les pairs, cycle {$round}</message>
-	<message key="sectionEditor.regrets.decisionRound">Décision du rédacteur, cycle {$round}</message>
+	<message key="sectionEditor.regrets.decisionRound">Décision de l’éditrice ou éditeur, cycle {$round}</message>
 	<message key="sectionEditor.regrets.regretsAndCancels">Message de refus de l’évaluateur et annulations</message>
 	<message key="sectionEditor.regrets.regret">Message de refus</message>
 	<message key="sectionEditor.regrets.result">Résultat</message>
@@ -503,22 +503,22 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	
 	<!-- Used in submission review -->
 	<message key="reviewer.article.fileToBeReviewed">Fichier à évaluer</message>
-	<message key="reviewer.article.notifyTheEditor">Aviser le rédacteur</message>
+	<message key="reviewer.article.notifyTheEditor">Aviser l’éditrice ou éditeur</message>
 	<message key="reviewer.article.canDoReview">Fera l’évaluation</message>
 	<message key="reviewer.article.cannotDoReview">Ne fera pas l’évaluation</message>
 	<message key="reviewer.article.restrictedFileAccess">La proposition sera disponible si un évaluateur accepte d’effectuer l’évaluation</message>
-	<message key="reviewer.article.submissionEditor">Rédacteur de la proposition</message>
+	<message key="reviewer.article.submissionEditor">Éditrice ou éditeur de la proposition</message>
 	<message key="reviewer.article.reviewerCommentsDescription">Saisir ou copier les commentaires de l’évaluation ici</message>
-	<message key="reviewer.article.editorToEnter">À saisir par le rédacteur</message>
+	<message key="reviewer.article.editorToEnter">À saisir par l’éditrice ou éditeur</message>
 	<message key="reviewer.article.sendReminder">Envoyer un rappel</message>
 	<message key="reviewer.article.automatic">(Auto)</message>
 	<message key="reviewer.article.recommendation">Recommandation</message>
-	<message key="reviewer.article.submitReview">Soumettre l’évaluation au rédacteur</message>
+	<message key="reviewer.article.submitReview">Soumettre l’évaluation à l’éditrice ou éditeur</message>
 	<message key="reviewer.article.reviewerComments">Commentaires</message>
 	<message key="reviewer.article.uploadedFile">Fichiers téléchargés</message>
 	<message key="reviewer.article.reviewersAnnotatedVersion">Version téléchargée par l’évaluateur</message>
-	<message key="reviewer.article.reviewersAnnotatedVersionDescription">(Si vous voulez annoter le fichier, à l’intention du rédacteur, enregistrez-le.)</message>
-	<message key="reviewer.article.schedule.request">Demande du rédacteur</message>
+	<message key="reviewer.article.reviewersAnnotatedVersionDescription">(Si vous voulez annoter le fichier, à l’intention de l’éditrice ou éditeur, enregistrez-le.)</message>
+	<message key="reviewer.article.schedule.request">Demande de l’éditrice ou éditeur</message>
 	<message key="reviewer.article.schedule.response">Votre réponse</message>
 	<message key="reviewer.article.schedule.submitted">Évaluation soumise</message>
 	<message key="reviewer.article.schedule.due">Évaluation à échéance</message>
@@ -533,15 +533,15 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="reviewer.article.reviewSchedule">Calendrier d’évaluation</message>
 	<message key="reviewer.article.reviewSteps">Étapes de l’évaluation</message>
 	<message key="reviewer.article.reviewerGuidelines">Consignes aux évaluateurs</message>
-	<message key="reviewer.article.reviewGuidelinesDescription">Les consignes pour l’évaluation fourniront aux évaluateurs des critères pour juger de la pertinence d’une proposition en vue d’une publication dans la revue. Elles peuvent inclure toute instruction spéciale nécessaire à la préparation d’une évaluation efficace et utile. En effectuant l’évaluation, les évaluateurs se voient présenter deux boîtes de texte, la première « Pour l’auteur et le rédacteur », la seconde « Pour le rédacteur ». À la place, le directeur de la revue peut créer un formulaire d’évaluation par les pairs sous « Formulaires d’évaluation ». Dans tous les cas, les rédacteurs auront l’option d’inclure les évaluations dans leur correspondance avec l’auteur.</message>
-	<message key="reviewer.article.notifyEditorA">Aviser le rédacteur de la proposition</message>
+	<message key="reviewer.article.reviewGuidelinesDescription">Les consignes pour l’évaluation fourniront aux évaluateurs des critères pour juger de la pertinence d’une proposition en vue d’une publication dans la revue. Elles peuvent inclure toute instruction spéciale nécessaire à la préparation d’une évaluation efficace et utile. En effectuant l’évaluation, les évaluateurs se voient présenter deux boîtes de texte, la première « Pour l’auteur(e) et l’éditrice ou éditeur », la seconde « Pour l’éditrice ou éditeur ». À la place, la directrice ou le directeur de la revue peut créer un formulaire d’évaluation par les pairs sous « Formulaires d’évaluation ». Dans tous les cas, les éditrices ou éditeurs auront l’option d’inclure les évaluations dans leur correspondance avec l’auteur(e).</message>
+	<message key="reviewer.article.notifyEditorA">Aviser l’éditrice ou éditeur de la proposition</message>
 	<message key="reviewer.article.notifyEditorB">de votre décision d’accepter ou non l’évaluation.</message>
 	<message key="reviewer.article.consultGuidelines">Si vous acceptez de réaliser l’évaluation, consultez les consignes aux évaluateurs ci-dessous.</message>
 	<message key="reviewer.article.downloadSubmission">Cliquez sur les noms de fichier pour télécharger et évaluer (à l’écran ou sur papier) les fichiers associés à cette proposition.</message>
 	<message key="reviewer.article.enterCompetingInterests"><![CDATA[Déclarez si vous êtes en conflit d’intérêts vis-à-vis de ces travaux (voir <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">Politique de CI</a>).]]></message>
 	<message key="reviewer.competingInterests">Conflits d’intérêts</message>
 	<message key="reviewer.article.enterReviewA">Cliquer sur l’icône pour saisir ou coller votre évaluation de cette proposition.</message>
-	<message key="reviewer.article.uploadFile">En outre, vous pouvez transférer les fichiers afin qu’ils soient consultés par le rédacteur et/ou l’auteur.</message>
+	<message key="reviewer.article.uploadFile">En outre, vous pouvez transférer les fichiers afin qu’ils soient consultés par l’éditrice ou éditeur et/ou l’auteur(e).</message>
 	<message key="reviewer.article.selectRecommendation">Choisir une recommandation et soumettre l’évaluation pour compléter le processus. Vous devez rédiger une évaluation ou transférer un fichier avant de choisir une recommandation.</message>
 	<message key="reviewer.article.selectRecommendation.byEditor">Corriger ou ajuster la recommandation de l’évaluateur.</message>
 	<message key="reviewer.article.mustSelectDecision">Aucune recommandation n’a été sélectionnée. Vous devez choisir une recommandation à soumettre.</message>
@@ -582,11 +582,11 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="submission.review.mustUploadFileForReview">Le courriel de demande ne peut être envoyé avant qu’une version d’évaluation ne soit disponible.</message>
 	
 	<!-- Submission Tracking - Copyedit Specific -->
-	<message key="submission.copyedit.mustUploadFileForInitialCopyedit">Le courriel de demande ne peut être envoyé avant qu’un fichier ne soit sélectionné pour révision dans « Décision du rédacteur », « Page d’évaluation ».</message>
+	<message key="submission.copyedit.mustUploadFileForInitialCopyedit">Le courriel de demande ne peut être envoyé avant qu’un fichier ne soit sélectionné pour révision dans « Décision de l’éditrice ou éditeur », « Page d’évaluation ».</message>
 	<message key="submission.copyedit.mustUploadFileForCopyedit">Le courriel de demande ne peut être envoyé avant que le fichier ne soit transféré pour révision.</message>
 	<message key="submission.copyedit.initialCopyedit">Révision initiale</message>
-	<message key="submission.copyedit.editorsCopyedit">Révision du rédacteur</message>
-	<message key="submission.copyedit.editorAuthorReview">Révision de l’auteur</message>
+	<message key="submission.copyedit.editorsCopyedit">Révision de l’éditrice ou éditeur</message>
+	<message key="submission.copyedit.editorAuthorReview">Révision de l’auteur(e)</message>
 	<message key="submission.copyedit.finalCopyedit">Révision finale</message>
 	<message key="submission.copyedit.copyeditVersion">Version R</message>
 	<message key="submission.copyedit.selectCopyeditor">Assigner un réviseur</message>
@@ -611,8 +611,8 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	
 	<!-- Submission History -->
 	<message key="submission.logType.article">Article</message>
-	<message key="submission.logType.author">Auteur</message>
-	<message key="submission.logType.editor">Rédacteur</message>
+	<message key="submission.logType.author">Auteur(e)</message>
+	<message key="submission.logType.editor">Éditrice ou éditeur</message>
 	<message key="submission.logType.review">Évaluation</message>
 	<message key="submission.logType.copyedit">Révision</message>
 	<message key="submission.logType.layout">Mise en page</message>
@@ -623,17 +623,17 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<!-- Submission Email Log -->
 	
 	<!-- Submission Comments -->
-	<message key="submission.comments.editorAuthorCorrespondence">Correspondance entre rédacteur et auteur</message>
+	<message key="submission.comments.editorAuthorCorrespondence">Correspondance entre éditrice ou éditeur et auteur</message>
 	<message key="submission.comments.copyeditComments">Commentaires de révision</message>
 	<message key="submission.comments.viewableDescription"><![CDATA[Ces commentaires peuvent être partagés avec l’auteur.<br />
 (Après l’enregistrement, d’autres commentaires peuvent être ajoutés.)]]></message>
-	<message key="submission.comments.canShareWithAuthor">Pour l’auteur et le rédacteur</message>
-	<message key="submission.comments.cannotShareWithAuthor">Pour le rédacteur</message>
+	<message key="submission.comments.canShareWithAuthor">Pour l’auteur(e) et l’éditrice ou éditeur</message>
+	<message key="submission.comments.cannotShareWithAuthor">Pour l’éditrice ou éditeur</message>
 	<message key="submission.comments.blindCcReviewers">Après l’envoi, présenter une copie révisable en CCI pour l’envoyer aux évaluateurs.</message>
-	<message key="submission.comments.forAuthorEditor">Pour l’auteur et le rédacteur</message>
-	<message key="submission.comments.forEditor">Pour le rédacteur</message>
-	<message key="submission.comments.saveAndEmailAuthor">Enregistrer et envoyer un courriel à l’auteur</message>
-	<message key="submission.comments.saveAndEmailEditor">Enregistrer et envoyer un courriel au rédacteur</message>
+	<message key="submission.comments.forAuthorEditor">Pour l’auteur(e) et l’éditrice ou éditeur</message>
+	<message key="submission.comments.forEditor">Pour l’éditrice ou éditeur</message>
+	<message key="submission.comments.saveAndEmailAuthor">Enregistrer et envoyer un courriel à l’auteur(e)</message>
+	<message key="submission.comments.saveAndEmailEditor">Enregistrer et envoyer un courriel à l’éditrice ou éditeur</message>
 	
 	<!-- Registration -->
 	<message key="user.register.selectContext">Sélectionner une revue à laquelle vous enregistrer</message>
@@ -696,7 +696,7 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="search.withinJournal">Dans</message>
 	<message key="search.allJournals">Toutes les revues</message>
 	<message key="search.authorIndex">Explorer l’index des auteurs</message>
-	<message key="search.authorDetails">Détails de l’auteur</message>
+	<message key="search.authorDetails">Détails de l’auteur(e)</message>
 	<message key="search.syntaxInstructions"><![CDATA[<h4>Pistes de recherche : </h4><ul>
 <li>Les termes de recherche sont insensibles à la casse</li>
 <li>Les noms communs sont ignorés</li>
@@ -767,7 +767,7 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="about.delayedOpenAccess">Libre accès différé</message>
 	<message key="about.delayedOpenAccessDescription1">Le contenu de cette revue sera disponible en libre accès.</message>
 	<message key="about.delayedOpenAccessDescription2">mois après la publication d’un numéro.</message>
-	<message key="about.authorSelfArchive">Auto-archivage par l’auteur</message>
+	<message key="about.authorSelfArchive">Auto-archivage par l’auteur(e)</message>
 	<message key="about.archiving">Archivage</message>
 	<message key="about.subscriptions">Abonnements</message>
 	<message key="about.subscriptions.individual">Abonnements individuels</message>
@@ -819,7 +819,7 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="payment.type.subscription">Frais d’abonnement</message>
 	<message key="payment.type.donation">Dons</message>
 	<message key="payment.requestPublicationFee">Frais de publication demandés ({$feeAmount})</message>
-	<message key="payment.notFound">Un payement a été demandé, mais la demande a expirée. Contacter le directeur du journal pour obtenir des détails.</message>
+	<message key="payment.notFound">Un payement a été demandé, mais la demande a expiré. Contacter la directrice ou le directeur de la revue pour obtenir des détails.</message>
 	
 	<message key="payment.donation.makeDonation">Faire un don</message>
 	
@@ -887,7 +887,7 @@ Actuellement, votre serveur prend en charge mbstring: <strong>{$supportsMBString
 	<message key="installer.maxFileUploadSize"><![CDATA[Votre serveur permet actuellement le téléchargement de fichiers : <strong>{$maxFileUploadSize}</strong>]]></message>
 	<message key="installer.localeInstructions">La langue principale à utiliser pour ce système. Veuillez consulter la documentation d’OJS si vous êtes intéressé à prendre en charge des langues qui ne sont pas listées ici.</message>
 	<message key="installer.additionalLocalesInstructions">Sélectionner une ou plusieurs langues supplémentaires à prendre en charge dans ce système. Ces langues seront disponibles pour fins d’utilisation par les revues hébergées sur le site. Des langues supplémentaires peuvent également être installées en tout temps à partir de l’interface d’administration du site.</message>
-	<message key="installer.filesDirInstructions">Saisir le nom du chemin d’accès complet à un répertoire existant où les fichiers téléchargés doivent être conservés. Ce répertoire ne doit pas être accessible directement à partir du Web. Veuillez vous assurer que ce répertoire existe et qu’il est accessible en écriture avant de procéder à l’installation. Les noms de chemin d’accès de Windows doivent utiliser des barres obliques, par ex., "C:/myJournal/files".</message>
+	<message key="installer.filesDirInstructions">Saisir le nom du chemin d’accès complet à un répertoire existant où les fichiers téléchargés doivent être conservés. Ce répertoire ne doit pas être accessible directement à partir du Web. Veuillez vous assurer que ce répertoire existe et qu’il est accessible en écriture avant de procéder à l’installation. Les noms de chemin d’accès de Windows doivent utiliser des barres obliques, par ex., « C:/myJournal/files ».</message>
 	<message key="installer.databaseSettingsInstructions">OJS nécessite l’accès à une base de données SQL pour stocker ses données. Voir la configuration nécessaire ci-dessus pour une liste des base de données prises en cahrge. Dans les champs ci-dessus, fournir les paramètres à utiliser pour se connecter à la base de données.</message>
 	<message key="installer.installApplication">Installer Open Journal Systems</message>
 	<message key="installer.upgradeApplication">Mettre à jour Open Journal Systems</message>
@@ -920,15 +920,15 @@ Actuellement, votre serveur prend en charge mbstring: <strong>{$supportsMBString
 	<message key="log.review.reviewerRated">{$reviewerName} a été classé pour le cycle {$round} d’évaluation de la proposition {$submissionId}.</message>
 	<message key="log.review.reviewDueDateSet">La date d’échéance pour le cycle {$round} d’évaluation de la proposition {$submissionId} par {$reviewerName} a été établie à {$dueDate}.</message>
 	<message key="log.review.reviewRecommendationSet">La recommandation pour le cycle {$round} d’évaluation de la proposition {$submissionId} par {$reviewerName} a été fixée.</message>
-	<message key="log.review.reviewRecommendationSetByProxy">La recommandation pour le cycle {$round} d’évaluation de la proposition {$submissionId} a été fixée pas le rédacteur, {$editorName}, au nom de l’évaluateur, {$reviewerName}.</message>
+	<message key="log.review.reviewRecommendationSetByProxy">La recommandation pour le cycle {$round} d’évaluation de la proposition {$submissionId} a été fixée pas l’éditrice ou éditeur, {$editorName}, au nom de l’évaluateur, {$reviewerName}.</message>
 	<message key="log.review.resubmit">La proposition {$submissionId} a été soumise de nouveau pour évaluation.</message>
 	<message key="log.review.reviewDeclined">{$reviewerName} a refusé le cycle {$round} d’évaluation de la proposition {$submissionId}.</message>
 	<message key="log.review.reviewAccepted">{$reviewerName} a accepté le cycle {$round} d’évaluation de la proposition {$submissionId}.</message>
 	<message key="log.review.reviewDeclinedByProxy">{$userName} a refusé le cycle {$round} d’évaluation pour la proposition {$submissionId} au nom de {$reviewerName}.</message>
 	<message key="log.review.reviewAcceptedByProxy">{$userName} a accepté le cycle {$round} d’évaluation de la proposition {$submissionId} au nom de {$reviewerName}.</message>
-	<message key="log.review.reviewFileByProxy">Le rédacteur, {$userName}, a téléchargé le fichier d’évaluation pour le cycle {$round} de la proposition {$submissionId} au nom de l’évaluateur, {$reviewerName}.</message>
+	<message key="log.review.reviewFileByProxy">l’éditrice ou éditeur, {$userName}, a téléchargé le fichier d’évaluation pour le cycle {$round} de la proposition {$submissionId} au nom de l’évaluateur, {$reviewerName}.</message>
 	<message key="log.review.reviewerFile">Le fichier d’un évaluateur a été téléchargé.</message>
-	<message key="log.editor.decision">Une décision du rédacteur ({$decision}) pour l’article {$submissionId} a été enregistrée par {$editorName}.</message>
+	<message key="log.editor.decision">Une décision de l’éditrice ou éditeur ({$decision}) pour l’article {$submissionId} a été enregistrée par {$editorName}.</message>
 	<message key="log.editor.recommendation">Une recommandation d’éditeur ({$decision}) pour l’article {$submissionId} a été enregistrée par {$editorName}.</message>
 	
 	
@@ -938,17 +938,17 @@ Actuellement, votre serveur prend en charge mbstring: <strong>{$supportsMBString
 	<message key="log.copyedit.finalEditComplete">{$copyeditorName} a terminé la révision finale de la proposition {$submissionId}.</message>
 	<message key="log.copyedit.copyeditorAssigned">{$copyeditorName} s’est vu assigner la révision de la proposition {$submissionId}.</message>
 	<message key="log.copyedit.copyeditorFile">Une version révisée du fichier de la proposition a été téléchargée.</message>
-	<message key="log.copyedit.authorFile">Une version révisée par l’auteur du fichier de la proposition a été téléchargée.</message>
+	<message key="log.copyedit.authorFile">Une version révisée par l’auteur(e) du fichier de la proposition a été téléchargée.</message>
 	
 	<message key="log.layout.layoutEditorAssigned">{$editorName} a été désigné comme responsable de la mise en page pour la proposition {$submissionId}.</message>
 	<message key="log.layout.layoutEditorUnassigned">{$editorName} n’a pas été désigné comme responsable de la mise en page pour la proposition {$submissionId}.</message>
 	<message key="log.layout.layoutEditComplete">{$editorName} a terminé la modificaiton de la mise en page pour la proposition {$submissionId}.</message>
 	
 	<message key="log.editor.metadataModified">Les métadonnées pour cet article ont été modifiées par {$editorName}.</message>
-	<message key="log.editor.editorFile">Une version du rédacteur du fichier de la proposition a été téléchargée.</message>
+	<message key="log.editor.editorFile">Une version de l’éditrice ou éditeur du fichier de la proposition a été téléchargée.</message>
 	<message key="log.editor.archived">La proposition {$submissionId} a été archivée.</message>
 	<message key="log.editor.restored">La proposition {$submissionId} a été replacée en file d’attente.</message>
-	<message key="log.editor.editorAssigned">{$editorName} a été désigné comme rédacteur de la proposition {$submissionId}.</message>
+	<message key="log.editor.editorAssigned">{$editorName} a été désigné(e) comme éditrice ou éditeur de la proposition {$submissionId}.</message>
 	
 	<message key="log.proofread.assign">{$assignerName} a assigné à {$proofreaderName} la correction des épreuves de la proposition {$submissionId}.</message>
 	<message key="log.proofread.complete">{$proofreaderName} a soumis {$submissionId} pour que la proposition soit intégrée dans le calendrier.</message>
@@ -969,7 +969,7 @@ Actuellement, votre serveur prend en charge mbstring: <strong>{$supportsMBString
 	<message key="rt.admin.options">Outils pour les articles de la revue</message>
 	<message key="rt.admin.relatedItems">Outils pour les éléments connexes</message>
 	
-	<message key="rt.admin.settings.addComment">Ajouter des commentaires (permet aux lecteurs d’afficher des commentaires, le directeur de la revue pouvant les effacer).</message>
+	<message key="rt.admin.settings.addComment">Ajouter des commentaires (permet aux lecteurs d’afficher des commentaires, la directrice ou le directeur de la revue pouvant les effacer).</message>
 	<message key="rt.admin.settings.addComment.authenticated">Les utilisateurs doivent être inscrits et connectés pour publier, et l’anonymat n’est pas autorisé.</message>
 	<message key="rt.admin.settings.addComment.anonymous">Les utilisateurs doivent être inscrits et connectés pour publier, et l’anonymat est autorisé.</message>
 	<message key="rt.admin.settings.addComment.unauthenticated">Les utilisateurs n’ont pas besoin d’être inscrits pour publier, et l’anonymat est autorisé.</message>
@@ -988,14 +988,14 @@ La validation peut échouer sur les URL de recherche qui nécessitent des formul
 	
 	<message key="rt.metadata.dublinCore.primaryAuthor">Créateur</message>
 	
-	<message key="rt.metadata.pkp.primaryAuthor">Nom de l’auteur, affiliation, pays</message>
+	<message key="rt.metadata.pkp.primaryAuthor">Nom de l’auteur(e), affiliation, pays</message>
 	<message key="rt.metadata.pkp.peerReviewed">Article évalué par les pairs</message>
 	
 	<message key="rt.beNotifiedWhen">Être avisé lorsque…</message>
 	
 	<message key="rt.thisJournal">Rechercher dans la revue</message>
 	
-	<message key="rt.context.authorTermsDescription">Pour les articles ayant plus d’un auteur, laissez tous les noms cochés pour rechercher les ouvrages écrits par ces mêmes auteurs en collaboration, ou rechercher un auteur à la fois en cochant un nom seulement. Pour en savoir davantage sur la ressource recherchée, cliquer sur « À propos ». Ces ressources ont été sélectionnées en raison de leur pertinence et du libre accès (gratuit) à une partie ou à la totalité de leur contenu.</message>
+	<message key="rt.context.authorTermsDescription">Pour les articles ayant plus d’une auteure ou un auteur, laissez tous les noms cochés pour rechercher les ouvrages écrits par ces mêmes auteurs en collaboration, ou rechercher une auteure ou un auteur à la fois en cochant un nom seulement. Pour en savoir davantage sur la ressource recherchée, cliquer sur « À propos ». Ces ressources ont été sélectionnées en raison de leur pertinence et du libre accès (gratuit) à une partie ou à la totalité de leur contenu.</message>
 	
 	
 	<!-- Notification Types -->
@@ -1003,19 +1003,19 @@ La validation peut échouer sur les URL de recherche qui nécessitent des formul
 	<message key="notification.type.articleSubmitted">Un nouvel article, « {$title} », a été soumis.</message>
 	<message key="notification.type.editing">Événements de révision</message>
 	<message key="notification.type.submissionSubmitted">Un nouvel article, « {$title} », a été soumis.</message>
-	<message key="notification.type.editorDecisionComment">Un commentaire a été laissé concernant la décision du rédacteur pour « {$title} ».</message>
+	<message key="notification.type.editorDecisionComment">Un commentaire a été laissé concernant la décision de l’éditrice ou éditeur pour « {$title} ».</message>
 	<message key="notification.type.galleyModified">Une épreuve a été modifiée pour « {$title} ».</message>
 	<message key="notification.type.issuePublished">Un numéro a été publié.</message>
 	<message key="notification.type.newAnnouncement">Une nouvelle annonce a été créée.</message>
 	<message key="notification.type.reviewerFormComment">Une évaluation de formulaire d’évaluation a été soumise pour « {$title} ».</message>
 	<message key="notification.type.reviewing">Événements d’évaluation</message>
 	<message key="notification.type.site">Événements du site</message>
-	<message key="notification.type.submissionComment">Un rédacteur a fait un commentaire sur « {$title} ».</message>
+	<message key="notification.type.submissionComment">Une éditrice ou un éditeur a fait un commentaire sur « {$title} ».</message>
 	<message key="notification.type.submissions">Événements de soumission</message>
 	<message key="notification.type.public">Annonces publiques</message>
 	<message key="notification.type.userComment">Un lecteur a fait un commentaire sur « {$title} ».</message>
 	<message key="notification.savedIssueMetadata">Métadonnées du numéro sauvegardées.</message>
-	<message key="notification.type.editorAssignmentTask">Un nouvel article a été soumis. Un rédacteur doit lui être assigné.</message>
+	<message key="notification.type.editorAssignmentTask">Un nouvel article a été soumis. Une éditrice ou un éditeur doit lui être assigné(e).</message>
 	<message key="notification.type.assignProductionUser">Demander à un utilisateur de créer les épreuves en utilisant le lien « Ajouter » dans la liste des participants.</message>
 	<message key="notification.type.awaitingRepresentations">Épreuves en attente.</message>
 	<message key="notification.type.publicationScheduled">Cette proposition a été programmée pour cette publication.</message>
@@ -1026,11 +1026,11 @@ La validation peut échouer sur les URL de recherche qui nécessitent des formul
 	 *
 	-->
 	<!-- Authorization -->
-	<message key="user.authorization.copyeditorAssignmentMissing">Accès refusé ! Vous n’avez pas été désigné rédacteur ou éditeur de cet article.</message>
-	<message key="user.authorization.noContext">Aucune revue présente !</message>
+	<message key="user.authorization.copyeditorAssignmentMissing">Accès refusé. Vous n’avez pas été désigné(e) éditrice ou éditeur de cet article.</message>
+	<message key="user.authorization.noContext">Aucune revue présente</message>
 	<message key="user.authorization.sectionAssignment">Vous tentez d’accéder à un article qui ne fait pas partie de votre rubrique.</message>
-	<message key="user.authorization.invalidIssue">Numéro demandé invalide !</message>
-	<message key="user.authorization.invalidCopyditorSubmission">Dépôt du rédacteur non valide ou non requis !</message>
+	<message key="user.authorization.invalidIssue">Numéro demandé invalide</message>
+	<message key="user.authorization.invalidCopyditorSubmission">Dépôt de l’éditrice ou éditeur non valide ou non requis</message>
 	
 	<!-- Icons: Default "alt" text -->
 	
@@ -1056,7 +1056,7 @@ La validation peut échouer sur les URL de recherche qui nécessitent des formul
 	<message key="grid.catalogEntry.approvedRepresentation.message"><![CDATA[*<p>Approuver cette épreuve en vue de sa publication.</p>]]></message>
 	<message key="grid.catalogEntry.approvedRepresentation.removeMessage"><![CDATA[*<p>Retirer l’approbation pour ces épreuves.</p>]]></message>
 	<message key="search.cli.rebuildIndex.indexing">indexation de « {$journalName} »</message>
-	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Cette implémentation de recherche ne permet pas la réindexation par journal.</message>
+	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Cette implémentation de recherche ne permet pas la ré-indexation par journal.</message>
 	<message key="search.cli.rebuildIndex.unknownJournal">Le chemin d’accès donné « {$journalPath} » ne mène à aucun journal.</message>
 	
 	<message key="editor.issues.backIssues">Numéros précédents</message>
@@ -1103,8 +1103,8 @@ Prendre note que si votre administrateur de site a déjà inscrit ce site auprè
 	
 	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Le téléchargement des modules linguistiques à partir du serveur Web du Public Knowledge Project n’est pas disponible actuellement car :</p>
 	<ul>
-		<li>Votre serveur n’a pas ou ne permet pas l’exécution de l’utilitaire "tar" de GNU</li>
-		<li>OJS n’est pas capable de modifier le fichier de registre de langues, généralement "registry/locales.xml".</li>
+		<li>Votre serveur n’a pas ou ne permet pas l’exécution de l’utilitaire « tar » de GNU</li>
+		<li>OJS n’est pas capable de modifier le fichier de registre de langues, généralement « registry/locales.xml".</li>
 	</ul>
 <p>Les modules linguistiques peuvent être téléchargés manuellement à partir du <a href="http://pkp.sfu.ca">site Web de PKP</a>.</p>]]></message>
 	<message key="about.memberships">Adhésions</message>
@@ -1148,7 +1148,7 @@ Titre du système de classification]]></message>
 	<message key="payment.typeGIFt">Cadeau</message>
 	<message key="payment.typeGIFt.subscription">Abonnement</message>
 	<message key="log.review.reviewCancelled">Le cycle {$round} d’évaluation par {$reviewerName} pour la proposition {$submissionId} a été annulé.</message>
-	<message key="user.role.guestEditor">Rédacteur invité</message>
-	<message key="user.role.guestEditors">Rédacteurs invités</message>-->
+	<message key="user.role.guestEditor">Éditrice ou éditeur invité(e)</message>
+	<message key="user.role.guestEditors">Éditrices ou éditeurs invité(e)s</message>-->
 	
 </locale>
