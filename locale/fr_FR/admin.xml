@@ -27,17 +27,17 @@
 <p>Les fichiers de langue peuvent être téléchargés manuellement depuis le <a href="http://pkp.sfu.ca">site Web de PKP</a>.</p>]]></message>
 	<message key="admin.languages.primaryLocaleInstructions">Cette langue sera la langue par défaut du site et de toute revue hébergée.</message>
 	<message key="admin.languages.supportedLocalesInstructions">Sélectionnez toutes les langues qui doivent être prises en charge sur le site. Les langues sélectionnées seront disponibles pour toutes les revues hébergées, et vont également apparaître dans un menu de sélection de langue présent sur chaque page (mais qui peut être désactivé pour les pages spécifiques à une revue). S’il n’y a qu’une seule langue qui est sélectionnée, le menu de sélection de langue n’apparaîtra pas et les paramètres d’extension de langues ne seront pas disponibles pour les revues.</message>
-	<message key="admin.locale.maybeIncomplete">Les paramètres locaux ("locales") indiqués peuvent être incomplets.</message>
+	<message key="admin.locale.maybeIncomplete">Les paramètres locaux (« locales ») indiqués peuvent être incomplets.</message>
 	<message key="admin.languages.confirmUninstall">Êtes-vous sûr de vouloir désinstaller cette langue ? Cela affectera toute revue actuellement hébergée utilisant cette langue.</message>
 	<message key="admin.languages.installNewLocalesInstructions">Sélectionnez n’importe quelle langue supplémentaire pour qu’elle soit prise en charge par ce système. Les langues doivent être installées avant de pouvoir être utilisées par les revues hébergées. Lisez la documentation d’OJS pour plus d’informations sur la prise en charge de nouvelles langues.</message>
 	<message key="admin.languages.downloadFailed">Le téléchargement de la langue a échoué. Des explications sont contenues dans le message d’erreur ci-dessous.</message>
 	<message key="admin.languages.localeInstalled">La langue « {$locale} » a été installée.</message>
 	<message key="admin.languages.download">Télécharger la langue</message>
 	<message key="admin.languages.download.cannotOpen">Impossible d’ouvrir le descripteur de langue du site Web de PKP.</message>
-	<message key="admin.languages.download.cannotModifyRegistry">Impossible d’ajouter la nouvelle langue au fichier de registre des langues, qui est généralement "registry/locales.xml".</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Impossible d’ajouter la nouvelle langue au fichier de registre des langues, qui est généralement « registry/locales.xml ».</message>
 	<message key="admin.auth.ojs">Base de données utilisateurs d’OJS</message>
 	<message key="admin.auth.enableSyncProfiles">Activer la synchronisation du profil de l’utilisateur (si elle est prise en charge par ce plugiciel d’authentification). Les informations du profil de l’utilisateur seront automatiquement mises à jour depuis la source distante quand un utilisateur se connectera, et les modifications du profil (y compris le mot de passe) effectuées dans OJS seront automatiquement mises à jour sur la source distante. Si cette option n’est pas activée, les informations du profil OJS vont rester séparées de celles du profil sur la source distante.</message>
-	<message key="admin.auth.enableSyncPasswords">Permettre la modification du mot de passe de l’utilisateur (si elle est prise en charge par ce plugiciel d’authentification). Activer cette option permettra aux utilisateurs de modifier leur mot de passe OJS et d’utiliser la fonction "mot de passe oublié" pour réinitialiser leur mot de passe. Ces fonctions ne seront pas disponibles pour les utilisateurs utilisant une source d’authentification sur laquelle cette option n’est pas activée.</message>
+	<message key="admin.auth.enableSyncPasswords">Permettre la modification du mot de passe de l’utilisateur (si elle est prise en charge par ce plugiciel d’authentification). Activer cette option permettra aux utilisateurs de modifier leur mot de passe OJS et d’utiliser la fonction « mot de passe oublié » pour réinitialiser leur mot de passe. Ces fonctions ne seront pas disponibles pour les utilisateurs utilisant une source d’authentification sur laquelle cette option n’est pas activée.</message>
 	<message key="admin.auth.enableCreateUsers">Permettre la création d’utilisateurs (si elle est supportée par ce plugiciel d’authentification). Les utilisateurs créés avec OJS à l’aide de cette source d’authentification seront automatiquement ajoutés à la source d’authentification distante s’ils n’existent pas déjà. De plus, si cette source est la source d’authentification par défaut, les comptes OJS créés par l’intermédiaire d’une inscription d’utilisateur seront également ajoutés à la source distante d’authentification.</message>
 	<message key="admin.systemVersion">Version d’OJS</message>
 	<message key="admin.systemConfiguration">Configuration d’OJS</message>
@@ -64,14 +64,14 @@
 	<message key="admin.mergeUsers.into.description">Sélectionner un utilisateur à qui attribuer la paternité des textes de l’utilisateur précédent, ses attributions de révisions, etc.</message>
 	<message key="admin.mergeUsers.from.description">Sélectionner un utilisateur à fusionner avec le compte d’un autre utilisateur (par exemple, lorsque quelqu’un possède deux comptes). Le compte sélectionné en premier sera supprimé et ses propositions d’articles, attributions d’évaluation, etc., seront affectées au second compte.</message>
 	<message key="admin.mergeUsers.allUsers">Tous les utilisateurs inscrits possédant des rôles</message>
-	<message key="admin.mergeUsers.confirm">Êtes-vous certain(e) de vouloir fusionner le compte portant le nom d’utilisateur "{$oldAccountCount}" avec le compte portant le nom d’utilisateur "{$newUsername}" ? Le compte portant le nom d’utilisateur "{$oldAccountCount}" sera supprimé. Cette action est irréversible.</message>
+	<message key="admin.mergeUsers.confirm">Êtes-vous certain(e) de vouloir fusionner le compte portant le nom d’utilisateur « {$oldAccountCount} » avec le compte portant le nom d’utilisateur « {$newUsername} » ? Le compte portant le nom d’utilisateur « {$oldAccountCount} » sera supprimé. Cette action est irréversible.</message>
 	<message key="admin.mergeUsers.noneEnrolled">Aucun utilisateur inscrit.</message>
 	
 <!-- Categories -->
 	<message key="admin.categories">Catégories</message>
-	<message key="admin.categories.enable.description">S’il le veut, l’administrateur du site peut définir ici un ensemble de catégories visant à optimiser la gestion d’un grand nombre de titres. Les directeurs de revue pourront alors rattacher leur publication à plusieurs de ces catégories, et les lecteurs pourront consulter les revues disponibles par type de catégories.</message>
+	<message key="admin.categories.enable.description">S’il le veut, l’administrateur du site peut définir ici un ensemble de catégories visant à optimiser la gestion d’un grand nombre de titres. Les directrices ou directeurs de revue pourront alors rattacher leur publication à plusieurs de ces catégories, et les lecteurs pourront consulter les revues disponibles par type de catégories.</message>
 	<message key="admin.categories.disableCategories">Ne pas classer les revues par catégorie.</message>
-	<message key="admin.categories.enableCategories">Permettre aux directeurs de classer les revues par catégorie.</message>
+	<message key="admin.categories.enableCategories">Permettre aux directrices ou directeurs de classer les revues par catégorie.</message>
 	<message key="admin.categories.editTitle">Modifier une catégorie</message>
 	<message key="admin.categories.createTitle">Créer une catégorie</message>
 	<message key="admin.categories.create">Créer une nouvelle catégorie</message>
@@ -79,7 +79,7 @@
 	<message key="admin.categories.confirmDelete">Voulez-vous vraiment supprimer cette catégorie ?</message>
 	<message key="admin.categories.name">Nom</message>
 	<message key="admin.categories.nameRequired">Un nom de catégorie est requis.</message>
-	<message key="admin.presses.createInstructions">Le rôle de directeur ou directrice de la revue vous sera automatique attribué. Après avoir crée une nouvelle revue, vous serez dirigé(e) vers l’assistant de configuration afin d’achever la configuration initiale de la revue.</message>
+	<message key="admin.presses.createInstructions">Le rôle de directrice ou directeur de la revue vous sera automatique attribué. Après avoir crée une nouvelle revue, vous serez dirigé(e) vers l’assistant de configuration afin d’achever la configuration initiale de la revue.</message>
 	<message key="admin.scheduledTask.subscriptionExpiryReminder">Rappel d’expiration d’abonnement</message>
 	<message key="admin.scheduledTask.openAccessNotification">Avis de libre accès</message>
 	<message key="admin.scheduledTask.reviewReminder">Rappel d’évaluation</message>
