@@ -95,7 +95,7 @@ Nous attendons de vos nouvelles pour savoir s’il est possible pour vous de fou
 <br />
 Avec tous nos remerciements,<br />
 {$principalContactSignature}]]></body>
-        <description>Ce courriel encourage le destinaire à participer à l’initiative LOCKSS et à
+        <description>Ce courriel encourage le destinataire à participer à l’initiative LOCKSS et à
             inclure cette revue dans leur archives. Il fournit de l’information au sujet de LOCKSS
             et des façons de s’impliquer dans le projet.</description>
     </email_text>
@@ -618,7 +618,7 @@ Votre abonnement à la revue {$contextName} est expiré. Veuillez prendre note q
 {$subscriptionType}<br />
 Date d’expiration : {$expiryDate}<br />
 <br />
-Pour renouveller votre abonnement, aller sur le site Web de la revue. Vous pouvez y ouvrir une session avec votre nom d’utilisateur, « {$username} ».<br />
+Pour renouveler votre abonnement, aller sur le site Web de la revue. Vous pouvez y ouvrir une session avec votre nom d’utilisateur, « {$username} ».<br />
 <br />
 Si vous avez des questions, ne hésitez pas à me contacter.<br />
 <br />
@@ -680,8 +680,8 @@ Nous avons pris une décision concernant votre proposition à {$contextName} int
 Notre décision est d’accepter votre proposition.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Cet courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou
-            un auteur les notifie d’une décision finale de «proposition acceptée» concernant leur
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
+            auteur les notifie d’une décision finale de «proposition acceptée» concernant leur
             proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_REVISIONS">
@@ -693,8 +693,8 @@ Nous avons pris une décision concernant votre proposition à {$contextName} int
 Notre décision est d’accepter votre proposition, dans une version révisée tenant compte des remarques formulées.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Cet courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou
-            un auteur les notifie d’une décision finale de «révision requise» concernant leur
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
+            auteur les notifie d’une décision finale de «révision requise» concernant leur
             proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_RESUBMIT">
@@ -706,9 +706,9 @@ Nous avons pris une décision concernant votre proposition à {$contextName} int
 Nous vous invitons à proposer une version révisée de votre texte, en tenant compte des remarques formulées.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Cet courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou
-            un auteur les notifie d’une décision finale de «proposition à redéposer» concernant leur
-            proposition.</description>
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
+            auteur les notifie d’une décision finale de « proposition à soumettre de nouveau »
+            concernant leur proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_DECLINE">
         <subject>Décision de l’éditrice ou éditeur</subject>
@@ -719,8 +719,8 @@ Nous avons pris une décision concernant votre proposition à {$contextName} int
 Notre décision est de refuser votre proposition.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Cet courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou
-            un auteur les notifie d’une décision finale de «proposition refusée» concernant leur
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
+            auteur les notifie d’une décision finale de «proposition refusée» concernant leur
             proposition.</description>
     </email_text>
     <email_text key="SUBSCRIPTION_PURCHASE_INDL">
@@ -833,8 +833,8 @@ Nous vous informons que votre proposition à {$contextName} intitulée « {$sub
 Lien de la proposition : {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Cet courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou
-            un auteur les notifie que leur proposition a été envoyé à une source externe pour son
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
+            auteur les notifie que leur proposition a été envoyé à une source externe pour son
             évaluation.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_SEND_TO_PRODUCTION">
@@ -1008,7 +1008,7 @@ Nous avons pris une décision concernant votre proposition à {$contextName} int
 Notre décision est de refuser votre proposition.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce mail est envoyé à l’auteur(e) si l’éditrice ou éditeur refuse la proposition
-            avant même de la faire évaluer.</description>
+        <description>Ce courriel est envoyé à l’auteur(e) si l’éditrice ou éditeur refuse la
+            proposition avant même de la faire évaluer.</description>
     </email_text>
 </email_texts>

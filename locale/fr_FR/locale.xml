@@ -253,7 +253,7 @@
 	<message key="subscriptions.status.needsInformation">En attente d’informations</message>
 	<message key="subscriptions.status.needsApproval">En attente d’approbation</message>
 	<message key="subscriptions.status.awaitingManualPayment">En attente de paiement manuel</message>
-	<message key="subscriptions.status.awaitingOnlinePayment">En attente de paiment en ligne</message>
+	<message key="subscriptions.status.awaitingOnlinePayment">En attente de paiement en ligne</message>
 	<message key="subscriptions.status.noSubscription">Vous n’avez pas d’abonnement actif.</message>
 	<message key="subscriptions.status.other">Autre, voir Notes</message>
 	<message key="subscriptions.individualDescription">Les abonnements individuels demandent de se connecter pour avoir accès au contenu auquel on est abonné.</message>
@@ -368,7 +368,7 @@ Notez que l’interface OAI peut être désactivée pour ce site en modifiant la
 	<message key="plugins.categories.auth.description">Les plugiciels d’autorisation permettent à Open Journal Systems de déléguer la tâche d’authentification des utilisateurs à d’autres systèmes, comme les serveurs LDAP.</message>
 	<message key="plugins.categories.generic.description">Les plugiciels génériques sont utilisés pour étendre les possibilités d’Open Journal Systems de nombreuses façons qui ne sont pas prises en charge par les autres catégories de plugiciels.</message>
 	
-	<message key="manager.setup.lockssDescription"><![CDATA[Open Journal Systems prend en charge le système <a href="http://lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) afin d’assurer l’archivage sécuritaire et permanent pour la revue. LOCKSS est un logiciel libre développé à la bibliothèque de l’université Stanford qui permet aux bibliothécaires de conserver des revues numériques sélectionnées en interrogant régulièrement les sites Web des revues inscrites pour du contenu récemment publié et en l’archivant. Chaque archive est continuellement validée  par rapport aux caches des autres bibliothèques, et si son contenu est corrompu ou perdu, les autres caches de la revue sont utilisés pour le restaurer.
+	<message key="manager.setup.lockssDescription"><![CDATA[Open Journal Systems prend en charge le système <a href="http://lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) afin d’assurer l’archivage sécuritaire et permanent pour la revue. LOCKSS est un logiciel libre développé à la bibliothèque de l’université Stanford qui permet aux bibliothécaires de conserver des revues numériques sélectionnées en interrogeant régulièrement les sites Web des revues inscrites pour du contenu récemment publié et en l’archivant. Chaque archive est continuellement validée  par rapport aux caches des autres bibliothèques, et si son contenu est corrompu ou perdu, les autres caches de la revue sont utilisés pour le restaurer.
 	<br /><br />
 	La configuration de la prise en charge de LOCKSS pour Open Journal Systems n’a pas à être effectuée avant que le processus de publication soit bien enclenché, en quel cas, suivre ces deux étapes :]]></message>
 	
@@ -1056,7 +1056,7 @@ La validation peut échouer sur les URL de recherche qui nécessitent des formul
 	<message key="grid.catalogEntry.approvedRepresentation.message"><![CDATA[*<p>Approuver cette épreuve en vue de sa publication.</p>]]></message>
 	<message key="grid.catalogEntry.approvedRepresentation.removeMessage"><![CDATA[*<p>Retirer l’approbation pour ces épreuves.</p>]]></message>
 	<message key="search.cli.rebuildIndex.indexing">indexation de « {$journalName} »</message>
-	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Cette implémentation de recherche ne permet pas la réindexation par journal.</message>
+	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Cette implémentation de recherche ne permet pas la ré-indexation par journal.</message>
 	<message key="search.cli.rebuildIndex.unknownJournal">Le chemin d’accès donné « {$journalPath} » ne mène à aucun journal.</message>
 	
 	<message key="editor.issues.backIssues">Numéros précédents</message>

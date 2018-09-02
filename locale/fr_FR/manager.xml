@@ -81,15 +81,15 @@
   <message key="manager.people.syncUserDescription">La synchronisation de l’inscription inscrira tous les utilisateurs déjà inscrits à un rôle donné dans la revue donnée à occuper le même rôle dans cette revue. Cette fonction permet à un groupe d’utilisateurs (p. ex. aux évaluateurs) d’être synchronisé entre les différentes revues.</message>
   <message key="manager.sections.abstractsNotRequired">Résumé non obligatoire</message>
   <message key="manager.section.noSectionEditors"><![CDATA[*Aucun rédacteur de rubrique n’a été désigné. Attribuer ce rôle à un utilisateur au moins via « Administration » > « Paramètres » > « Rôles et utilisateurs ».]]></message>
- <message key="manager.sections.assigned">Éditrices ou éditeurs de cette rubrique</message>
+  <message key="manager.sections.assigned">Éditrices ou éditeurs de cette rubrique</message>
   <message key="manager.sections.confirmDelete">Êtes-vous certain(e) de vouloir définitivement supprimer cette section ?</message>
   <message key="manager.sections.alertDelete">Pour supprimer cette section, déplacez les articles qui la composent dans d’autres sections.</message>
   <message key="manager.sections.create">Créer une rubrique</message>
- <message key="manager.section.sectionEditorInstructions">Ajouter une éditrice ou un éditeur de rubrique à cette rubrique afin que les propositions lui soient automatiquement attribuées. (Sinon, les éditeurs de rubrique peuvent être désignés manuellement, après la réception d’une proposition.) S’il a été désigné, un éditeur de rubrique peut automatiquement être désigné pour superviser l’évaluation par les pairs et/ou la révision (révision, mise en page et correction des épreuves) des propositions de cette rubrique. Des éditeurs de rubrique peuvent être créés en cliquant sur « Éditrice ou éditeur de rubrique » sous « Rôles » dans « Gestion de la revue ».</message>
- <message key="manager.sections.editorRestriction">Les articles ne peuvent être soumis que par les éditrices ou éditeurs et les éditrices ou éditeurs de rubrique.</message>
- <message key="manager.sections.editors">Éditrices ou éditeurs de rubrique</message>
+  <message key="manager.section.sectionEditorInstructions">Ajouter une éditrice ou un éditeur de rubrique à cette rubrique afin que les propositions lui soient automatiquement attribuées. (Sinon, les éditeurs de rubrique peuvent être désignés manuellement, après la réception d’une proposition.) S’il a été désigné, un éditeur de rubrique peut automatiquement être désigné pour superviser l’évaluation par les pairs et/ou la révision (révision, mise en page et correction des épreuves) des propositions de cette rubrique. Des éditeurs de rubrique peuvent être créés en cliquant sur « Éditrice ou éditeur de rubrique » sous « Rôles » dans « Gestion de la revue ».</message>
+  <message key="manager.sections.editorRestriction">Les articles ne peuvent être soumis que par les éditrices ou éditeurs et les éditrices ou éditeurs de rubrique.</message>
+  <message key="manager.sections.editors">Éditrices ou éditeurs de rubrique</message>
   <message key="manager.sections.form.abbrevRequired">Un titre abrégé est obligatoire pour la rubrique.</message>
- <message key="manager.sections.form.mustAllowPermission">Veuillez vous assurer qu’au moins une case à cocher est sélectionnée pour chaque attribution à une éditrice ou un éditeur de rubrique.</message>
+  <message key="manager.sections.form.mustAllowPermission">Veuillez vous assurer qu’au moins une case à cocher est sélectionnée pour chaque attribution à une éditrice ou un éditeur de rubrique.</message>
   <message key="manager.sections.form.reviewFormId">Veuillez vous assurer que vous avez choisi un formulaire d’évaluation valide.</message>
   <message key="manager.sections.form.titleRequired">Un titre est obligatoire pour la rubrique.</message>
   <message key="manager.sections.hideTocAuthor">Omettre les noms des auteurs dans les sommaires des numéros.</message>
@@ -105,7 +105,7 @@
   <message key="manager.sections.submissionIndexing">Ne sera pas inclus dans l’indexation de la revue</message>
   <message key="manager.sections.submissionReview">Ne sera pas évalué par les pairs</message>
   <message key="manager.section.submissionsToThisSection">Propositions faites dans cette rubrique de la revue</message>
- <message key="manager.sections.unassigned">Éditrices ou éditeurs de rubrique disponibles</message>
+  <message key="manager.sections.unassigned">Éditrices ou éditeurs de rubrique disponibles</message>
   <message key="manager.sections.wordCount">Nombre de mots</message>
   <message key="manager.sections.wordCountInstructions">Limiter le nombre de mots du résumé pour cette rubrique (indiquer « 0 » pour ne fixer aucune limite)</message>
   <message key="manager.setup">Configuration</message>
@@ -125,7 +125,7 @@
   <message key="manager.setup.addItemtoAboutJournal">Ajouter un élément à afficher dans « À propos de cette revue »</message>
   <message key="manager.setup.addNavItem">Ajouter un élément</message>
   <message key="manager.setup.addReviewerDatabaseLink">Ajouter un nouveau lien de base de données</message>
-  <message key="manager.setup.addSponsor">Ajouter un financeur</message>
+  <message key="manager.setup.addSponsor">Ajouter un commanditaire</message>
   <message key="manager.setup.alternateHeader">En-tête secondaire</message>
   <message key="manager.setup.alternateHeaderDescription">Au lieu du titre et du logo, une version HTML de l’en-tête peut aussi être insérée dans la zone de texte ci-dessous. Laisser la zone de texte vide si elle n’est pas obligatoire.</message>
   <message key="manager.setup.announcements">Annonces</message>
@@ -138,20 +138,20 @@
   <message key="manager.setup.history">Historique de la revue</message>
   <message key="manager.setup.historyDescription">Ce texte apparaîtra dans la section « À propos » du site Web de la revue et peut être utilisé pour décrire tout changement du titre de la revue ou du comité éditorial, et tout autre élément d’intérêt dans l’histoire de la publication de la revue.</message>
   <message key="manager.setup.copyeditInstructions">Consignes pour la révision</message>
- <message key="manager.setup.copyeditInstructionsDescription">Les consignes pour la révision seront mises à la disposition des réviseurs, auteurs et éditrices ou éditeurs de rubrique à l’étape de la révision de la proposition. Vous trouverez ci-dessous un ensemble d’instructions en HTML par défaut, qui peuvent être modifiées ou remplacées par la directrice ou le directeur de la revue à tout moment (en HTML ou texte brut).</message>
+  <message key="manager.setup.copyeditInstructionsDescription">Les consignes pour la révision seront mises à la disposition des réviseurs, auteurs et éditrices ou éditeurs de rubrique à l’étape de la révision de la proposition. Vous trouverez ci-dessous un ensemble d’instructions en HTML par défaut, qui peuvent être modifiées ou remplacées par la directrice ou le directeur de la revue à tout moment (en HTML ou texte brut).</message>
   <message key="manager.setup.copyrightNotice">Mention de droit d’auteur</message>
   <message key="manager.setup.coverage">Couverture</message>
   <message key="manager.setup.coverageDescription">Fait référence à l’emplacement géo-spatial, à la couverture historique ou chronologique, ou à des caractéristiques de l’échantillon de recherche.</message>
   <message key="manager.setup.currentIssue">Numéro courant</message>
   <message key="manager.setup.customizingTheLook">Étape 5. Personnalisation de l’apparence</message>
-	<message key="manager.setup.customTags">Balises personnalisées</message>
-	<message key="manager.setup.customTagsDescription">Balises de l’en-tête HTML personnalisées à insérer dans les en-têtes de chaque page (p. ex., balises META).</message>
+  <message key="manager.setup.customTags">Balises personnalisées</message>
+  <message key="manager.setup.customTagsDescription">Balises de l’en-tête HTML personnalisées à insérer dans les en-têtes de chaque page (p. ex., balises META).</message>
   <message key="manager.setup.details">Détails</message>
-  <message key="manager.setup.details.description">Nom de la revue, ISSN, contacts, financeurs et moteurs de recherche.</message>
- <message key="manager.setup.disableUserRegistration">La directrice ou le directeur de la revue inscrit tous les utilisateurs, alors que les éditrices ou éditeurs et éditrices ou éditeurs de rubrique ne peuvent inscrire que les évaluateurs.</message>
-	<message key="manager.setup.discipline">Disciplines et sous-disciplines universitaires</message>
+  <message key="manager.setup.details.description">Nom de la revue, ISSN, contacts, commanditaires et moteurs de recherche.</message>
+  <message key="manager.setup.disableUserRegistration">La directrice ou le directeur de la revue inscrit tous les utilisateurs, alors que les éditrices ou éditeurs et éditrices ou éditeurs de rubrique ne peuvent inscrire que les évaluateurs.</message>
+  <message key="manager.setup.discipline">Disciplines et sous-disciplines universitaires</message>
   <message key="manager.setup.disciplineDescription">Utile lorsque la revue va au delà des limites d’une discipline ou lorsque les auteurs présentent des articles multidisciplinaires.</message>
-	<message key="manager.setup.disciplineExamples">(Par ex., histoire; éducation; sociologie; psychologie; études culturelles; droit)</message>
+  <message key="manager.setup.disciplineExamples">(Par ex., histoire; éducation; sociologie; psychologie; études culturelles; droit)</message>
   <message key="manager.setup.disciplineProvideExamples">Donner des exemples de disciplines pertinentes pour cette revue</message>
   <message key="manager.setup.displayCurrentIssue">Ajouter le sommaire pour le numéro courant (si disponible)</message>
   <message key="manager.setup.editorDecision">Décision de l’éditrice ou éditeur</message>
@@ -160,7 +160,7 @@
   <message key="manager.setup.emailBounceAddressDisabled"><![CDATA[Note. Pour activer cette option, l’administrateur du site Web doit activer l’option "allow_envelope_sender" dans le fichier de configuration d’OJS. Une configuration supplémentaire sur le serveur peut être requise afin de prendre en charge cette fonctionnalité, laquelle n’est pas possible sur tous les serveurs, comme indiqué dans la documentation d’OJS.]]></message>
   <message key="manager.setup.emails">Identification par courriel</message>
   <message key="manager.setup.emailSignature">Signature</message>
-	<message key="manager.setup.emailSignatureDescription">La signature suivante sera ajoutée à la fin de chaque courriel préparé et envoyé par le système au nom de la revue. Les modèles de courriels sont disponibles sous « Gestion de la revue ».</message>
+  <message key="manager.setup.emailSignatureDescription">La signature suivante sera ajoutée à la fin de chaque courriel préparé et envoyé par le système au nom de la revue. Les modèles de courriels sont disponibles sous « Gestion de la revue ».</message>
   <message key="manager.setup.enableAnnouncements">Permettre aux directrices ou directeurs de revues d’ajouter des annonces relatives à la revue.</message>
   <message key="manager.setup.enableAnnouncementsHomepage1">Afficher les</message>
   <message key="manager.setup.enableAnnouncementsHomepage2">annonces les plus récentes sur la page d’accueil de la revue.</message>
@@ -168,7 +168,7 @@
   <message key="manager.setup.focusAndScope">Énoncé de mission</message>
   <message key="manager.setup.focusAndScope.description">Décrire aux auteurs, aux lecteurs et aux bibliothécaires les types d’articles et autres objets publiés dans la revue</message>
   <message key="manager.setup.forAuthorsToIndexTheirWork">Aide aux auteurs pour l’indexation de leur travail</message>
- <message key="manager.setup.forAuthorsToIndexTheirWorkDescription"><![CDATA[OJS se conforme à l’<a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> Protocol for Metadata Harvesting, qui devient la norme pour offrir un point d’accès bien indexé à des ressources de recherche numériques à l’échelle mondiale. Les auteurs utiliseront un modèle semblable pour fournir des métadonnées pour leur proposition. La directrice ou le directeur de la revue doit sélectionner les catégories pour l’indexation et présenter aux auteurs des exemples pertinents afin de les aider à indexer leur travail, en séparant les termes par un point-virgule (p. ex., terme1; terme2). Les entrées doivent être présentées comme des exemples, avec la formule « P. ex., » ou « Par exemple, ».]]></message>
+  <message key="manager.setup.forAuthorsToIndexTheirWorkDescription"><![CDATA[OJS se conforme à l’<a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> Protocol for Metadata Harvesting, qui devient la norme pour offrir un point d’accès bien indexé à des ressources de recherche numériques à l’échelle mondiale. Les auteurs utiliseront un modèle semblable pour fournir des métadonnées pour leur proposition. La directrice ou le directeur de la revue doit sélectionner les catégories pour l’indexation et présenter aux auteurs des exemples pertinents afin de les aider à indexer leur travail, en séparant les termes par un point-virgule (p. ex., terme1; terme2). Les entrées doivent être présentées comme des exemples, avec la formule « P. ex., » ou « Par exemple, ».]]></message>
   <message key="manager.setup.form.issnInvalid">L’ISSN inscrit n’est pas valide.</message>
   <message key="manager.setup.form.contactEmailRequired">L’adresse de courriel du contact principal est obligatoire.</message>
   <message key="manager.setup.form.contactNameRequired">Le nom du contact principal est obligatoire.</message>
@@ -180,7 +180,7 @@
   <message key="manager.setup.generalInformation">Informations générales</message>
   <message key="manager.setup.gettingDownTheDetails">Étape 1. Détails</message>
   <message key="manager.setup.guidelines">Consignes</message>
-	<message key="manager.setup.guidingSubmissions">Étape 3. Orienter les propositions</message>
+  <message key="manager.setup.guidingSubmissions">Étape 3. Orienter les propositions</message>
   <message key="manager.setup.includeCreativeCommons">Pour les revues qui offrent le libre accès immédiatement ou avec une barrière mobile, ajouter une licence Creative Commons à toutes les publications au moment approprié.</message>
   <message key="manager.setup.information">Information</message>
   <message key="manager.setup.information.description">De brèves descriptions de la revue pour les bibliothécaires, les auteurs et lecteurs potentiels sont disponibles dans la rubrique « Renseignements » du menu latéral.</message>
@@ -224,22 +224,22 @@
   <message key="manager.setup.journalTitle">Titre de la revue</message>
   <message key="manager.setup.labelName">Nom de l’étiquette</message>
   <message key="manager.setup.layoutInstructions">Consignes pour la mise en page</message>
-	<message key="manager.setup.layoutInstructionsDescription">Les consignes pour la mise en page peuvent être préparées pour la mise en forme des articles à publier dans la revue et être saisies ci-dessous en HTML ou en texte brut. Elles seront mises à la disposition du responsable de la mise en page et de l’éditrice ou éditeur de rubrique dans la page « Révision » de chaque proposition. (Comme chaque revue peut utiliser ses propres formats de fichier, normes bibliographiques, feuille de styles, etc., aucun ensemble de consignes par défaut n’est fourni.)</message>
+  <message key="manager.setup.layoutInstructionsDescription">Les consignes pour la mise en page peuvent être préparées pour la mise en forme des articles à publier dans la revue et être saisies ci-dessous en HTML ou en texte brut. Elles seront mises à la disposition du responsable de la mise en page et de l’éditrice ou éditeur de rubrique dans la page « Révision » de chaque proposition. (Comme chaque revue peut utiliser ses propres formats de fichier, normes bibliographiques, feuille de styles, etc., aucun ensemble de consignes par défaut n’est fourni.)</message>
   <message key="manager.setup.layoutTemplates">Modèles de mise en page</message>
   <message key="manager.setup.layoutTemplatesDescription">Les modèles peuvent être téléchargés pour apparaître dans « Mise en page » pour chacun des formats normalisés publiés dans la revue (p. ex., article ou compte rendu) utilisant n’importe quel format de fichier (PDF, DOC, etc.) avec des annotations spécifiant la police, la taille, les marges, etc., pour servir de guide aux responsables de la mise en page et aux réviseurs.</message>
   <message key="manager.setup.layoutTemplates.file">Fichier du modèle</message>
   <message key="manager.setup.layoutTemplates.title">Titre</message>
   <message key="manager.setup.lists">Listes</message>
-	<message key="manager.setup.listsDescription">Saisir le nombre maximum d’éléments (p. ex., propositions, utilisateurs ou attributions d’évaluations) qui figurent dans chaque page d’une liste, ainsi que le nombre de liens à afficher sur chaque page.</message>
+  <message key="manager.setup.listsDescription">Saisir le nombre maximum d’éléments (p. ex., propositions, utilisateurs ou attributions d’évaluations) qui figurent dans chaque page d’une liste, ainsi que le nombre de liens à afficher sur chaque page.</message>
   <message key="manager.setup.enableArchive">Activer l’archivage</message>
   <message key="manager.setup.plnPluginEnable">Plugin PKP PN activé</message>
-	<message key="manager.setup.plnDescription">Le PKP Preservation Network (PN) offre des services gratuits de stockage pour toutes les revues publiées avec OJS qui répondent à certains critères de base.</message>
+  <message key="manager.setup.plnDescription">Le PKP Preservation Network (PN) offre des services gratuits de stockage pour toutes les revues publiées avec OJS qui répondent à certains critères de base.</message>
   <message key="manager.setup.plnSettingsDescription">Cliquer sur le lien dans les réglages pour accepter les conditions d’utilisation de PKP PN.</message>
   <message key="manager.setup.plnPluginArchiving">PKP Preservation Network (PN)</message>
-	<message key="manager.setup.plnPluginNotInstalled">Le PKP Preservation Network (PN) offre des services gratuits de stockage pour toutes les revues publiées qui répondent à certains critères de base. Le PKP PN plugin pour OJS 3 est actuellement en cours de développement et sera bientôt disponible dans la galerie d’extensions.</message>
+  <message key="manager.setup.plnPluginNotInstalled">Le PKP Preservation Network (PN) offre des services gratuits de stockage pour toutes les revues publiées qui répondent à certains critères de base. Le PKP PN plugin pour OJS 3 est actuellement en cours de développement et sera bientôt disponible dans la galerie d’extensions.</message>
   <message key="manager.setup.otherLockss">Options alternatives d’archivage</message>
   <message key="manager.setup.lockssEnable"><![CDATA[Activer LOCKSS pour stocker et distribuer le contenu de la revue aux bibliothèques participantes via une page <a href="{$lockssUrl}" target="_blank">Publisher Manifest</a> LOCKSS. Une licence LOCKSS apparaîtra dans « À propos de cette revue » sous Archivage :]]></message>
-	<message key="manager.setup.lockssLicenseDescription"><![CDATA[*Une licence LOCKSS apparaîtra dans la section « À propos de cette revue » sous « Archiver » : <a href="http://www.lockss.org/community/publishers-titles-gln/" target="_blank">Licence LOCKSS</a>]]></message>
+  <message key="manager.setup.lockssLicenseDescription"><![CDATA[*Une licence LOCKSS apparaîtra dans la section « À propos de cette revue » sous « Archiver » : <a href="http://www.lockss.org/community/publishers-titles-gln/" target="_blank">Licence LOCKSS</a>]]></message>
   <message key="manager.setup.lockssLicenseLabel">Description de la licence LOCKSS</message>
   <message key="manager.setup.lockssRegister"><![CDATA[Identifier 6 à 10 bibliothèques qui enregistreront et mettront en cache la revue. Par exemple, ayez recours à des institutions dont les rédacteurs ou les membres de la direction participent déjà à LOCKSS. Voir <a href="http://lockss.org/lockss/Libraries" target="_blank">les bibliothèques participantes</a>. Utiliser les invitations préparées pour les <a href="{$lockssExistingArchiveUrl}" target="_blank">bibliothèques participant à LOCKSS</a> ou les <a href="{$lockssNewArchiveUrl}" target="_blank">bibliothèques ne participant pas à LOCKSS</a>.]]></message>
   <message key="manager.setup.lockssTitle">LOCKSS</message>
@@ -265,17 +265,17 @@
   <message key="manager.setup.noImageFileUploaded">Aucun fichier d’image téléchargé.</message>
   <message key="manager.setup.noStyleSheetUploaded">Aucune feuille de style téléchargée.</message>
   <message key="manager.setup.note">Note</message>
-	<message key="manager.setup.notifications.submissionAckDisabled"><![CDATA[Note. Le courriel d’accusé de réception est actuellement désactivé. Pour utiliser cette fonctionnalité, veuillez activer le courriel SUBMISSION_ACK dans les <a class="action" href="{$preparedEmailsUrl}">modèles de courriels</a>.]]></message>
+  <message key="manager.setup.notifications.submissionAckDisabled"><![CDATA[Note. Le courriel d’accusé de réception est actuellement désactivé. Pour utiliser cette fonctionnalité, veuillez activer le courriel SUBMISSION_ACK dans les <a class="action" href="{$preparedEmailsUrl}">modèles de courriels</a>.]]></message>
   <message key="manager.setup.numPageLinks">Liens</message>
   <message key="manager.setup.onlineAccessManagement">Accès au contenu de la revue</message>
   <message key="manager.setup.onlineIssn">ISSN numérique</message>
-	<message key="manager.setup.openAccess">La revue fournira un libre accès à son contenu.</message>
+  <message key="manager.setup.openAccess">La revue fournira un libre accès à son contenu.</message>
   <message key="manager.setup.pageNumberIdentifier">Option de numéro de page</message>
   <message key="manager.setup.policies">Politiques</message>
   <message key="manager.setup.policies.description">Orientation, évaluation par les pairs, rubriques, confidentialité, sécurité et autres sujets connexes.</message>
   <message key="manager.setup.printIssn">ISSN imprimé</message>
   <message key="manager.setup.proofingInstructions">Consignes pour la correction des épreuves</message>
- <message key="manager.setup.proofingInstructionsDescription">Les consignes pour la correction des épreuves seront mises à la disposition des correcteurs d’épreuves, auteurs, responsable de la mise en page, et éditrices ou éditeurs de rubrique à l’étape de la révision de la proposition. Vous trouverez ci-dessous un ensemble de consignes par défaut en HTML, qui peuvent être modifiées ou remplacées par la directrice ou le directeur de la revue à tout moment (HTML ou texte brut).</message>
+  <message key="manager.setup.proofingInstructionsDescription">Les consignes pour la correction des épreuves seront mises à la disposition des correcteurs d’épreuves, auteurs, responsable de la mise en page, et éditrices ou éditeurs de rubrique à l’étape de la révision de la proposition. Vous trouverez ci-dessous un ensemble de consignes par défaut en HTML, qui peuvent être modifiées ou remplacées par la directrice ou le directeur de la revue à tout moment (HTML ou texte brut).</message>
   <message key="manager.setup.provideRefLinkInstructions">Fournir des consignes aux responsables de la mise en page</message>
   <message key="manager.setup.publicationSchedule">Calendrier de publication</message>
   <message key="manager.setup.publicationScheduleDescription">Les articles de la revue peuvent être publiés ensemble, comme partie intégrante d’un numéro avec son propre sommaire. Des articles individuels peuvent aussi être publiés dès qu’ils sont prêts : il suffit de les ajouter au sommaire du numéro courant. Fournir aux lecteurs, dans « À propos de cette revue », des indications sur le système que cette revue utilisera et la périodicité de publication prévue.</message>
@@ -288,28 +288,28 @@
   <message key="manager.setup.restrictArticleAccess">Les utilisateurs doivent être inscrits et se connecter pour afficher le contenu en libre accès.</message>
   <message key="manager.setup.restrictSiteAccess">Les utilisateurs doivent être inscrits et se connecter pour afficher le site de la revue.</message>
   <message key="manager.setup.reviewGuidelines">Consignes pour l’évaluation</message>
- <message key="manager.setup.reviewGuidelinesDescription"><![CDATA[Les consignes pour l’évaluation fournissent aux évaluateurs des critères leur permettant de juger si une proposition est appropriée à la revue, ainsi que toutes consignes particulières pour effectuer une évaluation efficace et utile. Dans la conduite de l’évaluation, les évaluateurs se voient présenter deux boîtes de texte libre, la première « Pour l’auteur et le rédacteur » et la seconde « Pour le rédacteur ». À la place, la directrice ou le directeur de la revue peut créer un formulaire d’évaluation par les pairs sous <a href="{$reviewFormsUrl}" class="action">Formulaires d’évaluation</a>. Dans tous les cas, les rédacteurs auront l’option d’inclure les évaluations lors de leur correspondance avec les auteurs.]]></message>
+  <message key="manager.setup.reviewGuidelinesDescription"><![CDATA[Les consignes pour l’évaluation fournissent aux évaluateurs des critères leur permettant de juger si une proposition est appropriée à la revue, ainsi que toutes consignes particulières pour effectuer une évaluation efficace et utile. Dans la conduite de l’évaluation, les évaluateurs se voient présenter deux boîtes de texte libre, la première « Pour l’auteur et le rédacteur » et la seconde « Pour le rédacteur ». À la place, la directrice ou le directeur de la revue peut créer un formulaire d’évaluation par les pairs sous <a href="{$reviewFormsUrl}" class="action">Formulaires d’évaluation</a>. Dans tous les cas, les rédacteurs auront l’option d’inclure les évaluations lors de leur correspondance avec les auteurs.]]></message>
   <message key="manager.setup.reviewOptions">Options d’évaluation</message>
   <message key="manager.setup.reviewOptions.automatedReminders">Des rappels automatiques par courriel (disponibles dans les courriels par défaut d’OJS) peuvent être envoyés aux évaluateurs à deux moments précis (à tout moment, l’éditrice ou éditeur peut également envoyer un courriel à l’évaluateur directement).</message>
   <message key="manager.setup.reviewOptions.automatedRemindersDisabled"><![CDATA[Note. Pour activer ces options, l’administrateur du site doit activer l’option « scheduled_tasks » dans le fichier de configuration d’OJS. Une configuration serveur supplémentaire peut être requise afin de prendre en charge cette fonctionnalité (laquelle n’est pas disponible sur tous les serveurs), comme mentionné dans la documentation d’OJS.]]></message>
   <message key="manager.setup.reviewOptions.blindReview">Évaluation à l’aveugle</message>
   <message key="manager.setup.reviewOptions.numWeeksPerReview">Temps habituellement alloué aux évaluations</message>
- <message key="manager.setup.reviewOptions.onQuality">Les éditrices ou éditeurs noteront les évaluateurs sur une échelle qualitative de cinq points après chaque évaluation.</message>
-	<message key="manager.setup.reviewOptions.restrictReviewerFileAccess">Les évaluateurs auront accès au fichier de la proposition seulement après avoir accepté de l’évaluer.</message>
+  <message key="manager.setup.reviewOptions.onQuality">Les éditrices ou éditeurs noteront les évaluateurs sur une échelle qualitative de cinq points après chaque évaluation.</message>
+  <message key="manager.setup.reviewOptions.restrictReviewerFileAccess">Les évaluateurs auront accès au fichier de la proposition seulement après avoir accepté de l’évaluer.</message>
   <message key="manager.setup.reviewOptions.reviewerAccess">Accès pour l’évaluateur</message>
   <message key="manager.setup.reviewOptions.reviewerAccessKeysEnabled">Activer l’accès en un clic pour l’évaluateur.</message>
-	<message key="manager.setup.reviewOptions.reviewerAccessKeysEnabled.description"><![CDATA[Note. Le courriel d’invitation destiné aux évaluateurs contient une URL qui les conduit directement à la page d’évaluation de la proposition. L’accès à toute autre page requiert de se connecter. Pour des raisons de sécurité, les rédacteurs ne peuvent pas modifier les adresses de courriel, ni ajouter des CC ou CCI avant d’envoyer une invitation aux évaluateurs.]]></message>
+  <message key="manager.setup.reviewOptions.reviewerAccessKeysEnabled.description"><![CDATA[Note. Le courriel d’invitation destiné aux évaluateurs contient une URL qui les conduit directement à la page d’évaluation de la proposition. L’accès à toute autre page requiert de se connecter. Pour des raisons de sécurité, les rédacteurs ne peuvent pas modifier les adresses de courriel, ni ajouter des CC ou CCI avant d’envoyer une invitation aux évaluateurs.]]></message>
   <message key="manager.setup.reviewOptions.reviewerRatings">Notation de l’évaluateur</message>
   <message key="manager.setup.reviewOptions.reviewerReminders">Rappels à l’évaluateur</message>
   <message key="manager.setup.reviewOptions.showEnsuringLink"><![CDATA[Fournir un lien vers <a href="javascript:openHelp('{$blindReviewHelpId}')" class="action">Assurer une évaluation à l’aveugle</a> dans les pages où les auteurs et les évaluateurs peuvent télécharger des fichiers.]]></message>
   <message key="manager.setup.reviewPolicy">Politique d’évaluation</message>
   <message key="manager.setup.searchEngineIndexing">Indexation par les moteurs de recherche</message>
-	<message key="manager.setup.searchEngineIndexingDescription">Pour aider les moteurs de recherche à découvrir cette revue, fournir une description brève de la revue et des mots-clés pertinents (séparés par un point-virgule).</message>
- <message key="manager.setup.sectionsAndSectionEditors">Rubriques et éditrices ou éditeurs de rubrique</message>
+  <message key="manager.setup.searchEngineIndexingDescription">Pour aider les moteurs de recherche à découvrir cette revue, fournir une description brève de la revue et des mots-clés pertinents (séparés par un point-virgule).</message>
+  <message key="manager.setup.sectionsAndSectionEditors">Rubriques et éditrices ou éditeurs de rubrique</message>
   <message key="manager.setup.sectionsDefaultSectionDescription">(Si aucune rubrique n’est créée, les articles sont soumis par défaut sous la rubrique « Articles ».)</message>
   <message key="manager.setup.sectionsDescription"><![CDATA[Pour créer ou modifier des rubriques pour la revue (p. ex., articles, comptes rendus, etc.), aller à « Gestion de rubrique ».<br /><br />Lors de la soumission d’articles à la revue, les auteurs désigneront…]]></message>
   <message key="manager.setup.securitySettings">Paramètres d’accès et de sécurité</message>
-	<message key="manager.setup.securitySettingsDescription">OJS offre plusieurs options de sécurité pour limiter l’accès au contenu d’une revue et pour gérer des informations supplémentaires concernant les propositions, à des fins de contrôle.</message>
+  <message key="manager.setup.securitySettingsDescription">OJS offre plusieurs options de sécurité pour limiter l’accès au contenu d’une revue et pour gérer des informations supplémentaires concernant les propositions, à des fins de contrôle.</message>
   <message key="manager.setup.selectEditorDescription">l’éditrice ou éditeur de la revue qui suivra tout le processus éditorial.</message>
   <message key="manager.setup.selectSectionDescription">La rubrique de la revue pour laquelle l’article sera examiné.</message>
   <message key="manager.setup.showGalleyLinksDescription">Toujours afficher les liens des épreuves et indiquer l’accès restreint.</message>
@@ -321,10 +321,10 @@
   <message key="manager.setup.submissionGuidelines">Consignes pour la soumission</message>
   <message key="manager.setup.submissionPreparationChecklist">Liste de contrôle de la soumission</message>
   <message key="manager.setup.submissionPreparationChecklistDescription">Lors d’une soumission à la revue, on demande d’abord aux auteurs de s’assurer, avant d’aller plus loin, que toutes les conditions requises pour soumettre un article sont remplies. La liste de contrôle doit aussi apparaître dans « Consignes aux auteurs », sous « À propos de cette revue ». Cette liste peut être modifiée ci-dessous, mais tous les éléments de la liste devront être cochés avant que les auteurs puissent poursuivre la procédure de soumission.</message>
-	<message key="manager.setup.submissions">Propositions</message>
+  <message key="manager.setup.submissions">Propositions</message>
   <message key="manager.setup.submissions.description">Consignes aux auteurs, droits d’auteur et indexation (dont l’inscription).</message>
   <message key="manager.setup.subscription">La revue exigera un abonnement pour accéder à une partie ou à l’intégralité de son contenu.</message>
-  <message key="manager.setup.subscriptionDescription">Cela nécessite la désignation d’un responsable des abonnements ayant accès au module d’abonnement, qui comprend des options supplémentaires de libre accès, d’autoarchivage et d’avis par courriel.</message>
+  <message key="manager.setup.subscriptionDescription">Cela nécessite la désignation d’un responsable des abonnements ayant accès au module d’abonnement, qui comprend des options supplémentaires de libre accès, d’auto-archivage et d’avis par courriel.</message>
   <message key="manager.setup.noPublishing">OJS ne sera pas utilisé pour publier le contenu de la revue en ligne.</message>
   <message key="manager.setup.typeExamples">(Par ex., enquête historique; quasi-expérimental; analyse littéraire; sondage/entretien)</message>
   <message key="manager.setup.typeMethodApproach">Type (méthode/approche)</message>
@@ -345,12 +345,12 @@
   <message key="manager.statistics.statistics.count.revise">Soumettre à nouveau</message>
   <message key="manager.statistics.statistics.daysPerReview">Jours requis pour évaluer</message>
   <message key="manager.statistics.statistics.daysToPublication">Jours requis pour publier</message>
-	<message key="manager.statistics.statistics.description">OJS calcule les statistiques suivantes pour chaque revue. Les « jours requis pour évaluer » se rapportent au temps écoulé entre la réception d’une proposition (ou désignation de la version d’évaluation) et la décision initiale de l’éditrice ou éditeur, tandis que les « jours requis pour publier » se rapportent au temps écoulé entre le premier téléchargement et la publication d’une proposition acceptée.</message>
+  <message key="manager.statistics.statistics.description">OJS calcule les statistiques suivantes pour chaque revue. Les « jours requis pour évaluer » se rapportent au temps écoulé entre la réception d’une proposition (ou désignation de la version d’évaluation) et la décision initiale de l’éditrice ou éditeur, tandis que les « jours requis pour publier » se rapportent au temps écoulé entre le premier téléchargement et la publication d’une proposition acceptée.</message>
   <message key="manager.statistics.statistics.itemsPublished">Articles publiés</message>
   <message key="manager.statistics.statistics.makePublic">Cochez les éléments qui seront disponibles dans « À propos de cette revue ».</message>
-	<message key="manager.statistics.statistics.note">Note. Les pourcentages pour les propositions évaluées par les pairs ne sont pas forcément de 100 %, puisque les articles soumis de nouveau sont acceptés, refusés ou encore en cours d’évaluation.</message>
+  <message key="manager.statistics.statistics.note">Note. Les pourcentages pour les propositions évaluées par les pairs ne sont pas forcément de 100 %, puisque les articles soumis de nouveau sont acceptés, refusés ou encore en cours d’évaluation.</message>
   <message key="manager.statistics.statistics.numIssues">Numéros publiés</message>
-	<message key="manager.statistics.statistics.numSubmissions">Nombre total de propositions</message>
+  <message key="manager.statistics.statistics.numSubmissions">Nombre total de propositions</message>
   <message key="manager.statistics.statistics.peerReviewed">Évalué par les pairs</message>
   <message key="manager.statistics.statistics.registeredReaders">Lecteurs inscrits</message>
   <message key="manager.statistics.statistics.registeredUsers">Utilisateurs inscrits</message>
@@ -364,24 +364,24 @@
   <message key="manager.statistics.reports.defaultReport.articleAbstract">Vues de la page « Résumé » de l’article</message>
   <message key="manager.statistics.reports.defaultReport.articleAbstractAndDownloads">Résumé de l’article et téléchargements</message>
   <message key="manager.statistics.reports.defaultReport.journalIndexPageViews">Vue de la page principale de la revue</message>
-	<message key="manager.statistics.reports.defaultReport.issuePageViews">Vues de la table des matières du numéro</message>
+  <message key="manager.statistics.reports.defaultReport.issuePageViews">Vues de la table des matières du numéro</message>
   <message key="manager.statistics.reports.filters.byContext.description">Affiner les résultats par contexte (numéro et/ou article)</message>
   <message key="manager.statistics.reports.filters.byObject.description">Affiner les résultats par type d’objet (revue, numéro, article, épreuves PDF, autres épreuves) et/ou par un ou plusieurs ID d’objet.</message>
   
   <message key="manager.subscriptionPolicies">Politiques d’abonnement</message>
   <message key="manager.subscriptionPolicies.authorSelfArchive">Politique d’auto-archivage par l’auteur(e)</message>
   <message key="manager.subscriptionPolicies.authorSelfArchiveDescription">La politique d’auto-archivage par l’auteur(e) suivante sera incluse dans « À propos de cette revue », sous « Politiques ».</message>
-	<message key="manager.subscriptionPolicies.delayedOpenAccess">Libre accès différé</message>
- <message key="manager.subscriptionPolicies.delayedOpenAccessDescription">Dans le cadre d’un libre accès différé, les éditrices ou éditeurs sont tout de même en mesure de désigner certains articles pour les rendre en libre accès immédiatement.</message>
+  <message key="manager.subscriptionPolicies.delayedOpenAccess">Libre accès différé</message>
+  <message key="manager.subscriptionPolicies.delayedOpenAccessDescription">Dans le cadre d’un libre accès différé, les éditrices ou éditeurs sont tout de même en mesure de désigner certains articles pour les rendre en libre accès immédiatement.</message>
   <message key="manager.subscriptionPolicies.delayedOpenAccessDescription1">Rendre les numéros rétrospectifs de cette revue disponible en libre accès</message>
   <message key="manager.subscriptionPolicies.delayedOpenAccessDescription2">mois après la publication du numéro.</message>
   <message key="manager.subscriptionPolicies.delayedOpenAccessDurationValid">Veuillez sélectionner une durée valide.</message>
-	<message key="manager.subscriptionPolicies.delayedOpenAccessPolicyDescription">La politique de libre accès différé suivante sera affichée dans « À propos de cette revue », sous « Politiques ».</message>
+  <message key="manager.subscriptionPolicies.delayedOpenAccessPolicyDescription">La politique de libre accès différé suivante sera affichée dans « À propos de cette revue », sous « Politiques ».</message>
   <message key="manager.subscriptionPolicies.enableSubscriptionExpiryReminderBeforeMonthsValid">Utilisez la boîte à cocher fournie.</message>
   <message key="manager.subscriptionPolicies.expiry">Échéance de l’abonnement</message>
   <message key="manager.subscriptionPolicies.expiryDescription">À l’échéance de l’abonnement, les lecteurs peuvent se voir refuser l’accès à tout contenu restreint ou peuvent conserver l’accès au contenu publié avant la date d’échéance de l’abonnement.</message>
   <message key="manager.subscriptionPolicies.expiryFull">Échéance complète</message>
-	<message key="manager.subscriptionPolicies.expiryFullDescription">À l’échéance de l’abonnement, les lecteurs se voient refuser l’accès à tout contenu restreint.</message>
+  <message key="manager.subscriptionPolicies.expiryFullDescription">À l’échéance de l’abonnement, les lecteurs se voient refuser l’accès à tout contenu restreint.</message>
   <message key="manager.subscriptionPolicies.expiryPartial">Échéance partielle</message>
   <message key="manager.subscriptionPolicies.expiryPartialDescription">Les lecteurs se voient refuser l’accès au contenu restreint publié récemment, mais conservent l’accès au contenu publié avant la date d’échéance de l’abonnement.</message>
   <message key="manager.subscriptionPolicies.xMonths">{$x} mois</message>
@@ -391,30 +391,30 @@
   <message key="manager.subscriptionPolicies.expiryReminderBeforeMonths">Notifier les abonnés par courriel avant l’expiration de l’abonnement.</message>
   <message key="manager.subscriptionPolicies.expiryReminderBeforeWeeks">Notifier les abonnés par courriel avant l’expiration de l’abonnement.</message>
   <message key="manager.subscriptionPolicies.expiryReminders">Rappels de l’échéance de l’abonnement</message>
- <message key="manager.subscriptionPolicies.expiryRemindersDescription">Des courriels de rappel automatisés (disponibles pour modification par la directrice ou le directeur de la revue, dans les modèles de courriels d’OJS) peuvent être envoyés aux abonnés, aussi bien avant qu’après la date d’échéance de leur abonnement.</message>
+  <message key="manager.subscriptionPolicies.expiryRemindersDescription">Des courriels de rappel automatisés (disponibles pour modification par la directrice ou le directeur de la revue, dans les modèles de courriels d’OJS) peuvent être envoyés aux abonnés, aussi bien avant qu’après la date d’échéance de leur abonnement.</message>
   <message key="manager.subscriptionPolicies.expiryRemindersDisabled"><![CDATA[Note. Pour activer ces options, l’administrateur du site Web doit activer l’option « scheduled_tasks » dans le fichier de configuration d’OJS. Des configurations serveur supplémentaires peuvent être nécessaires afin de prendre en charge cette fonctionnalité (laquelle n’est pas possible sur tous les serveurs), comme mentionné dans la documentation d’OJS.]]></message>
   <message key="manager.subscriptionPolicies.expirySelectOne">En sélectionner un :</message>
   <message key="manager.subscriptionPolicies.htmlInstructions"><![CDATA[Du HTML peut être utilisé dans la zone de texte (pour la taille de police, la couleur, etc.). Le bouton « Entrée » est considéré comme l’équivalent de « &lt;br&gt; ». L’éditeur HTML fonctionne avec le navigateur Firefox.]]></message>
   <message key="manager.subscriptionPolicies.numMonthsAfterSubscriptionExpiryReminderValid">Veuillez sélectionner une valeur valide pour le nombre de mois suivant l’échéance de l’abonnement.</message>
   <message key="manager.subscriptionPolicies.numMonthsBeforeSubscriptionExpiryReminderValid">Veuillez sélectionner une valeur valide pour le nombre de mois précédant l’échéance de l’abonnement.</message>
   <message key="manager.subscriptionPolicies.numWeeksAfterSubscriptionExpiryReminderValid">Veuillez sélectionner une valeur valide pour le nombre de semaines après l’échéance de l’abonnement.</message>
-	<message key="manager.subscriptionPolicies.numWeeksBeforeSubscriptionExpiryReminderValid">Veuillez sélectionner une valeur valide pour le nombre de semaines précédant l’échéance de l’abonnement.</message>
-	<message key="manager.subscriptionPolicies.openAccessNotificationDescription">Les lecteurs enregistrés auront le choix de recevoir le sommaire par courriel quand un numéro devient disponible en libre accès.</message>
+  <message key="manager.subscriptionPolicies.numWeeksBeforeSubscriptionExpiryReminderValid">Veuillez sélectionner une valeur valide pour le nombre de semaines précédant l’échéance de l’abonnement.</message>
+  <message key="manager.subscriptionPolicies.openAccessNotificationDescription">Les lecteurs enregistrés auront le choix de recevoir le sommaire par courriel quand un numéro devient disponible en libre accès.</message>
   <message key="manager.subscriptionPolicies.openAccessNotificationDisabled"><![CDATA[Note. Pour activer cette option, l’administrateur du site doit activer l’option « scheduled_tasks » dans le fichier de configuration d’OJS. Une configuration serveur supplémentaire peut s’avérer nécessaire pour prendre en charge cette fonctionnalité (laquelle n’est pas forcément disponible sur tous les serveurs), comme indiqué dans la documentation d’OJS.]]></message>
   <message key="manager.subscriptionPolicies.onlinePaymentNotifications">Avis de paiement en ligne</message>
   <message key="manager.subscriptionPolicies.onlinePaymentNotificationsDescription">Les avis automatisés par courriel peuvent être envoyés au responsable des abonnements au terme des paiements en ligne des abonnements.</message>
   <message key="manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseIndividual">Aviser le responsable des abonnements par courriel lors de la souscription en ligne d’un abonnement individuel.</message>
-	<message key="manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseInstitutional">Aviser le responsable des abonnements par courriel lors de la souscription en ligne d’un abonnement institutionnel (recommandé).</message>
+  <message key="manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseInstitutional">Aviser le responsable des abonnements par courriel lors de la souscription en ligne d’un abonnement institutionnel (recommandé).</message>
   <message key="manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationRenewIndividual">Aviser le responsable des abonnements par courriel lors du renouvellement en ligne d’un abonnement individuel.</message>
   <message key="manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationRenewInstitutional">Aviser le responsable des abonnements par courriel lors du renouvellement en ligne d’un abonnement institutionnel.</message>
   <message key="manager.subscriptionPolicies.onlinePaymentPurchaseInstitutionalDescription"><![CDATA[Note. Les abonnements institutionnels souscrits en ligne nécessitent l’approbation du domaine et des intervalles d’adresses IP ainsi que l’activation de l’abonnement par le responsable des abonnements.]]></message>
- <message key="manager.subscriptionPolicies.onlinePaymentDisabled"><![CDATA[Note. Pour activer ces options, la directrice ou le directeur de la revue doit activer le module de paiement en ligne, qui inclut les paiements en ligne pour les abonnements, sous « Frais de lecture ».]]></message>
+  <message key="manager.subscriptionPolicies.onlinePaymentDisabled"><![CDATA[Note. Pour activer ces options, la directrice ou le directeur de la revue doit activer le module de paiement en ligne, qui inclut les paiements en ligne pour les abonnements, sous « Frais de lecture ».]]></message>
   <message key="manager.subscriptionPolicies.openAccessOptions">Options pour le libre accès des revues sous abonnement</message>
   <message key="manager.subscriptionPolicies.openAccessOptionsDescription">Les revues sous abonnement peuvent fournir un libre accès différé à leur contenu publié, ainsi que permettre l’auto-archivage par l’auteur(e) (les deux mesures permettant d’augmenter le nombre de lecteurs et de citations du contenu).</message>
   <message key="manager.subscriptionPolicies.subscriptionAdditionalInformation">Information sur l’abonnement</message>
   <message key="manager.subscriptionPolicies.subscriptionAdditionalInformationDescription">Les types d’abonnement et la grille tarifaire seront automatiquement placés sous « Abonnements » sur la page « À propos de cette revue », au même titre que le nom et l’information de contact du responsable des abonnements. Des informations supplémentaires concernant les abonnements, tels les modes de paiement ou le soutien pour les abonnés de pays en voie de développement, peuvent être ajoutées ici.</message>
   <message key="manager.subscriptionPolicies.subscriptionContact">Responsable des abonnements</message>
-	<message key="manager.subscriptionPolicies.subscriptionContactDescription">Le contact indiqué sous « Abonnements » sur la page « À propos de cette revue ».</message>
+  <message key="manager.subscriptionPolicies.subscriptionContactDescription">Le contact indiqué sous « Abonnements » sur la page « À propos de cette revue ».</message>
   <message key="manager.subscriptionPolicies.subscriptionContactEmailValid">Veuillez saisir un courriel valide.</message>
   <message key="manager.subscriptions">Abonnements</message>
   <message key="manager.individualSubscriptions">Abonnements individuels</message>
@@ -452,7 +452,7 @@
   <message key="manager.subscriptions.form.userIdRequired">L’utilisateur est obligatoire.</message>
   <message key="manager.subscriptions.form.userIdValid">Veuillez sélectionner un utilisateur valide.</message>
   <message key="manager.subscriptions.form.userCountryValid">Veuillez sélectionner un pays valide.</message>
-	<message key="manager.subscriptions.form.notifyEmail">Envoyer à l’utilisateur un courriel avec ses nom d’utilisateur et informations d’abonnement.</message>
+  <message key="manager.subscriptions.form.notifyEmail">Envoyer à l’utilisateur un courriel avec ses nom d’utilisateur et informations d’abonnement.</message>
   <message key="manager.subscriptions.form.notifyEmailValid">Veuillez utiliser la case à cocher fournie.</message>
   <message key="manager.subscriptions.form.membership">Adhésion</message>
   <message key="manager.subscriptions.form.referenceNumber">Numéro de référence</message>
@@ -468,12 +468,12 @@
   <message key="manager.subscriptions.form.domainValid">Veuillez entrer un domaine valide.</message>
   <message key="manager.subscriptions.form.ipRange">Intervalle d’adresses IP</message>
   <message key="manager.subscriptions.form.ipRangeItem"><![CDATA[&#8226;]]></message>
-	<message key="manager.subscriptions.form.ipRangeInstructions"><![CDATA[Si des intervalles d’adresses IP sont saisis ici, le domaine est facultatif.<br />Les valeurs valides peuvent inclure une adresse IP (p. ex., « 142.58.103.1 »), un intervalle d’adresses IP (p. ex., « 142.58.103.1 - 142.58.103.4 »), un intervalle d’adresses IP avec la troncature "*" (« 142.58.103.* ») et un intervalle d’adresses IP avec CIDR (e.g. « 142.58.100.0/24 »).]]></message>
+  <message key="manager.subscriptions.form.ipRangeInstructions"><![CDATA[Si des intervalles d’adresses IP sont saisis ici, le domaine est facultatif.<br />Les valeurs valides peuvent inclure une adresse IP (p. ex., « 142.58.103.1 »), un intervalle d’adresses IP (p. ex., « 142.58.103.1 - 142.58.103.4 »), un intervalle d’adresses IP avec la troncature "*" (« 142.58.103.* ») et un intervalle d’adresses IP avec CIDR (e.g. « 142.58.100.0/24 »).]]></message>
   <message key="manager.subscriptions.form.ipRangeValid">Veuillez saisir un intervalle d’adresses IP valide.</message>
   <message key="manager.subscriptions.form.deleteIpRange">Supprimer</message>
   <message key="manager.subscriptions.form.addIpRange">Ajouter</message>
   <message key="manager.subscriptions.form.saveAndCreateAnother">Enregistrer et en créer un autre</message>
-	<message key="manager.subscriptions.form.subscriptionContactRequired">Pour envoyer un avis à l’utilisateur par courriel, le nom et l’adresse de courriel du contact des abonnements doivent être précisés dans la configuration de la revue.</message>
+  <message key="manager.subscriptions.form.subscriptionContactRequired">Pour envoyer un avis à l’utilisateur par courriel, le nom et l’adresse de courriel du contact des abonnements doivent être précisés dans la configuration de la revue.</message>
   <message key="manager.subscriptions.form.subscriptionExists">Cet utilisateur a déjà un abonnement à cette revue.</message>
   <message key="manager.subscriptions.form.typeRequired">Un type d’abonnement doit être créé avant que de nouveaux abonnements puissent être effectués.</message>
   <message key="manager.subscriptions.ipRange">Intervalles d’adresses IP</message>
@@ -483,7 +483,7 @@
   <message key="manager.subscriptions.noneCreated">Aucun abonnement.</message>
   <message key="manager.subscriptions.selectContact">Sélectionner un contact des abonnements</message>
   <message key="manager.subscriptions.selectUser">Sélectionner un utilisateur</message>
- <message key="manager.subscriptions.selectSubscriber.desc">Les privilèges d’accès d’abonnement sont automatiquement accordés aux directrices ou directeurs, éditrices ou éditeurs, éditrices ou éditeurs de rubrique, responsables de mise en page, réviseurs et correcteurs d’épreuves de la revue.</message>
+  <message key="manager.subscriptions.selectSubscriber.desc">Les privilèges d’accès d’abonnement sont automatiquement accordés aux directrices ou directeurs, éditrices ou éditeurs, éditrices ou éditeurs de rubrique, responsables de mise en page, réviseurs et correcteurs d’épreuves de la revue.</message>
   <message key="manager.subscriptions.select">Sélectionner</message>
   <message key="manager.subscriptions.subscriptionCreatedSuccessfully">Création de l’abonnement réussie.</message>
   <message key="manager.subscriptions.subscriptionType">Type d’abonnement</message>
@@ -527,7 +527,7 @@
   <message key="manager.subscriptionTypes.form.membership"><![CDATA[Les abonnements requièrent l’information d’adhésion<br />(membre d’une association, d’une organisation, d’un consortium, etc.)]]></message>
   <message key="manager.subscriptionTypes.form.membershipValid">Veuillez utiliser les cases à cocher fournies.</message>
   <message key="manager.subscriptionTypes.form.options">Options</message>
-	<message key="manager.subscriptionTypes.form.public"><![CDATA[Ne pas rendre ce type d’abonnement disponible publiquement ou visible<br />(p. ex. sous « Abonnements » sur la page « À propos de cette revue ».)]]></message>
+  <message key="manager.subscriptionTypes.form.public"><![CDATA[Ne pas rendre ce type d’abonnement disponible publiquement ou visible<br />(p. ex. sous « Abonnements » sur la page « À propos de cette revue ».)]]></message>
   <message key="manager.subscriptionTypes.form.publicValid">Veuillez utiliser les cases à cocher fournies.</message>
   <message key="manager.subscriptionTypes.form.saveAndCreateAnotherType">Enregistrer et en créer un autre</message>
   <message key="manager.subscriptionTypes.form.typeName">Nom du type</message>
@@ -550,14 +550,14 @@
   <message key="grid.category.path">Chemin d’accès</message>
   <message key="grid.action.addSection">Ajouter une section</message>
   <message key="manager.setup.section.description">Les articles publiés dans une revue sont organisés en rubriques, généralement par thème ou par type de contenu (p. ex., articles de synthèse ou de recherche).</message>
- <message key="settings.roles.gridDescription">Les rôles sont attribués aux utilisateurs de la revue afin de leur donner accès à différents niveaux d’autorisation et à différents flux de travail associés à la revue. Il existe cinq niveaux d’autorisation : les directrices ou directeurs de revue ont accès à tout ce qui se trouve dans une revue (tous les contenus et les paramètres) ; les éditrices ou éditeurs ont un accès complet à tout le contenu attribué ; les assistants de revue ont un accès limité aux seules propositions qui leur ont été expressément attribuées par une éditrice ou un éditeur ; les évaluateurs peuvent voir et traiter les propositions qui leur ont été attribuées pour évaluation ; les auteurs peuvent voir et traiter une quantité limitée d’informations en rapport avec leurs propres propositions. En outre, il y a cinq étapes auxquelles les rôles peuvent avoir accès : soumission d’une proposition, évaluation interne, évaluation externe, édition et production.</message>
+  <message key="settings.roles.gridDescription">Les rôles sont attribués aux utilisateurs de la revue afin de leur donner accès à différents niveaux d’autorisation et à différents flux de travail associés à la revue. Il existe cinq niveaux d’autorisation : les directrices ou directeurs de revue ont accès à tout ce qui se trouve dans une revue (tous les contenus et les paramètres) ; les éditrices ou éditeurs ont un accès complet à tout le contenu attribué ; les assistants de revue ont un accès limité aux seules propositions qui leur ont été expressément attribuées par une éditrice ou un éditeur ; les évaluateurs peuvent voir et traiter les propositions qui leur ont été attribuées pour évaluation ; les auteurs peuvent voir et traiter une quantité limitée d’informations en rapport avec leurs propres propositions. En outre, il y a cinq étapes auxquelles les rôles peuvent avoir accès : soumission d’une proposition, évaluation interne, évaluation externe, édition et production.</message>
   <message key="manager.publication.library">Bibliothèque de l’éditeur</message>
   <message key="manager.setup.copyrightYearBasis">Fonder l’année de mention des droits d’auteur du nouvel article sur :</message>
-	<message key="manager.setup.copyrightYearBasis.article">Article (l’année par défaut sera celle de la publication de l’article, comme pour le mode de publication au fil de l’eau)</message>
+  <message key="manager.setup.copyrightYearBasis.article">Article (l’année par défaut sera celle de la publication de l’article, comme pour le mode de publication au fil de l’eau)</message>
   <message key="manager.setup.copyrightYearBasis.issue">Numéro (l’année par défaut sera celle de la publication du numéro)</message>
   <message key="manager.setup.resetPermissions">Réinitialiser les autorisations de l’article</message>
   <message key="manager.setup.resetPermissions.confirm">Êtes-vous certain(e) de vouloir réinitialiser les autorisations déjà liées à l’article ?</message>
-	<message key="manager.setup.resetPermissions.description">La mention des droits d’auteur et l’information sur la licence seront liées au contenu diffusé d’une façon permanente, afin que les données restent inchangées en cas de changement de politique pour les nouvelles propositions. Pour réinitialiser les autorisations stockées qui sont déjà liées aux contenus diffusés, utilisez le bouton ci-dessous.</message>
+  <message key="manager.setup.resetPermissions.description">La mention des droits d’auteur et l’information sur la licence seront liées au contenu diffusé d’une façon permanente, afin que les données restent inchangées en cas de changement de politique pour les nouvelles propositions. Pour réinitialiser les autorisations stockées qui sont déjà liées aux contenus diffusés, utilisez le bouton ci-dessous.</message>
   
   <!-- Genres Grid -->
   <message key="grid.genres.title.short">Éléments</message>
@@ -595,7 +595,7 @@
   <message key="plugins.importexport.common.error.validation">Les objets sélectionnés n’ont pas pu être convertis.</message>
   <message key="plugins.importexport.common.invalidXML">XML invalide :</message>
   <message key="plugins.importexport.common.export.error.outputFileNotWritable">Le fichier de sortie « {$param} » n’est pas accessible en écriture.</message>
-	<message key="plugins.importexport.common.export.error.inputFileNotReadable">Le fichier d’entrée « {$param} » n’est pas lisible.</message>
+  <message key="plugins.importexport.common.export.error.inputFileNotReadable">Le fichier d’entrée « {$param} » n’est pas lisible.</message>
   <message key="plugins.importexport.common.register.error.mdsError">L’enregistrement a échoué ! Le serveur d’enregistrement DOI a retourné une erreur : « {$param} ».</message>
   <message key="plugins.importexport.common.register.success">Enregistrement réussi !</message>
   <message key="plugins.importexport.common.senderTask.warning.noDOIprefix">Le préfixe du DOI manque pour la revue qui possède le chemin d’accès « {$path} ».</message>

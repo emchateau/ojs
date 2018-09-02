@@ -15,8 +15,8 @@
 	<message key="admin.hostedJournals">Revues hébergées</message>
 	<message key="admin.settings.journalRedirect">Réacheminement vers la revue</message>
 	<message key="admin.settings.options">Options</message>
-	<message key="admin.settings.journalRedirectInstructions">Les demandes faites au site principal seront réacheminées vers cette revue. Cela pourrait être utile si le site héberge, par exemple, une seule revue.</message>
-	<message key="admin.settings.noJournalRedirect">Ne pas réacheminer</message>
+	<message key="admin.settings.journalRedirectInstructions">Les demandes faites au site principal seront ré-acheminées vers cette revue. Cela pourrait être utile si le site héberge, par exemple, une seule revue.</message>
+	<message key="admin.settings.noJournalRedirect">Ne pas ré-acheminer</message>
 	<message key="admin.settings.defaultMetricDescription">Votre installation OJS est paramétrée pour enregistrer plus d’une mesure d’utilisation. Les statistiques d’utilisation seront affichées dans plusieurs contextes. Il y a des cas où seulement une statistique d’utilisation doit être utilisée, par exemple pour afficher une liste ordonnée des articles les plus utilisés ou classer les résultats de recherche. Veuillez sélectionnez l’une des mesures comme mesure par défaut.</message>
 	<message key="admin.languages.confirmDisable">Êtes-vous certain(e) de vouloir désactiver cette instance locale ? Cela pourrait avoir un impact sur toute revue utilisant actuellement cette instance.</message>
 	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Le téléchargement de fichiers de langues depuis le serveur Web du Public Knowledge Project n’est pas disponible actuellement car :</p>

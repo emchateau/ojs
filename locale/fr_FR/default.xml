@@ -34,7 +34,7 @@
 	<message key="default.journalSettings.authorSelfArchivePolicy">Les auteurs ont l’autorisation de et sont encouragés à diffuser les travaux soumis à la revue sur un site Web personnel ou un dépôt institutionnel autant avant qu’après leur publication dans cette revue (tout en donnant les détails bibliographiques du numéro de la revue, le cas échéant).</message>
 	<message key="default.journalSettings.copyeditInstructions"><![CDATA[<p>L’étape de la révision de texte vise à améliorer le débit, la clarté, le respect des normes grammaticales, le choix des mots et la mise en forme de l’article. Elle représente la dernière occasion pour l’auteur d’apporter des modifications substantielles au texte, l’étape suivante étant limitée aux corrections d’erreurs typographiques et de mise en forme.</p>
 
-<p>Le fichier à réviser est en format Word ou .rtf et peut donc être facilement révisé dans un logiciel de traitement de texte. Les consigens fournies ici proposent deux approches pour la révision de texte. L’une est basée sur la fonctionnalité Suivi des modifications de Microsoft Word et exige que le réviseur, le rédacteur et l’auteur aient accès à ce programme. L’autre système repose sur l’utlisation d’un logiciel indépendant emprunté, avec leur autorisation, au Harvard Educational Review. Le rédacteur de la revue peut modifier ces instructions, afin que des suggestions puissent être faites pour améliorer le processus. </p>
+<p>Le fichier à réviser est en format Word ou .rtf et peut donc être facilement révisé dans un logiciel de traitement de texte. Les consigens fournies ici proposent deux approches pour la révision de texte. L’une est basée sur la fonctionnalité Suivi des modifications de Microsoft Word et exige que le réviseur, le rédacteur et l’auteur aient accès à ce programme. L’autre système repose sur l’utilisation d’un logiciel indépendant emprunté, avec leur autorisation, au Harvard Educational Review. Le rédacteur de la revue peut modifier ces instructions, afin que des suggestions puissent être faites pour améliorer le processus. </p>
 
 <h4>Systèmes de révision de texte</h4>
 
@@ -76,7 +76,7 @@ Veuillez suivre le protocole suivant pour faire les révisions numériques de vo
 <h4>Illustration d’une révision numérique</h4>
 
 <p><strong>Fichier «&nbsp;manuscrit&nbsp;» original&nbsp;:</strong>
-Avant d’apporter des changements importants à la structure ou à l’organisation de votre manuscrit original, veuillez communiquer avec les co-rapporteurs de votre texte. Lorsque vous avez terminé vos révisions, changez le nom du fichier de AuthorNameQA.doc à AuthorNameQAR.doc (par ex., de GagnonQA.doc à GagnonQAR.doc).Imprimez une copie papier de votre manuscrit et postez-la avec une version numérique contenant le fichier de traitement de texte complètement révisé et renommé.</p>
+Avant d’apporter des changements importants à la structure ou à l’organisation de votre manuscrit original, veuillez communiquer avec les co-évaluateurs de votre texte. Lorsque vous avez terminé vos révisions, changez le nom du fichier de AuthorNameQA.doc à AuthorNameQAR.doc (par ex., de GagnonQA.doc à GagnonQAR.doc).Imprimez une copie papier de votre manuscrit et postez-la avec une version numérique contenant le fichier de traitement de texte complètement révisé et renommé.</p>
 
 
 <p><strong>Manuscrit retourné à l’auteur avec requêtes et suggestions&nbsp;:</strong>
