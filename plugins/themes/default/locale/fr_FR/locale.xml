@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/themes/default/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
+  * Localization strings.
+  -->
+
+<locale name="fr_FR" full_name="Français (France)">
+  <message key="plugins.themes.default.name">Thème par défaut</message>
+  <message key="plugins.themes.default.description">Ce thème implémente le thème par défaut.</message>
+  
+  <!-- Theme options -->
+  <message key="plugins.themes.default.option.typography.label">Typographie</message>
+  <message key="plugins.themes.default.option.typography.description">Choisir une combinaison de police adaptée à ce journal.</message>
+  <message key="plugins.themes.default.option.typography.notoSans">Noto Sans : Une police nativement numérique conçue par Google avec un support de langues étendu.</message>
+  <message key="plugins.themes.default.option.typography.notoSerif">Noto Serif : Une variante Sérif de la police nativement numérique de Google.</message>
+  <message key="plugins.themes.default.option.typography.notoSerif_notoSans">Noto Serif/Noto Sans: Une combinaison de polices complémentaires avec des titres serif et un corps de texte sans-serif.</message>
+  <message key="plugins.themes.default.option.typography.notoSans_notoSerif">Noto Sans/Noto Serif : Une combinaison de polices complémentaires avec des titres serif et un corps de texte serif.</message>
+  <message key="plugins.themes.default.option.typography.lato">Lato : Une police sans-serif populaire et moderne.</message>
+  <message key="plugins.themes.default.option.typography.lora">Lora : Un large ensemble de police serif adaptée à la lecture en ligne.</message>
+  <message key="plugins.themes.default.option.typography.lora_openSans">Lora/Open Sans : Une combinaison de polices complémentaires avec des titres en serif et un corps de texte sans-serif.</message>
+  <message key="plugins.themes.default.option.colour.label">Couleur</message>
+  <message key="plugins.themes.default.option.colour.description">Choisir une couleur pour le titre.</message>
+</locale>
