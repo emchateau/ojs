@@ -653,8 +653,8 @@ Avec nos salutations cordiales,<br />
             d’utilisatrice ou d’utilisateur et son mot de passe.</description>
     </email_text>
     <email_text key="NOTIFICATION">
-        <subject>Nouvel avis de {$siteTitle}</subject>
-        <body><![CDATA[Vous avez un nouvel avis de {$siteTitle} :<br />
+        <subject>Message à propos de la revue {$siteTitle}</subject>
+        <body><![CDATA[Vous avez un nouveau message concernant la revue {$siteTitle} :<br />
 <br />
 {$notificationContents}<br />
 <br />
