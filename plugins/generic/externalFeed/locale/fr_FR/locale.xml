@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/externalFeed/locale/fr_FR/locale.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
+  * Localization strings.
+  -->
+
+<locale name="fr_FR" full_name="Français (France)">
+  
+  <!-- External Feed -->
+  <message key="plugins.generic.externalFeed.displayName">Flux externes</message>
+  <message key="plugins.generic.externalFeed.block.displayName">Bloc de flux externe</message>
+  <message key="plugins.generic.externalFeed.description">Publier des contenus depuis des flux de syndication Atom/RSS. Par exemple, depuis une installation externe de WordPress, Drupal, ou OCS.</message>
+  <message key="plugins.generic.externalFeed.noneExist">Pas de flux externes</message>
+  <message key="plugins.generic.externalFeed.title">Titre</message>
+  <message key="plugins.generic.externalFeed.posted">Posté</message>
+  <message key="plugins.generic.externalFeed.more">Plus...</message>
+  
+  <!-- External Feed Management -->
+  <message key="plugins.generic.externalFeed.manager.feeds">Flux externes</message>
+  <message key="plugins.generic.externalFeed.manager.settings">Réglages</message>
+  <message key="plugins.generic.externalFeed.manager.displayBlockInstructions"><![CDATA[Pour afficher les contenus de flux dans les blocks de barres latérales, aller à <a href="{$setupStep56}" target="_blank">Réglage Étape 5.6</a>]]></message>
+  <message key="plugins.generic.externalFeed.manager.title">Titre</message>
+  <message key="plugins.generic.externalFeed.manager.displayHomepage">Afficher la page d’accueil</message>
+  <message key="plugins.generic.externalFeed.manager.displayHomepage.altText">Afficher la page d’acceuil</message>
+  <message key="plugins.generic.externalFeed.manager.noDisplayHomepage.altText">Pas de page d’accueil</message>
+  <message key="plugins.generic.externalFeed.manager.displayBlock">Afficher des blocs</message>
+  <message key="plugins.generic.externalFeed.manager.displayBlockAll">Toutes les pages</message>
+  <message key="plugins.generic.externalFeed.manager.displayBlockAll.altText">Bloc sur toutes les pages</message>
+  <message key="plugins.generic.externalFeed.manager.noDisplayBlockAll.altText">Pas de bloc sur toutes les pages</message>
+  <message key="plugins.generic.externalFeed.manager.displayBlockHomepage">Page d’accueil</message>
+  <message key="plugins.generic.externalFeed.manager.displayBlockHomepage.altText">Bloc sur la page d’accueil seulement</message>
+  <message key="plugins.generic.externalFeed.manager.noDisplayBlockHomepage.altText">Pas de bloc sur la page d’accueil seulement</message>
+  <message key="plugins.generic.externalFeed.manager.noneCreated">Pas de flux externes</message>
+  <message key="plugins.generic.externalFeed.manager.create">Créer un nouveau flux externe</message>
+  <message key="plugins.generic.externalFeed.manager.edit">Éditer un flux externe</message>
+  <message key="plugins.generic.externalFeed.manager.confirmDelete">Voulez-vous vraiment supprimer ce flux de façon définitive ?</message>
+  
+  <!-- External Feed Settings -->
+  <message key="plugins.generic.externalFeed.settings">Réglages</message>
+  <message key="plugins.generic.externalFeed.settings.description">Personnalisez la présentation des flux externes.</message>
+  <message key="plugins.generic.externalFeed.settings.styleSheet">Présentation</message>
+  <message key="plugins.generic.externalFeed.settings.defaultStyleSheet">Feuille de style de flux externe</message>
+  <message key="plugins.generic.externalFeed.settings.stylesheetDescription">Une feuille de style personnalisée peut être utilisée pour remplacer la feuille de style par défaut pour ce plugin. La feuille de style par défaut peut être vue ici</message>
+  <message key="plugins.generic.externalFeed.settings.useStyleSheet">Feuille de style personnalisée</message>
+  
+  
+  <!-- External Feed Form-->
+  <message key="plugins.generic.externalFeed.form.title">Titre</message>
+  <message key="plugins.generic.externalFeed.form.titleDescription">Titre pour la page d’accueil ou la présentation de bloc</message>
+  <message key="plugins.generic.externalFeed.form.titleRequired">Merci de fournir un titre pour ce flux</message>
+  <message key="plugins.generic.externalFeed.form.feedUrl">URL</message>
+  <message key="plugins.generic.externalFeed.form.feedUrlValid">Merci de fournir une URL valide pour le flux (avec http://)</message>
+  <message key="plugins.generic.externalFeed.form.feedUrlDescription">L’URL pour le flux de syndication Atom/RSS (p. ex. http://pkp.sfu.ca/blog/feed)</message>
+  <message key="plugins.generic.externalFeed.form.display">Afficher</message>
+  <message key="plugins.generic.externalFeed.form.displayHomepage">Afficher sur la page d’accueil</message>
+  <message key="plugins.generic.externalFeed.form.displayBlockNone">Ne pas afficher dans le bloc</message>
+  <message key="plugins.generic.externalFeed.form.displayBlockHomepage">Afficher dans les blocs sur la page d’accueil seulement</message>
+  <message key="plugins.generic.externalFeed.form.displayBlockAll">Afficher dans le bloc sur toutes les pags</message>
+  <message key="plugins.generic.externalFeed.form.recentItems1">Limiter à</message>
+  <message key="plugins.generic.externalFeed.form.recentItems2">items de flux</message>
+  <message key="plugins.generic.externalFeed.form.saveAndCreateAnother">Sauver et créer un autre</message>
+  
+</locale>

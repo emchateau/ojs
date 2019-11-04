@@ -2,7 +2,7 @@
 <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
 
 <!--
-  * plugins/blocks/information/locale/fr_FR/locale.xml
+  * locale.xml
   *
   * Copyright (c) 2014-2018 Simon Fraser University
   * Copyright (c) 2003-2018 John Willinsky
@@ -10,9 +10,8 @@
   * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
   * Localization strings.
   -->
- 
-<locale name="fr_FR" full_name="Français (France)">
-	<message key="plugins.block.information.displayName">Bloc d’information</message>
-	<message key="plugins.block.information.description">Ce plugin fournir une barre latérale pour les liens d’information.</message>
-	<message key="plugins.block.information.link">Information</message>
+
+<locale name="en_US" full_name="U.S. English">
+  <message key="plugins.block.developedBy.displayName">« Développé par » Block</message>
+  <message key="plugins.block.developedBy.description">Ce plugin fournit une barre latérale « Développée par » link.</message>
 </locale>
