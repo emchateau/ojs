@@ -14,20 +14,20 @@
 <email_texts locale="fr_FR">
     <email_text key="PASSWORD_RESET_CONFIRM">
         <subject>Confirmation de la réinitialisation de votre mot de passe</subject>
-        <body><![CDATA[Nous avons reçu une demande concernant la réinitialisation de votre mot de passe pour le site Web {$siteTitle}.<br />
+        <body><![CDATA[Bonjour,<br/>
+          Nous avons reçu une demande concernant la réinitialisation de votre mot de passe pour le site web de la revue {$siteTitle}.<br />
 <br />
 Si vous n’avez pas fait cette demande, veuillez ne pas tenir compte du présent message et votre mot de passe restera le même. Si vous voulez réinitialiser votre mot de passe, cliquez sur le lien ci-dessous et un nouveau mot de passe vous sera envoyé sous peu par courriel.<br />
 <br />
 Réinitialisation de votre mot de passe : {$url}<br />
 <br />
 {$principalContactSignature}]]></body>
-        <description>Ce courriel est envoyé aux utilisateurs qui nous signalent avoir oublié leur
-            mot de passe ou qui sont incapables d’ouvrir une session. Il fournit le lien URL pour
-            réinitialiser leur mot de passe.</description>
+        <description>Ce courriel est envoyé aux utilisateurs qui nous signalent avoir oublié leur mot de passe ou qui sont incapables d’ouvrir une session. Il fournit le lien URL pour réinitialiser leur mot de passe.</description>
     </email_text>
     <email_text key="PASSWORD_RESET">
         <subject>Réinitialisation de votre mot de passe</subject>
-        <body><![CDATA[Votre mot de passe pour le site Web {$siteTitle} a été réinitialisé avec succès. Veuillez conserver précieusement votre nom d’utilisatrice ou d’utilisateur ainsi que votre mot de passe. Vous en aurez besoin pour chacune de vos interactions avec la revue.<br />
+        <body><![CDATA[Bonjour,<br/>
+Votre mot de passe pour le site web de la revue {$siteTitle} a été réinitialisé avec succès. Veuillez conserver précieusement votre nom d’utilisatrice ou d’utilisateur ainsi que votre mot de passe. Vous en aurez besoin pour chacune de vos interactions avec la revue.<br />
 <br />
 Votre nom d’utilisatrice ou d’utilisateur : {$username}<br />
 <br />
@@ -38,7 +38,7 @@ Votre nom d’utilisatrice ou d’utilisateur : {$username}<br />
         <subject>Inscription dans la liste des utilisateurs</subject>
         <body><![CDATA[Chère/cher {$userFullName},<br />
 <br />
-Vous faites désormais partie des utilisateurs du site de {$contextName}. Veuillez conserver précieusement votre nom d’utilisatrice ou d’utilisateur et votre mot de passe. Vous en aurez besoin pour toutes vos interactions avec la revue. À n’importe quel moment, vous pouvez demander à être retiré(e) de la liste des utilisateurs de la revue en nous contactant.<br />
+Vous faites désormais partie des utilisateurs du site web de la revue {$contextName}. Veuillez conserver précieusement votre nom d’utilisatrice ou d’utilisateur et votre mot de passe. Vous en aurez besoin pour toutes vos interactions avec la revue. À n’importe quel moment, vous pouvez demander à être retiré(e) de la liste des utilisateurs de la revue en nous contactant.<br />
 <br />
 Nom d’utilisatrice ou d’utilisateur : {$username}<br />
 Mot de passe : {$password}<br />
@@ -46,8 +46,7 @@ Mot de passe : {$password}<br />
 Avec tous nos remerciements,<br />
 <br />
 {$principalContactSignature}]]></body>
-        <description>Ce courriel est envoyé aux utilisateurs nouvellement inscrits pour leur
-            souhaiter la bienvenue à la revue et leur faire connaître leur nom d’utilisatrice ou d’utilisateur et leur
+        <description>Ce courriel est envoyé aux utilisateurs nouvellement inscrits pour leur souhaiter la bienvenue à la revue et leur faire connaître leur nom d’utilisatrice ou d’utilisateur et leur
             mot de passe.</description>
     </email_text>
     <email_text key="PUBLISH_NOTIFY">
@@ -120,8 +119,7 @@ Si vous avez des questions, n’hésitez pas à nous contacter. Merci encore d�
 {$commentName} a ajouté un commentaire à la proposition intitulée « {$submissionTitle} » dans la revue {$contextName} :<br />
 <br />
 {$comments}]]></body>
-        <description>Ce courriel avise plusieurs personnes impliquées dans le processus éditorial
-            qu’un nouveau commentaire a été ajouté.</description>
+        <description>Ce courriel avise plusieurs personnes impliquées dans le processus éditorial qu’un nouveau commentaire a été ajouté.</description>
     </email_text>
     <email_text key="SUBMISSION_DECISION_REVIEWERS">
         <subject>Décision concernant le texte intitulé « {$submissionTitle} »</subject>
@@ -130,9 +128,7 @@ Si vous avez des questions, n’hésitez pas à nous contacter. Merci encore d�
 {$editorialContactSignature}<br />
 <br />
 {$comments}]]></body>
-        <description>Ce courriel avise les évaluatrices ou évaluateurs d’une proposition que le
-            processus d’évaluation est achevé. Il inclut des informations au sujet de l’article et
-            de la décision prise et remercie les évaluateurs de leur contribution.</description>
+        <description>Ce courriel avise les évaluatrices ou évaluateurs d’une proposition que le processus d’évaluation est achevé. Il inclut des informations au sujet de l’article et de la décision prise et remercie les évaluateurs de leur contribution.</description>
     </email_text>
     <email_text key="EDITOR_ASSIGN">
         <subject>Attribution d’une proposition</subject>
