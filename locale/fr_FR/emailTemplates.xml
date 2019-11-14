@@ -111,10 +111,7 @@ Nom d’utilisatrice ou d’utilisateur : {$authorUsername}<br />
 Si vous avez des questions, n’hésitez pas à nous contacter. Merci encore d’avoir pensé à notre revue pour la publication de vos travaux.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel, lorsqu’il est activé, est envoyé automatiquement à une auteure ou un
-            auteur quand il ou elle a achevé le processus de proposition d’un texte à la revue. Il
-            indique comment suivre la proposition tout au long du processus
-            éditorial et remercie l’auteur(e) de sa proposition.</description>
+        <description>Ce courriel, lorsqu’il est activé, est envoyé automatiquement à une auteure ou un auteur quand il ou elle a achevé le processus de proposition d’un texte à la revue. Il indique comment suivre la proposition tout au long du processus éditorial et remercie l’auteur(e) de sa proposition.</description>
     </email_text>
     <email_text key="SUBMISSION_COMMENT">
         <subject>Commentaires sur une proposition</subject>
@@ -414,7 +411,7 @@ Nous souhaitons vous demander de corriger les épreuves du texte intitulé « {$
 URL du texte : {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel de l’éditrice ou éditeur de rubrique à l’auteur(e) l’avise 
+        <description>Ce courriel de l’éditrice ou éditeur de rubrique à l’auteur(e) l’avise
             que les épreuves de la proposition sont prêtes pour la correction des épreuves. Il
             fournit des informations sur la proposition et indique comment y accéder.</description>
     </email_text>
@@ -648,9 +645,7 @@ Mot de passe : {$password}<br />
 Avec nos salutations cordiales,<br />
 <br />
 {$principalContactSignature}]]></body>
-        <description>Ce courriel est envoyé à une évaluatrice ou un évaluateur nouvellement inscrit,
-            afin de l’accueillir dans le système et de lui proposer d’enregistrer son nom
-            d’utilisatrice ou d’utilisateur et son mot de passe.</description>
+        <description>Ce courriel est envoyé à une évaluatrice ou un évaluateur nouvellement inscrit, afin de l’accueillir dans le système et de lui proposer d’enregistrer son nom d’utilisatrice ou d’utilisateur et son mot de passe.</description>
     </email_text>
     <email_text key="NOTIFICATION">
         <subject>Message à propos de la revue {$siteTitle}</subject>
@@ -661,8 +656,7 @@ Avec nos salutations cordiales,<br />
 Lien : {$url}<br />
 <br />
 {$principalContactSignature}]]></body>
-        <description>Ce courriel est envoyé aux utilisateurs inscrits qui ont choisi de recevoir par
-            courriel ce type d’avis.</description>
+        <description>Ce courriel est envoyé aux utilisateurs inscrits qui ont choisi de recevoir par courriel ce type d’avis.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_ACCEPT">
         <subject>Décision de l’éditrice ou éditeur</subject>
@@ -673,9 +667,7 @@ Nous avons pris une décision concernant votre proposition à {$contextName} int
 Notre décision est d’accepter votre proposition.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
-            auteur les avise d’une décision finale de « proposition acceptée » concernant leur
-            proposition.</description>
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un auteur les avise d’une décision finale de « proposition acceptée » concernant leur proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_REVISIONS">
         <subject>Décision de l’éditrice ou éditeur</subject>
@@ -979,17 +971,21 @@ Nous vous serons reconnaissants de tenir compte de notre demande.<br />
         <description><![CDATA[Ce courriel de la ou du responsable de rubrique à une évaluatrice ou un évaluateur lui demande d’accepter ou de refuser l’évaluation d’une proposition pour la deuxième fois ou plus. Il fournit des informations sur la proposition, comme le titre et le résumé, la date d’échéance de l’évaluation et le moyen d’accéder à la proposition elle-même. Ce message est utilisé lorsque le processus de révision avec pièce jointe est sélectionné dans « Administration > Paramètres > Flux des travaux > Révision ». (Sinon, voir REVIEW_REQUEST_SUBSEQUENT.)]]></description>
     </email_text>
     <email_text key="SUBMISSION_ACK_NOT_USER">
-        <subject>Accusé de réception d’une proposition</subject>
+        <subject>Accusé de réception d’une proposition de texte</subject>
         <body><![CDATA[Bonjour,<br />
 <br />
 Le texte intitulé « {$submissionTitle} » a été proposé par {$submitterName} à {$contextName}.<br />
 <br />
+Grâce à notre système de gestion en ligne, vous pourrez suivre votre proposition tout au long du processus d’édition en accédant au site Web de la revue.<br />
+<br />
+Lien du texte : {$submissionUrl}<br />
+Nom d’utilisatrice ou d’utilisateur : {$authorUsername}<br />
+<!-- @todo vérifier si conserver -->
+<br />
 Si vous avez des questions, n’hésitez pas à nous contacter. Merci encore d’avoir pensé à notre revue pour la publication de vos travaux.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel, lorsqu’il est activé, est envoyé automatiquement aux autres auteur(e)s,
-            c’est-à-dire à ceux qui ne sont pas l’utilisateur enregistré faisant la
-            proposition.</description>
+        <description>Ce courriel, lorsqu’il est activé, est envoyé automatiquement aux autres auteur(e)s, c’est-à-dire à ceux qui ne sont pas l’utilisateur enregistré faisant la proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_INITIAL_DECLINE">
         <subject>Décision de l’éditrice ou éditeur</subject>

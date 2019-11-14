@@ -54,7 +54,7 @@
 	<message key="author.submit.verifyChecklist">Vous devez vous assurer que tous les éléments de la liste de contrôle sont satisfaits avant de continuer.</message>
 	<message key="author.submit.copyrightNoticeAgree">Les auteurs acceptent les conditions de l’avis de droits d’auteur qui s’appliqueront à cette proposition si elle est publiée par la revue (des commentaires à l’intention de l’éditeur peuvent être ajoutés ci-dessous).</message>
 	<message key="author.submit.copyrightNoticeAgreeRequired">Vous devez accepter les conditions de l’avis de droits d’auteur avant de continuer.</message>
-	<message key="submission.submit.coverNote">Commentaires à l’intention de l’Éditeur</message>
+	<message key="submission.submit.coverNote">Message à l’intention de l’Éditeur</message>
 
 	<message key="author.submit.comments">Saisir du texte (optionnel)</message>
 	<message key="author.submit.form.sectionRequired">Veuillez sélectionner une rubrique de la revue appropriée à cette proposition.</message>
@@ -63,7 +63,7 @@
 	<message key="author.submit.reorderInstructions">Réordonner la liste des auteurs pour qu’elle corresponde à l’ordre dans lequel leurs noms apparaîtront au moment de la publication.</message>
 	<message key="author.submit.reorder">Réordonner le nom de l’auteur(e).</message>
 	<message key="author.submit.selectPrincipalContact">Contact principal pour les échanges liés à la préparation éditoriale.</message>
-	<message key="author.submit.addAuthor">Ajouter une auteure ou une auteure ou un auteur</message>
+	<message key="author.submit.addAuthor">Ajouter une auteure ou un auteur</message>
 	<message key="author.submit.deleteAuthor">Supprimer une auteure ou un auteur</message>
 	<message key="author.submit.submissionIndexingDescription">Fournir les termes pour l’indexation de la proposition. Séparer les termes par un point-virgule (terme1; terme2; terme3).</message>
 	<message key="author.submit.coverageInstructions">Renvoie à un lieu, une période historique ou chronologique ou à des caractéristiques d’un échantillon de recherche.</message>

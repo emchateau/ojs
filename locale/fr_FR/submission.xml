@@ -23,9 +23,9 @@
 	<message key="submission.submit.newSubmissionSingle">Nouvelle proposition</message>
 	<message key="grid.action.workflow">Processus éditorial pour la soumission des propositions</message>
 	<message key="submission.abstract.wordCount.description">Le résumé doit comprendre moins de {$wordCount} mots.</message>
-	
+
 	<message key="submission.issueEntry">Métadonnées</message>
-	<message key="submission.submit.whatNext.description">La revue a été informée de la soumission de votre proposition et vous a envoyé une confirmation par courriel. L’éditrice ou éditeur échangera avec vous une fois que votre proposition aura été examinée.</message>
+	<message key="submission.submit.whatNext.description">La revue a été informée de votre soumission et un message de confirmation vous a été envoyé par courriel. L’éditrice ou l’éditeur échangera avec vous dès qu’elle ou il aura pu prendre connaissance de votre proposition.</message>
 	<message key="grid.action.galleyInIssueEntry">Les épreuves se trouvent dans le dossier du numéro.</message>
 	<message key="grid.action.issueEntry">Voir les métadonnées de la proposition</message>
 
@@ -58,7 +58,7 @@
 	<message key="workflow.review.externalReview">Évaluation</message>
 	<message key="editor.submission.decision.sendExternalReview">Envoyer à l’étape de l’évaluation</message>
 	<message key="submission.event.issueMetadataUpdated">Les métadonnées pour la publication de la proposition ont été mises à jour.</message>
-	
+
 	<message key="submission.upload.fileContents">Élément de l’article</message>
 	<message key="submission.complete">Approuvé</message>
 	<message key="submission.incomplete">En attente d’approbation</message>
@@ -68,17 +68,17 @@
 	<message key="submission.submit.privacyStatement">Déclaration de confidentialité</message>
 	<message key="submission.submit.contributorRole">Rôle du contributeur</message>
 	<message key="submission.submit.form.authorRequired">Au moins un nom d’auteur est requis.</message>
-	
+
 	<message key="submission.submit.form.authorRequiredFields">Prénom, nom et courriel sont requis pour chaque auteur.</message>
 	<message key="submission.submit.form.titleRequired">Saisir le titre de votre article.</message>
 	<message key="submission.submit.form.abstractRequired">Saisir le résumé de votre article.</message>
 	<message key="submission.submit.form.wordCountAlert">Votre résumé est trop long. Merci de respecter la limite indiquée pour cette rubrique.</message>
 	<message key="submission.submit.form.contributorRoleRequired">Sélectionner le rôle du contributeur.</message>
-	
+
 	<message key="submission.citationFormat.notFound">Le format de citation n’a pas été trouvé.</message>
 	<message key="submission.metadataDescription">Ces spécifications sont fondées sur le jeu de métadonnées de la norme internationale Dublin Core.</message>
-	
+
 	<message key="section.any">Toutes les rubriques</message>
-	
+
 
 </locale>
