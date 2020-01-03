@@ -195,13 +195,8 @@ En vous remerciant d’avance de votre réponse, nous vous adressons nos meilleu
 « {$submissionTitle} »<br />
 <br />
 {$submissionAbstract}]]></body>
-        <description>Ce courriel de l’éditrice ou éditeur de rubrique à une évaluatrice ou un
-            évaluateur lui demande d’accepter ou de refuser la tâche d’évaluation d’une proposition.
-            Il fournit des informations sur la proposition, notamment son titre et un résumé, la
-            date d’échéance pour l’évaluation, et indique comment accéder à la proposition
-            elle-même. Ce message est utilisé quand « Processus d’évaluation standard » a été
-            sélectionné à l’étape 2 de la configuration de la revue, et que l’accès « en un clic »
-            des évaluateurs a été activé.</description>
+        <description>Ce courriel de l’éditrice ou éditeur de rubrique à une évaluatrice ou un évaluateur lui demande d’accepter ou de refuser la tâche d’évaluation d’une proposition.
+            Il fournit des informations sur la proposition, notamment son titre et un résumé, la date d’échéance pour l’évaluation, et indique comment accéder à la proposition elle-même. Ce message est utilisé quand « Processus d’évaluation standard » a été sélectionné à l’étape 2 de la configuration de la revue, et que l’accès « en un clic » des évaluateurs a été activé.</description>
     </email_text>
     <email_text key="REVIEW_REQUEST_ATTACHED">
         <subject>Demande d’évaluation d’un article</subject>
@@ -224,14 +219,12 @@ Consignes pour l’évaluation<br />
         <subject>Annulation de la demande d’évaluation</subject>
         <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous avons décidé d’annuler notre demande concernant l’évaluation du texte intitulé « {$submissionTitle} » pour {$contextName}. Nous en sommes désolés et espérons que nous pourrons compter sur votre collaboration à une autre occasion.<br />
+Nous avons décidé de renoncer à notre demande concernant l’évaluation du texte intitulé « {$submissionTitle} » pour {$contextName}. Nous en sommes désolés et espérons que nous pourrons compter sur votre collaboration à une autre occasion.<br />
 <br />
 Si vous avez des questions, n’hésitez pas à nous contacter.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel est envoyé par l’éditrice ou éditeur de rubrique à une évaluatrice
-            ou un évaluateur qui a une évaluation en cours, pour l’aviser que celle-ci a été
-            annulée.</description>
+        <description>Ce courriel est envoyé par l’éditrice ou éditeur de rubrique à une évaluatrice ou un évaluateur qui a une évaluation en cours, pour l’aviser que celle-ci a été annulée.</description>
     </email_text>
     <email_text key="REVIEW_CONFIRM">
         <subject>Acceptation d’évaluation</subject>
@@ -240,10 +233,7 @@ Si vous avez des questions, n’hésitez pas à nous contacter.<br />
 Je suis en mesure d’évaluer la proposition intitulée « {$submissionTitle} » pour la revue {$contextName}. Je vous remercie d’avoir pensé à moi. Je devrais être en mesure d’achever l’évaluation pour la date du {$reviewDueDate}.<br />
 <br />
 {$reviewerName}]]></body>
-        <description>Ce courriel est envoyé par l’évaluatrice ou évaluateur à l’éditrice ou éditeur
-            de rubrique en réponse à une demande d’évaluation, pour l’aviser que la demande
-            a été acceptée et que l’évaluation sera achevée au plus tard à la date
-            indiquée.</description>
+        <description>Ce courriel est envoyé par l’évaluatrice ou évaluateur à l’éditrice ou éditeur de rubrique en réponse à une demande d’évaluation, pour l’aviser que la demande a été acceptée et que l’évaluation sera achevée au plus tard à la date indiquée.</description>
     </email_text>
     <email_text key="REVIEW_DECLINE">
         <subject>Refus d’évaluation</subject>
@@ -252,9 +242,7 @@ Je suis en mesure d’évaluer la proposition intitulée « {$submissionTitle}�
 Il m’est actuellement impossible d’évaluer la proposition intitulée « {$submissionTitle} » pour {$contextName}. Je vous remercie d’avoir pensé à moi. N’hésitez pas à me solliciter à une autre occasion.<br />
 <br />
 {$reviewerName}]]></body>
-        <description>Ce courriel est envoyé par l’évaluatrice ou évaluateur à l’éditrice ou éditeur
-            de rubrique en réponse à la demande d’évaluation, pour l’aviser qu’il ne peut
-            effectuer l’évaluation.</description>
+        <description>Ce courriel est envoyé par l’évaluatrice ou évaluateur à l’éditrice ou éditeur de rubrique en réponse à la demande d’évaluation, pour l’aviser qu’il ne peut effectuer l’évaluation.</description>
     </email_text>
     <email_text key="REVIEW_ACK">
         <subject>Accusé de réception de l’évaluation d’une proposition</subject>
@@ -263,9 +251,7 @@ Il m’est actuellement impossible d’évaluer la proposition intitulée « {$
 Nous vous remercions d’avoir évalué la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous vous sommes reconnaissants de votre contribution à la qualité des travaux publiés par la revue.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel est envoyé par l’éditrice ou éditeur de rubrique pour accuser
-            réception d’une évaluation terminée et remercier l’évaluatrice ou évaluateur de sa
-            contribution.</description>
+        <description>Ce courriel est envoyé par l’éditrice ou éditeur de rubrique pour accuser réception d’une évaluation terminée et remercier l’évaluatrice ou évaluateur de sa contribution.</description>
     </email_text>
     <email_text key="REVIEW_REMIND">
         <subject>Rappel concernant l’évaluation d’une proposition</subject>
@@ -280,8 +266,7 @@ Lien de la proposition : {$submissionReviewUrl}<br />
 Veuillez nous confirmer que vous êtes en mesure d’effectuer ce travail essentiel pour la publication de la revue. Nous espérons avoir de vos nouvelles très bientôt et nous tenons à votre disposition pour toute précision.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel est envoyé par l’éditrice ou éditeur de rubrique à une évaluatrice
-            ou un évaluateur pour lui rappeler que son évaluation est attendue.</description>
+        <description>Ce courriel est envoyé par l’éditrice ou éditeur de rubrique à une évaluatrice ou un évaluateur pour lui rappeler que son évaluation est attendue.</description>
     </email_text>
     <email_text key="REVIEW_REMIND_ONECLICK">
         <subject>Rappel concernant l’évaluation d’une proposition</subject>
@@ -655,54 +640,63 @@ Lien : {$url}<br />
         <description>Ce courriel est envoyé aux utilisateurs inscrits qui ont choisi de recevoir par courriel ce type d’avis.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_ACCEPT">
-        <subject>Décision de l’éditrice ou éditeur</subject>
+        <subject>Acceptation de votre article</subject>
         <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
+Nous vous remercions d’avoir proposé l’article intitulé « {$submissionTitle} » à la revue {$contextName}. 
 <br />
-Notre décision est d’accepter votre proposition.<br />
+Après examen attentif de votre texte et des évaluations reçues, nous avons le plaisir de vous informer que votre article a été accepté pour publication.
+<br />
+Nous reprendrons prochainement contact avec vous, après une dernière relecture formelle.
+<br />
+Avec nos salutations les plus cordiales.<br />
 <br />
 {$editorialContactSignature}]]></body>
         <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un auteur les avise d’une décision finale de « proposition acceptée » concernant leur proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_REVISIONS">
-        <subject>Décision de l’éditrice ou éditeur</subject>
+        <subject>Acceptation de votre article sous condition de révisions</subject>
         <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
+Nous vous remercions d’avoir proposé l’article intitulé « {$submissionTitle} » à la revue {$contextName}. 
 <br />
-Notre décision est d’accepter votre proposition dans une version révisée tenant compte des remarques formulées.<br />
+Après examen attentif de votre texte et des évaluations reçues, nous avons le plaisir de vous informer que votre proposition est acceptée sous condition de révisions, sans nouvelle évaluation.<br />
+<br />
+Merci de bien vouloir nous adresser une version révisée tenant compte des remarques formulées.<br />
+<br />
+Avec nos salutations les plus cordiales.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
-            auteur les avise d’une décision finale de « révision requise » concernant leur
-            proposition.</description>
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un auteur les avise d’une décision finale de « révision requise » concernant leur proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_RESUBMIT">
-        <subject>Décision de l’éditrice ou éditeur</subject>
+        <subject>Demande de révisions en vue d’une seconde évaluation</subject>
         <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
+Nous vous remercions d’avoir proposé l’article intitulé « {$submissionTitle} » à la revue {$contextName}. 
 <br />
-Nous vous invitons à soumettre à l’évaluation une version révisée de votre texte, en tenant compte des remarques formulées.<br />
+Après examen attentif de votre texte et des évaluations reçues, nous vous proposons de resoumettre votre article après des modifications importantes intégrant les remarques formulées.<br />
+La version révisée sera soumise à une nouvelle évaluation, que nous espérons positive et qui pourra mener à une publication.<br />
+<br />
+Dans l’attente de lire votre prochaine version, nous restons à votre disposition pour toutes questions.
+<br />
+Avec nos salutations les plus cordiales.
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
-            auteur les avise d’une décision finale de « proposition à soumettre de nouveau »
-            concernant leur proposition.</description>
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un auteur les avise d’une décision finale de « proposition à soumettre de nouveau » concernant leur proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_DECLINE">
-        <subject>Décision de l’éditrice ou éditeur</subject>
+        <subject>Proposition d’article refusé</subject>
         <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
-Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
+Nous vous remercions d’avoir proposé l’article intitulé « {$submissionTitle} » à la revue {$contextName}.
 <br />
-Notre décision est de refuser votre proposition.<br />
+Après examen attentif de votre texte et des évaluations reçues, nous avons pris la décision de refuser votre article.<br />
+<br />
+Nous regrettons de ne pas pouvoir accepter la publication de cet article dans notre revue.
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
-            auteur les avise d’une décision finale de « proposition refusée » concernant leur
-            proposition.</description>
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un auteur les avise d’une décision finale de « proposition refusée » concernant leur proposition.</description>
     </email_text>
     <email_text key="SUBSCRIPTION_PURCHASE_INDL">
         <subject>Souscription d’un abonnement individuel</subject>
@@ -814,8 +808,7 @@ Nous vous informons que votre proposition à {$contextName} intitulée « {$sub
 Lien de la proposition : {$submissionUrl}<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un
-            auteur les avise que leur proposition a été transmise pour évaluation.</description>
+        <description>Ce courriel de l’éditrice ou éditeur ou du chef de rubrique à une auteure ou un auteur les avise que leur proposition a été transmise pour évaluation.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_SEND_TO_PRODUCTION">
         <subject>Décision de l’éditrice ou éditeur</subject>
@@ -839,17 +832,18 @@ Lien de la proposition : {$submissionUrl}<br />
         <subject>Demande d’évaluation d’un article</subject>
         <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Ce message concerne le texte « {$submissionTitle} », qui est en cours d’évaluation pour {$contextName}.<br />
+Ce message concerne l’article « {$submissionTitle} », qui est en cours d’évaluation pour {$contextName}.<br />
 <br />
-Suite à l’évaluation de ce texte, l’auteur(e) a proposé une version révisée de sa proposition. Nous serions heureux d’avoir votre avis sur cette nouvelle version.<br />
+Suite à l’évaluation de ce texte, l’auteur(e) a transmis une version révisée de sa proposition. Nous serions heureux de recevoir votre avis sur cette nouvelle version.<br />
 <br />
-Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour nous indiquer si vous participerez à cette évaluation ou, mieux encore, pour nous faire part de vos recommandations concernant la publication de ce texte.<br />
+Merci d’accéder à la page de la revue avant le {$responseDueDate} pour nous indiquer si vous acceptez de procéder à cette nouvelle évaluation.<br />
 <br />
 L’évaluation est attendue pour le {$reviewDueDate}.<br />
 <br />
 Lien de la proposition : {$submissionReviewUrl}<br />
 <br />
-Nous vous serons reconnaissants de tenir compte de notre demande.<br />
+Nous vous remercions par avance de votre précieuse collaboration.<br />
+Avec nos salutations les plus cordiales,
 <br />
 {$editorialContactSignature}<br />
 <br />
@@ -926,7 +920,7 @@ Nous vous serons reconnaissants de tenir compte de notre demande.<br />
 <br />
 Ce message concerne le texte « {$submissionTitle} », qui est en cours d’évaluation pour {$contextName}.<br />
 <br />
-Suite à l’évaluation de ce texte, l’auteur(e) a proposé une version révisée de sa proposition. Nous serions heureux d’avoir votre avis sur cette nouvelle version.<br />
+Suite à l’évaluation de ce texte, l’auteur(e) a transmis une version révisée de sa proposition. Nous serions heureux de recevoir votre avis sur cette nouvelle version.<br />
 <br />
 Veuillez vous authentifier sur la page de la revue avant le {$responseDueDate} pour nous indiquer si vous participerez à cette évaluation ou, mieux encore, pour nous faire part de vos recommandations concernant la publication de ce texte.<br />
 <br />
@@ -972,12 +966,6 @@ Nous vous serons reconnaissants de tenir compte de notre demande.<br />
 <br />
 Le texte intitulé « {$submissionTitle} » a été proposé par {$submitterName} à {$contextName}.<br />
 <br />
-Grâce à notre système de gestion en ligne, vous pourrez suivre votre proposition tout au long du processus d’édition en accédant au site Web de la revue.<br />
-<br />
-Lien du texte : {$submissionUrl}<br />
-Nom d’utilisatrice ou d’utilisateur : {$authorUsername}<br />
-<!-- @todo vérifier si conserver -->
-<br />
 Si vous avez des questions, n’hésitez pas à nous contacter. Merci encore d’avoir pensé à notre revue pour la publication de vos travaux.<br />
 <br />
 {$editorialContactSignature}]]></body>
@@ -992,7 +980,6 @@ Nous avons pris une décision concernant votre proposition à {$contextName} int
 Notre décision est de refuser votre proposition.<br />
 <br />
 {$editorialContactSignature}]]></body>
-        <description>Ce courriel est envoyé à l’auteur(e) si l’éditrice ou éditeur refuse la
-            proposition avant même de la faire évaluer.</description>
+        <description>Ce courriel est envoyé à l’auteur(e) si l’éditrice ou éditeur refuse la proposition avant même de la faire évaluer.</description>
     </email_text>
 </email_texts>
