@@ -28,7 +28,7 @@
 	<message key="editor.submissionArchive.confirmDelete">Êtes-vous certain(e) de vouloir supprimer définitivement cette proposition ?</message>
 	<message key="editor.submissionReview.confirmDecision">Êtes-vous certain(e) de vouloir enregistrer cette décision ?</message>
 	<message key="editor.submissionReview.emailWillArchive">Cette proposition sera archivée après l’envoi du courriel « Avis à l’auteur(e) » ou lorsque le bouton « Omettre le courriel » aura été cliqué.</message>
-	<message key="editor.submissionReview.cannotSendToCopyediting">Avant d’envoyer une proposition à l’étape de révision, utilisez le lien « Avertir l’auteur(e) » pour l’informer de la décision et sélectionnez la version à envoyer.</message>
+	<message key="editor.submissionReview.cannotSendToCopyediting">Avant d’envoyer une proposition à l’étape de préparation de copie, utilisez le lien « Avertir l’auteur(e) » pour l’informer de la décision et sélectionnez la version à envoyer.</message>
 	<message key="editor.notifyUsers">Informer les utilisateurs</message>
 	<message key="editor.notifyUsers.allReaders">Tous les lecteurs ({$count} utilisateurs)</message>
 	<message key="editor.notifyUsers.allAuthors">Tous les auteurs publiés ({$count} utilisateurs)</message>

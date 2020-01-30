@@ -213,7 +213,7 @@ En espérant que vous accepterez notre demande, veuillez agréer l’expression 
 Consignes pour l’évaluation<br />
 <br />
 {$reviewGuidelines}]]></body>
-        <description><![CDATA[Ce courriel est envoyé par la rédactrice ou le rédacteur de rubrique à une évaluatrice ou à un évaluateur pour lui demander d’accepter ou de refuser la tâche d’évaluation d’une proposition. Il inclut la proposition en pièce jointe. Ce message est utilisé quand le processus de « Demande d’évaluation par courriel » est sélectionné à l’étape 2 de la configuration de la revue. (Sinon, voir « Demande d’évaluation ».)]]></description>
+        <description><![CDATA[Ce courriel est envoyé par l’ëditeur ou l’ëditrice de rubrique à une évaluatrice ou à un évaluateur pour lui demander d’accepter ou de refuser la tâche d’évaluation d’une proposition. Il inclut la proposition en pièce jointe. Ce message est utilisé quand le processus de « Demande d’évaluation par courriel » est sélectionné à l’étape 2 de la configuration de la revue. (Sinon, voir « Demande d’évaluation ».)]]></description>
     </email_text>
     <email_text key="REVIEW_CANCEL">
         <subject>Annulation de la demande d’évaluation</subject>
@@ -972,7 +972,7 @@ Si vous avez des questions, n’hésitez pas à nous contacter. Merci encore d�
         <description>Ce courriel, lorsqu’il est activé, est envoyé automatiquement aux autres auteur(e)s, c’est-à-dire à ceux qui ne sont pas l’utilisateur enregistré faisant la proposition.</description>
     </email_text>
     <email_text key="EDITOR_DECISION_INITIAL_DECLINE">
-        <subject>Décision de l’éditrice ou éditeur</subject>
+        <subject>Décision de l’éditrice ou de l’éditeur</subject>
         <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
 Nous avons pris une décision concernant votre proposition à {$contextName} intitulée « {$submissionTitle} ».<br />
