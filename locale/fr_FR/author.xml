@@ -28,7 +28,7 @@
 	<message key="author.submit.start">Commencer</message>
 	<message key="author.submit.upload">Transférer la proposition</message>
 	<message key="author.submit.metadata">Saisir les métadonnées</message>
-	<message key="author.submit.supplementaryFiles">Transférer les fichiers supplémentaires</message>
+	<message key="author.submit.supplementaryFiles">Transférer des fichiers supplémentaires</message>
 	<message key="author.submit.confirmation">Confirmer la proposition</message>
 	<message key="author.submit.nextSteps">Étapes suivantes</message>
 	<message key="submission.submit.cancelSubmission">Vous pouvez compléter cette proposition plus tard en la sélectionnant dans le menu des propositions actives de l’auteur(e).</message>
@@ -77,14 +77,14 @@
 	<message key="author.submit.uploadSubmissionFile">Transférer le fichier de la proposition</message>
 	<message key="author.submit.replaceSubmissionFile">Remplacer le fichier de la proposition</message>
 	<message key="author.submit.noSubmissionFile">Aucun fichier transféré pour la proposition.</message>
-	<message key="author.submit.noSubmissionConfirm">Êtes-vous certain(e) de vouloir continuer sans transférer de fichier pour la proposition ?</message>
+	<message key="author.submit.noSubmissionConfirm">Êtes-vous certain(e) de vouloir continuer sans verser de fichier pour la proposition ?</message>
 	<message key="author.submit.supplementaryFilesInstructions">Cette étape facultative permet l’ajout de fichiers supplémentaires à la proposition. Les fichiers, qui peuvent être de n’importe quel format, peuvent comprendre (a) des instruments de recherche, (b) des jeux de données se conformant aux règles déontologiques, (c) des sources qui ne seraient autrement pas disponibles pour les lecteurs, (d) des nombres et des tableaux qui ne peuvent être intégrés dans le texte lui-même, ou d’autres matériaux qui renforcent l’apport de la contribution.</message>
-	<message key="author.submit.supplementaryFiles.saveToUpload">Cliquer sur « Enregistrer » pour transférer le fichier (des fichiers supplémentaires pourront être transférés par la suite).</message>
+	<message key="author.submit.supplementaryFiles.saveToUpload">Cliquer sur « Enregistrer » pour transférer le fichier (des fichiers supplémentaires pourront être ajoutés par la suite).</message>
 	<message key="author.submit.forgottenSubmitSuppFile">Êtes-vous certain(e) de vouloir continuer sans transférer le fichier supplémentaire que vous avez choisi ?</message>
 	<message key="author.submit.noSupplementaryFiles">Aucun fichier supplémentaire n’a été ajouté à cette proposition.</message>
 	<message key="author.submit.backToSupplementaryFiles">Retour aux fichiers supplémentaires</message>
 	<message key="author.submit.confirmDeleteSuppFile">Êtes-vous certain(e) de vouloir supprimer ce fichier supplémentaire ?</message>
-	<message key="author.submit.uploadSuppFile">Transférer le fichier supplémentaire</message>
+	<message key="author.submit.uploadSuppFile">Verser un fichier supplémentaire</message>
 	<message key="author.submit.addSupplementaryFile">Ajouter un fichier supplémentaire</message>
 	<message key="author.submit.editSupplementaryFile">Modifier un fichier supplémentaire</message>
 	<message key="author.submit.supplementaryFileData">Métadonnées du fichier supplémentaire</message>

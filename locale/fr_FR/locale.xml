@@ -489,9 +489,9 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="layoutEditor.completedEditorialAssignments">Travail éditorial terminé</message>
 	<message key="layoutEditor.noActiveAssignments">Aucun travail éditorial en cours.</message>
 	<message key="layoutEditor.layoutEditingAssignments">Travail éditorial de mise en page</message>
-	<message key="layoutEditor.galley.uploadGalleyFormat">Transférer les épreuves</message>
+	<message key="layoutEditor.galley.uploadGalleyFormat">Verser les épreuves</message>
 	<message key="layoutEditor.galley.replaceGalley">Remplacer le fichier</message>
-	<message key="layoutEditor.galley.uploadSuppFile">Transférer le fichier supplémentaire</message>
+	<message key="layoutEditor.galley.uploadSuppFile">Verser un fichier supplémentaire</message>
 	<message key="submission.layout.imageInvalid">Format d’image invalide. Les formats acceptés sont GIF, JPG et PNG.</message>
 	<message key="submission.layout.galley.remotelyHostedContent">Ces épreuves seront disponibles sur un site Web à part.</message>
 	<message key="submission.layout.galley.remoteURL">URL du contenu hébergé à distance</message>
@@ -541,8 +541,8 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="reviewer.article.enterCompetingInterests"><![CDATA[Déclarez si vous êtes en conflit d’intérêts vis-à-vis de ces travaux (voir <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">Politique de CI</a>).]]></message>
 	<message key="reviewer.competingInterests">Conflits d’intérêts</message>
 	<message key="reviewer.article.enterReviewA">Cliquer sur l’icône pour saisir ou coller votre évaluation de cette proposition.</message>
-	<message key="reviewer.article.uploadFile">En outre, vous pouvez transférer les fichiers afin qu’ils soient consultés par l’éditrice ou éditeur et/ou l’auteur(e).</message>
-	<message key="reviewer.article.selectRecommendation">Choisir une recommandation et soumettre l’évaluation pour compléter le processus. Vous devez rédiger une évaluation ou transférer un fichier avant de choisir une recommandation.</message>
+	<message key="reviewer.article.uploadFile">En outre, vous pouvez verser les fichiers afin qu’ils soient consultés par l’éditrice ou éditeur et/ou l’auteur(e).</message>
+	<message key="reviewer.article.selectRecommendation">Choisir une recommandation et soumettre l’évaluation pour compléter le processus. Vous devez rédiger une évaluation ou verser un fichier avant de choisir une recommandation.</message>
 	<message key="reviewer.article.selectRecommendation.byEditor">Corriger ou ajuster la recommandation de l’évaluateur.</message>
 	<message key="reviewer.article.mustSelectDecision">Aucune recommandation n’a été sélectionnée. Vous devez choisir une recommandation à soumettre.</message>
 	<message key="reviewer.article.confirmDecision">Dès que vous aurez enregistré une décision, vous ne pourrez plus modifier l’évaluation. Êtes-vous certain(e) de vouloir continuer ?</message>
@@ -563,7 +563,7 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<!-- Article Submission Step 2 -->
 
 	<!-- Article Submission Step 3 -->
-	<message key="author.submit.uploadInstructions"><![CDATA[<p>Pour transférer un manuscrit pour cette revue, suivre les étapes suivantes.</p>
+	<message key="author.submit.uploadInstructions"><![CDATA[<p>Pour transmettre un manuscrit à cette revue, suivre les étapes suivantes.</p>
 <ol>
 	<li>Sur cette page, cliquer sur Parcourir (ou Sélectionner un fichier), ce qui ouvre une fenêtre permettant de localiser le fichier sur le disque dur de votre poste de travail.</li>
 	<li>Localiser le fichier que vous souhaitez soumettre et sélectionnez-le.</li>
@@ -741,7 +741,7 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="about.contact">Contact</message>
 	<message key="about.aboutContext">À propos de cette revue</message>
 	<message key="about.history">Historique de la revue</message>
-	<message key="about.editorialTeam">Comité éditorial</message>
+	<message key="about.editorialTeam">Comités</message>
 	<message key="about.editorialTeam.biography">Biographie</message>
 	<message key="about.editorialPolicies">Politiques éditoriales</message>
 	<message key="about.focusAndScope">Mission</message>

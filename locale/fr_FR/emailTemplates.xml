@@ -272,18 +272,20 @@ Veuillez nous confirmer que vous êtes en mesure d’effectuer ce travail essent
         <subject>Rappel concernant l’évaluation d’une proposition</subject>
         <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
-Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate} et ce courriel vous est envoyé automatiquement parce que cette date est passée. Nous serions heureux de la recevoir dès que possible.<br />
+Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate} et, sauf erreur de notre part, nous ne l'avons pas encore reçue. Nous serions heureux de la recevoir dès que possible.<br />
 <br />
 Lien de la proposition : {$submissionReviewUrl}<br />
 <br />
-Veuillez nous confirmer que vous êtes en mesure d’apporter cette précieuse contribution à la préparation du numéro. Nous espérons avoir de vos nouvelles très bientôt et nous tenons à votre disposition pour toute précision.<br />
+Veuillez nous confirmer que vous êtes toujours en mesure d'évaluer rapidement cet article et nous préciser la date de remise de votre avis.<br/>
+Dans l'attente de vous lire, nous nous tenons à votre disposition pour toute précision.<br/>
+Avec nos meilleures salutations,<br />
 <br />
 {$editorialContactSignature}]]></body>
         <description>Ce courriel est envoyé par l’éditrice ou éditeur de rubrique à une évaluatrice
             ou un évaluateur pour lui rappeler que son évaluation est attendue.</description>
     </email_text>
     <email_text key="REVIEW_REMIND_AUTO">
-        <subject>Rappel automatique concernant l’évaluation d’une proposition</subject>
+        <subject>Rappel concernant l’évaluation d’une proposition</subject>
         <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
 Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate} et nous serions heureux de la recevoir dès que possible.<br />
@@ -298,7 +300,7 @@ Veuillez nous confirmer que vous êtes en mesure d’effectuer ce travail essent
         <description><![CDATA[Ce courriel est envoyé automatiquement quand la date limite fixée à une évaluatrice ou à un évaluateur est dépassée. (Voir « Options d’évaluation » à l’étape 2 de la configuration de la revue) et que l’accès « en un clic » est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site).]]></description>
     </email_text>
     <email_text key="REVIEW_REMIND_AUTO_ONECLICK">
-        <subject>Rappel automatique concernant l’évaluation d’une proposition</subject>
+        <subject>Rappel concernant l’évaluation d’une proposition</subject>
         <body><![CDATA[Chère/cher {$reviewerName},<br />
 <br />
 Nous souhaitons vous rappeler notre demande d’évaluation de la proposition intitulée « {$submissionTitle} » pour {$contextName}. Nous espérions recevoir votre évaluation avant le {$reviewDueDate} et ce courriel vous est envoyé automatiquement parce que cette date est passée. Nous serions heureux de la recevoir dès que possible.<br />
@@ -629,7 +631,7 @@ Avec nos salutations cordiales,<br />
         <description>Ce courriel est envoyé à une évaluatrice ou un évaluateur nouvellement inscrit, afin de l’accueillir dans le système et de lui proposer d’enregistrer son nom d’utilisatrice ou d’utilisateur et son mot de passe.</description>
     </email_text>
     <email_text key="NOTIFICATION">
-        <subject>Message à propos de la revue {$siteTitle}</subject>
+        <subject>Notification de la revue {$siteTitle}</subject>
         <body><![CDATA[Vous avez un nouveau message concernant la revue {$siteTitle} :<br />
 <br />
 {$notificationContents}<br />
@@ -800,10 +802,11 @@ Merci de votre aide.<br />
 {$contextName}, responsable de la révision]]></body>
     </email_text>
     <email_text key="EDITOR_DECISION_SEND_TO_EXTERNAL">
-        <subject>Décision de l’éditrice ou éditeur</subject>
+        <subject>Votre proposition a été transmise pour être évaluée</subject>
         <body><![CDATA[Chère/cher {$authorName},<br />
 <br />
 Nous vous informons que votre proposition à {$contextName} intitulée « {$submissionTitle} » a été transmise aux évaluatrices et évaluateurs.<br />
+Nous vous tiendrons prochainement au courant du résultat de cet examen.
 <br />
 Lien de la proposition : {$submissionUrl}<br />
 <br />
