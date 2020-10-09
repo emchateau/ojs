@@ -523,9 +523,9 @@ le droit de première publication, avec l’ouvrage disponible simultanément [S
 	<message key="reviewer.article.schedule.submitted">Évaluation soumise</message>
 	<message key="reviewer.article.schedule.due">Évaluation à échéance</message>
 	<message key="reviewer.article.decision.accept">Accepter la proposition</message>
-	<message key="reviewer.article.decision.pendingRevisions">Révisions requises</message>
-	<message key="reviewer.article.decision.resubmitHere">Soumettre de nouveau pour évaluation</message>
-	<message key="reviewer.article.decision.resubmitElsewhere">Soumettre à nouveau ailleurs</message>
+	<message key="reviewer.article.decision.pendingRevisions">Accepter sous réserve de révisions mineures</message>
+	<message key="reviewer.article.decision.resubmitHere">Soumettre de nouveau avec évaluation</message>
+	<message key="reviewer.article.decision.resubmitElsewhere">Suggérer l’envoi à une autre revue</message>
 	<message key="reviewer.article.decision.decline">Refuser la proposition</message>
 	<message key="reviewer.article.decision.seeComments">Voir les commentaires</message>
 	<message key="reviewer.article.schedule">Calendrier</message>
