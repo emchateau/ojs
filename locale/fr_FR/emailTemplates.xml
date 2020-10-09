@@ -30,7 +30,7 @@ Réinitialisation de votre mot de passe : {$url}<br />
 Votre mot de passe pour le site web de la revue {$siteTitle} a été réinitialisé avec succès. Veuillez conserver précieusement votre nom d’utilisatrice ou d’utilisateur ainsi que votre mot de passe. Vous en aurez besoin pour chacune de vos interactions avec la revue.<br />
 <br />
 Votre nom d’utilisatrice ou d’utilisateur : {$username}<br />
-<br />
+Votre mot de passe: {$password}
 {$principalContactSignature}<br />]]></body>
         <description><![CDATA[Ce courriel est envoyé aux utilisateurs inscrits lorsqu’ils ont réussi à réinitialiser leur mot de passe en ayant suivi la procédure décrite dans le courriel « Confirmation de la réinitialisation du mot de passe ».]]></description>
     </email_text>
@@ -40,6 +40,7 @@ Votre nom d’utilisatrice ou d’utilisateur : {$username}<br />
 <br />
 Vous faites désormais partie des utilisateurs du site web de la revue {$contextName}. Veuillez conserver précieusement votre nom d’utilisatrice ou d’utilisateur et votre mot de passe. Vous en aurez besoin pour toutes vos interactions avec la revue. À n’importe quel moment, vous pouvez demander à être retiré(e) de la liste des utilisateurs de la revue en nous contactant.<br />
 <br />
+Site web : {$url}<br />
 Nom d’utilisatrice ou d’utilisateur : {$username}<br />
 Mot de passe : {$password}<br />
 <br />
